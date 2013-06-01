@@ -7128,3 +7128,6 @@ img.aligncenter {
   display: inline-block;
   margin-left: 8px;
 }
+.gform_wrapper .validation_message { display: none; }
+
+.gfield_label { color: #333 !important; }
