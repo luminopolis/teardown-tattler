@@ -8,6 +8,9 @@
  */
 ?>
 
+
+<?php // this is for git change. ?>
+
 	<article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 		<?php if ( is_sticky() && is_home() && ! is_paged() ) : ?>
 		<div class="featured-post">
