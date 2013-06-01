@@ -7130,4 +7130,4 @@ img.aligncenter {
 }
 .gform_wrapper .validation_message { display: none; }
 
-.gfield_label, span .ginput_right, span ginput_left { color: #333 !important; }
+.gfield_label, span .ginput_right, span .ginput_left { color: #333 !important; }
