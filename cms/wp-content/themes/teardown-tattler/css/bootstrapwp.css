@@ -7112,3 +7112,19 @@ img.aligncenter {
   text-align: center;
   margin-bottom: 9px;
 }
+
+
+
+/* Bootstrap WP Jive together mawfk */
+.gform_wrapper ul { list-style: none; margin-left: 0; }
+.gform_wrapper form { margin-bottom: 0; }
+
+.gfield_radio input,
+.gfield_checkbox input {
+  vertical-align: 0;
+}
+.gfield_radio label,
+.gfield_checkbox label {
+  display: inline-block;
+  margin-left: 8px;
+}
