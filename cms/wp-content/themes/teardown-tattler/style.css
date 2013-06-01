@@ -33,4 +33,5 @@ Comfortable with LESS?  Check out the /less folder where the bootstrapwp.less fi
   display: inline-block;
   margin-left: 8px;
 }
-.gform_wrapper .validation_message { display: none; }.gfield_label, span .ginput_right label, span .ginput_left label { color: #333 !important; }
+.gform_wrapper .validation_message { display: none; }
+.gfield_label, span .ginput_right label, span .ginput_left label { color: #333 !important; }
