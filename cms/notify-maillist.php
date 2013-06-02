@@ -141,8 +141,9 @@ class email_notifications {
 		print_r($users);
         $from = "Teardown Tattler <no-reply@teardowntattler.com>";
         $subject = "Teardown Tattler Alert!";
-
-        $html=<<<EOF
+        $html="Here is today’s list of at-risk buildings in Kansas City, Missouri. This list contains the current information on each building's status based on 311 data from KCMO.org site. To lookup a particular property insert the case ID on the KCMO.org website <a href='http://webfusion.kcmo.org/coldfusionapps/ActionCenterRequest/getstatus.cfm'>here</a>.
+<br><br><p>";
+        $html.=<<<EOF
 
                                         <table>
                                         <TR>
