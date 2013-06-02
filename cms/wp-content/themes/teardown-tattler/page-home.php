@@ -43,6 +43,9 @@ get_header(); ?>
 				foreach( $results as $result ) :
 					echo "<li><a href='#'>" . $result->address_line_1 . "</a></li>";
 				endforeach;
+				
+				
+				// fooed you!
 			?>
 		</ul>
     </div>
