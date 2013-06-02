@@ -18,23 +18,20 @@ DATADIR=`pwd`
 
 cd ../sql
 
-mysql -u root teardown_wpV9w48 < new-tables.sql
+# mysql -u root teardown_wpV9w48 < new-tables.sql
 
 cd $WPDIR
 
 php extract-311.php \
-	--filename=311_Data_for_At_Risk_Buildings-2013-05-24.xls \
-	--directory=$DATADIR
+	-f=311_Data_for_At_Risk_Buildings-2013-05-24.xls \
+	-d=$DATADIR
 
 
 php notify-maillist.php
-php notify-maillist.php
-
 
 php extract-311.php \
-	--filename=311_Data_for_At_Risk_Buildings-2013-05-31.xls \
-	--directory=$DATADIR
-
+	-f=311_Data_for_At_Risk_Buildings-2013-05-31.xls \
+	-d=$DATADIR
 
 php notify-maillist.php
-php notify-maillist.php
+

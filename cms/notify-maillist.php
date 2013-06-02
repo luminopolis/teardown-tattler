@@ -21,14 +21,15 @@ $directory = "/tmp";
 $altkey = false;
 
 $shortopts = "h";
-$longopts = array(
-    "help",
-);
+#$longopts = array(
+#    "help",
+#);
 
-$options = getopt($shortopts, $longopts);
+#$options = getopt($shortopts, $longopts);
+$options = getopt($shortopts);
 
-if ( array_key_exists('help',$options) || array_key_exists('h',$options)) {
-    print "usage  [--help]\n";
+if ( array_key_exists('h',$options)) {
+    print "usage  [-h]\n";
     exit;
 }
 
