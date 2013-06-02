@@ -577,6 +577,24 @@ function teardown_get_properties( $qty ) {
 }
 
 
+/*
+ * Get property by id
+ * 
+ * @param: $i = property id
+ */
+function teardown_get_property_by_id( $i ) {
+	
+	if( $i ) :
+		global $wpdb;
+		global $table_prefix;
+		$wpdb->properties = $table_prefix . 'properties';
+
+		$result = $wpdb->get_results( "SELECT * FROM $wpdb->properties WHERE id = $i" );
+
+		return $result;
+	endif;
+	
+}
 
 
 
