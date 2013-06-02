@@ -7105,12 +7105,12 @@ img.aligncenter {
 /* Custom Elements Added
 ----------------------------------------------------------------------------------------*/
 .masthead h2 {
-  margin-bottom: 0;
-  font-size: 60px;
-  line-height: 1;
-  letter-spacing: -1px;
-  text-align: center;
-  margin-bottom: 9px;
+	margin-bottom: 0;
+	font-size: 60px;
+	line-height: 1;
+	letter-spacing: -1px;
+	text-align: center;
+	margin-bottom: 9px;
 }
 
 	/* Bootstrap WP Jive together mawfk */
@@ -7118,15 +7118,12 @@ img.aligncenter {
 	.gform_wrapper form { margin-bottom: 0; }
 
 	.gfield_radio input,
-	.gfield_checkbox input {
-	  vertical-align: 0;
-	}
+	.gfield_checkbox input { vertical-align: 0; }
 	.gfield_radio label,
-	.gfield_checkbox label {
-	  display: inline-block;
-	  margin-left: 8px;
-	}
+	.gfield_checkbox label { display: inline-block; margin-left: 8px; }
 	/*.gform_wrapper .validation_message { display: none; }*/
 	.gfield_label, span.ginput_right label, span.ginput_left label, .gform_fields label, .gfield_description { color: #333 !important; }
 
 	.gform_wrapper .validation_message { color:#790000 !important; font-weight:bold; font-size:15px !important; }
+
+	ul#endangered-sidebar li { margin-left:8px; font-size:15px; font-weight:bold; }
