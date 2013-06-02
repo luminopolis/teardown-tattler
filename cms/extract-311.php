@@ -19,20 +19,22 @@ if (php_sapi_name() != 'cli' && !empty($_SERVER['REMOTE_ADDR'])) {
  */
 $directory = "/tmp";
 $altkey = false;
+$filename = '';
 
-$shortopts = "h";
-$longopts = array(
-    "help",
-    "directory::",
-    "filename::",
-);
+$shortopts = "hf:d:";
+#$longopts = array(
+#    "help",
+#    "directory::",
+#    "filename::",
+#);
 
-$options = getopt($shortopts, $longopts);
+#$options = getopt($shortopts, $longopts);
+$options = getopt($shortopts);
 
-if (array_key_exists('directory',$options)) $directory = $options['directory'];
-if (array_key_exists('filename',$options)) $filename = $options['filename'];
-if ( array_key_exists('help',$options) || array_key_exists('h',$options)) {
-    print "usage --directory=<path> --filename=<name> [--help]\n";
+if (array_key_exists('d',$options)) $directory = $options['d'];
+if (array_key_exists('f',$options)) $filename = $options['f'];
+if (array_key_exists('h',$options)) {
+    print "usage -d=<path> -f=<name> [-h]\n";
     exit;
 }
 
@@ -47,6 +49,7 @@ print "Load 311 data: \n";
 print "  Input:  $directory/$filename\n";
 print "######################################################################\n";
 
+$options = array('directory' => $directory, 'filename' => $filename);
 
 define('DOING_AJAX', true);
 
