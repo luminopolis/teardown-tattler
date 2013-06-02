@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+    <style type="text/css">
+      html { height: 100% }
+      body { height: 100%; margin: 0; padding: 0 }
+      #map-canvas { height: 100% }
+    </style>
+    <script type="text/javascript"
+      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDcSyACHe7LuuckAYAdo2csyMylZwv8D4M&sensor=true">
+    </script>
+    <script type="text/javascript">
+      function initialize() {
+        var mapOptions = {
+            
+          center: new google.maps.LatLng(39.098627, -94.579926),
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        };
+        var map = new google.maps.Map(document.getElementById("map-canvas"),
+            mapOptions);
+       // var blue = 'building_icon_blue.png';
+        var red= 'building_icon_red.png'; 
+        
+       
+        
+       //position (long, lat, z-index)
+       
+        var bMarker = new google.maps.Marker({
+            position: new google.maps.LatLng(39.102155642971354, -94.51227662299993),
+            map: map,
+            icon: red
+            // case id 2013066615
+        });
+        
+        var bMarker1 = new google.maps.Marker({
+            position: new google.maps.LatLng(39.10324382262678, -94.5450569109679),
+            map: map,
+            icon: red
+            // case id 2013066602
+        });
+        
+         var bMarker2 = new google.maps.Marker({
+            position: new google.maps.LatLng(39.31363121816122, -94.53375243305965),
+            map: map,
+            icon: red
+            //case id 2013068667
+        });
+        
+         var bMarker3 = new google.maps.Marker({
+            position: new google.maps.LatLng(39.07544577870112  , -94.56297140579159, 2),
+            map: map,
+            icon: red
+            //case id 2013069537
+        });
+        
+        var bMarker4 = new google.maps.Marker({
+            position: new google.maps.LatLng(39.000990907895414, -94.55210759567763, 1),
+            map: map,
+            icon: red
+            //case id 2013069813 
+        });
+        
+        
+        
+        
+      }
+        
+
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+  </head>
+  <body>
+    <div id="map-canvas"/>
+  </body>
+</html>
+
