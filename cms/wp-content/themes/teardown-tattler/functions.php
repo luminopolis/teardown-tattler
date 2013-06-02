@@ -533,8 +533,7 @@ function bootstrapwp_autoset_featured_img() {
 
 
 /*
-	GO TIME MAWFK
-	* 
+	* GO TIME MAWFK
 */
 
 /*
@@ -550,4 +549,37 @@ function teardown_update_validation_msgs( $message, $form ) {
 	return $message;
 }
 	add_filter( "gform_user_registration_validation_message", "teardown_update_validation_msgs", 10, 2 );
+
+
+
+/*
+ * Pull properties from db
+ * 
+ * @param: $qty = number of results to pull
+ */
+
+function teardown_get_properties( $qty ) {
+	
+	// db table layout
+	// id 	hash 	status 	address_line_1 	city 	state 	zip 	latitude 	longitude 	311_case_id 	311_name 	311_case_summary 	311_creation_date 	311_close_date 	311_status 	311_address 	311_postal 	311_pin 	311_xcoordinate 	311_ycoordinate 	created 	created_by 	modified 	modified_by
+	
+	global $wpdb;
+	global $table_prefix;
+	$wpdb->properties = $table_prefix . 'properties';
+	if( $qty == "" ) :
+		$qty = 5;
+	endif;
+		
+	$result = $wpdb->get_results( "SELECT * FROM $wpdb->properties LIMIT $qty" );
+	
+	return $result;
+	
+}
+
+
+
+
+
+
+
 
