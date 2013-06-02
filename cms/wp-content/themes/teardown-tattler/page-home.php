@@ -18,7 +18,7 @@ get_header(); ?>
       <h1><?php the_title();?></h1>
       <?php the_content();?>
 	
-
+<iframe width="640" height="360" src="http://www.youtube.com/embed/Inf6MJvlado?rel=0" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 
