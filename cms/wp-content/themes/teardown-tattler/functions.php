@@ -538,6 +538,9 @@ function bootstrapwp_autoset_featured_img() {
 */
 
 
+
+
+
 	function update_validation_msgs( $message, $form ) {
 		if( $message == 'This username is already registered' ) :
 			$message = 'We\'re sorry, that Email Address is already registered. Try using a different Email Address or use the password reset.';
