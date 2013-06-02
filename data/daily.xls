@@ -1,0 +1,1557 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<!--[if lte IE 7]>
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+        xmlns:v="urn:schemas-microsoft-com:vml"
+        xmlns:og="http://opengraphprotocol.org/schema/" class="ie ie7 noBorderRadius noLinearGradient noCss3"><![endif]-->
+<!--[if IE 8]>
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+        xmlns:v="urn:schemas-microsoft-com:vml"
+        xmlns:og="http://opengraphprotocol.org/schema/" class="ie ie8 noBorderRadius noLinearGradient noCss3"><![endif]-->
+<!--[if gte IE 9]>
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en"
+        xmlns:v="urn:schemas-microsoft-com:vml"
+        xmlns:og="http://opengraphprotocol.org/schema/" lang="en" class="ie"><![endif]-->
+<!--[if !IE]>-->
+  <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"
+        xmlns:og="http://opengraphprotocol.org/schema/"><!--<![endif]-->
+
+<!--
+Powered by the Socrata Open Data Platform
+http://www.socrata.com
+-->
+
+<head>
+  <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+  <meta name="title" content="311 Data for At Risk Buildings | Open Data | data.kcmo.org" />
+<meta property="og:title" content="311 Data for At Risk Buildings | Open Data | data.kcmo.org" />
+<meta property="og:site_name" content="City of Kansas City, Mo." />
+<meta name="description" content="311 Data Updated daily" />
+<meta property="og:description" content="311 Data Updated daily" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://data.kcmo.org/311/311-Data-for-At-Risk-Buildings/p2je-p96s" />
+<meta property="og:image" content="/stylesheets/images/common/socrata_logo_square.png" />
+<meta name="keywords" content="data,service requests,statistics,dataset,311,public" />
+  <meta content="authenticity_token" name="csrf-param" />
+<meta content="Agp/izwJaVxg2g82cMUs6iiF2wqOxvMgObaoCXbrd+U=" name="csrf-token" />
+    <link rel="image_src" href="/stylesheets/images/common/socrata_logo_square.png" />
+
+  <link rel="apple-touch-icon-precomposed" media="screen" href="/stylesheets/images/icons/retina_display_icon.png"/>
+  <link rel="search" type="application/opensearchdescription+xml" href="/opensearch.xml" title="Open Data | data.kcmo.org" /> 
+  <link href="/catalog.rss" rel="alternate" title="Subscribe to Datasets" type="application/rss+xml" />
+
+  <!--[if IE]>
+  <style type="text/css">
+    v\:vmlframe{behavior:url(#default#VML);display:inline-block;}
+  </style>
+  <![endif]-->
+  <link type="text/css" rel="stylesheet" media="all" href="/styles/merged/base.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474"/>
+  <link type="text/css" rel="stylesheet" media="print" href="/styles/merged/print.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474"/>
+
+          <script type="text/javascript">
+          document.write([
+            "\<script src='",
+            "//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js'",
+            " type='text/javascript'>\<\/script>"
+          ].join(''));
+        </script>
+
+  <script type="text/javascript">blistEnv = "production";</script><script src="/packages/errors.js?1369947607" type="text/javascript"></script>
+
+    <link href="/views/p2je-p96s/rows.rss" rel="alternate" title="RSS" type="application/rss+xml" />
+  <link type="text/css" rel="stylesheet" media="all" href="/styles/merged/base-control-third-party.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474"/>
+  <link type="text/css" rel="stylesheet" media="all" href="/styles/merged/dataset-show.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474"/>
+
+  <meta name="viewport" content="width=1024, user-scalable=no, maximum-scale=1.0" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+
+  <title>311 Data for At Risk Buildings | Open Data | data.kcmo.org</title>
+  <link rel="canonical" href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s" />
+
+
+    <link type="text/css" media="all" rel="stylesheet" href="/styles/current_site.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474"/>
+
+  <link rel="shortcut icon" href="/stylesheets/images/common/favicon.ico" />
+
+    <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-12129530-1'],
+                ['_trackPageview'],
+                ['_trackPageLoadTime']);
+
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+
+</head>
+
+<body class="controller_datasets action_datasets_show" data-locale="en" data-defaultlocale="en">
+  <div id="skipLinks">
+    <a href="#content">Skip to main content</a>
+    <a href="#footerLinks">Skip to footer links</a>
+      <a href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s/alt">Go to an accessible version of this page</a>
+
+
+  </div>
+
+  
+
+  <div class="siteOuterWrapper">
+    <div class="siteInnerWrapper">
+
+      <div id="siteHeader" class="clearfix">
+          <div class="clearfix"><h1 id="mainLogo" class="appLogo">
+  <a href="/">City of Kansas City, Mo.</a>
+</h1>
+<ul class="siteUserNav"><li><a href="/">Home</a></li><li><a href="http://opendatakc.wordpress.com" rel="external">Blog</a></li><li><a href="http://www.allourideas.org/kcmo/" rel="external">Data Ideas</a></li><li class="accountLink hide"><a href="/profile"
+    title="Your Home"><span class="text">Hello, <span class="currentUser">Unknown User</span></span></a></li><li class="adminLink hide">
+<a href="/admin" title="Administration"><span class="text">Administration</span></a>
+</li>
+<li><a href="http://support.socrata.com">Help</a></li><li class="signUpLink"><a href="https://data.kcmo.org:443/signup" rel="nofollow" title="Sign Up">
+    <span class="text">Sign Up</span></a><li class="signInLink"><a href="https://data.kcmo.org:443/login" rel="nofollow"
+  title="Sign In"><span class="text">Sign In</span></a><li class="signOutLink hide"><a href="https://data.kcmo.org:443/logout" rel="nofollow"
+  title="Sign out"><span class="text">Sign out</span></a>
+</ul></div>
+      </div>
+
+      <a name="content"  tabindex="-1"></a>
+      
+        
+
+<div class="flash "></div>
+
+<div id="datasetBar" class="clearfix 
+  
+  sidebar-right">
+  <div id="infoBox">
+    <div id="datasetIcon" class="typeFilter">
+      <span class="icon currentViewName">filtered view</span>
+      <span class="alertIcon"></span>
+    </div>
+    <div class="unsavedLine">
+      <h2 id="unsavedTitle">Unsaved View</h2>
+      <a href="#SaveAs" title="Save View As..."
+        class="saveAs toolbarButton">Save As...</a>
+      <a href="#Revert" title="Revert to saved view"
+        class="revert toolbarButton">Revert</a>
+    </div>
+
+    <h2 id="datasetName" class="clipText currentViewName" title="311 Data for At Risk Buildings">311 Data for At Risk Buildings</h2>
+
+
+    <div class="basedOnParent">Based on <a class="parentName"></a></div>
+    <div class="basedOnTemp">
+        Based on <a class="revertLink currentViewName" href="#revert">311 Data for At Risk Buildings</a>
+    </div>
+
+
+    <div id="description">
+      <p class="collapsed">311 Data Updated daily</p>
+      <a href="#expand" class="descriptionExpander rightArrow" title="Click to expand">
+        <span class="icon">Expand</span>
+      </a>
+    </div>
+
+  </div>
+    <div id="actionBox" class="clearfix">
+    <ul id="toolbarOptions" class="clearfix">
+      <li>
+        <ul id="shareOptions">
+            <li class="subscribe">
+              <a class="subscribe" href="#subscribe" title="Subscribe via Email or RSS">
+              <span class="icon">Subscribe to Changes</span></a>
+            </li>
+          <li><a class="facebook" rel="external" title="Share on Facebook"
+            href="https://www.facebook.com/dialog/feed?app_id=303443389788866&link=https%3A%2F%2Fdata.kcmo.org%2F311%2F311-Data-for-At-Risk-Buildings%2Fp2je-p96s&name=311+Data+for+At+Risk+Buildings">
+            <span class="icon">Share on Facebook</span></a></li>
+          <li><a class="twitter" rel="external" title="Share on Twitter"
+                href="http://twitter.com/?status=Check out the 311 Data for At Risk Buildings dataset on City of Kansas City, Mo.: ">
+            <span class="icon">Share on Twitter</span></a></li>
+            <li><a class="email" href="#email" title="Share via Email">
+              <span class="icon">Share via Email</span></a></li>
+        </ul>
+      </li>
+      <li>
+        <ul id="renderTypeOptions" class="pillButtons">
+
+          <li><a
+            href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s?defaultRender=table"
+            class="table noRedirPrompt"
+            title="View as a table">
+            <span class="icon"></span>
+          </a></li>
+          <li><a
+            href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s?defaultRender=richList"
+            class="fatrow noRedirPrompt"
+            title="View as a rich list">
+            <span class="icon"></span>
+          </a></li>
+          <li><a
+            href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s?defaultRender=page"
+            class="page noRedirPrompt"
+            title="View as a single row">
+            <span class="icon"></span>
+          </a></li>
+          <li><a
+            href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s?defaultRender=template"
+            class="template noRedirPrompt hide"
+            title="View as a &lt;span class=&quot;translation_missing&quot; title=&quot;translation missing: en.screens.ds.bar.view_types.template&quot;&gt;Template&lt;/span&gt;">
+            <span class="icon"></span>
+          </a></li>
+
+        </ul>
+      </li>
+      <li>
+        <form id="searchForm" action="#">
+          <span class="icon"></span>
+          <input type="text" class="searchField textPrompt" title="Find in this Dataset"
+          />
+          <a href="#clear" class="clearSearch close"><span class="icon"></span></a>
+        </form>
+      </li>
+    </ul>
+  </div>
+
+  <a href="#toggleFullScreen" class="fullscreenButton maximize" title="Toggle full screen">
+    <span class="icon">Toggle full screen</span>
+  </a>
+
+  <div id="actionBar" class="clearfix position-right">
+
+    <div class="sidebarOptionsContainer clearfix">
+      <ul id="sidebarOptions" class="clearfix">
+        <li><a href="#Edit" title="Edit" class="edit"
+          data-paneName="edit"><span class="icon"></span>Edit</a></li>
+        <li><a href="#Manage" title="Manage" class="manage"
+          data-paneName="manage"><span class="icon"></span>Manage</a></li>
+        <li><a href="#More_Views" title="More Views" class="moreViews"
+          data-paneName="moreViews"><span class="icon"></span>More Views</a></li>
+        <li><a href="#Filter" title="Filter" class="filter"
+          data-paneName="filter"><span class="icon"></span>Filter
+          <span class="alertIcon"></span></a></li>
+        <li><a href="#Visualize" title="Visualize" class="visualize"
+          data-paneName="visualize"><span class="icon"></span>Visualize</a></li>
+        <li><a href="#Export" title="Export" class="export"
+          data-paneName="export"><span class="icon"></span>Export</a></li>
+        <li><a href="#Discuss" title="Discuss" class="feed"
+          data-paneName="feed"><span class="icon"></span>Discuss</a></li>
+        <li><a href="#Embed" title="Embed" class="embed"
+          data-paneName="embed"><span class="icon"></span>Embed</a></li>
+        <li><a href="#About" title="About" class="about"
+          data-paneName="about"><span class="icon"></span>About</a></li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+<div class="outerContainer">
+  <div id="renderTypeContainer" class="innerContainer">
+    <div class="aboutLoad">
+      <div class="aboutDataset">
+  <div class="aboutHeader clearfix">
+    <a class="aboutAuthorImageLink" href="/profile/Davisons/4g9w-r9ez">
+      <img class="aboutAuthorImage" alt="Davisons"
+        src="/images/medium-profile.png"/>
+    </a>
+    <a class="aboutAuthorName" href="/profile/Davisons/4g9w-r9ez">Davisons</a>
+    <p><em>created</em> <span class="aboutCreateDate"><span class="dateReplace" data-dateFormat="date" data-rawDateTime="1370120718">Jun 01, 2013</span></span></p>
+    <p><em>updated</em> <span class="aboutUpdateDate"><span class="dateReplace" data-dateFormat="date" data-rawDateTime="1370160045">Jun 02, 2013</span></span></p>
+  </div>
+
+
+    <a href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s/about" class="viewFullLink fullButton">View Full Page</a>
+
+
+  <div class="formSection">
+    <a class="expander expanded formHeader" href="#expand">
+      <span class="icon"></span>
+      Description
+    </a>
+    <div class="sectionContent">
+      <p>311 Data Updated daily</p>
+    </div>
+  </div>
+
+
+  <div class="formSection">
+    <a class="expander expanded formHeader" href="#expand">
+      <span class="icon"></span>
+      Activity
+    </a>
+    <dl class="sectionContent">
+        <dt>Community Rating</dt>
+        <dd class="clearfix">
+          <div class="starsControl datasetAverageRating" data-rating="0.0">
+            0.0
+          </div>
+        </dd>
+        <dt>Your Rating</dt>
+        <dd class="clearfix">
+          <div class="starsControl blueStars datasetAverageRating" data-rating-type="rating"
+            data-rating="">
+            
+          </div>
+        </dd>
+      <dt>Raters</dt>
+      <dd class="totalTimesRated">0</dd>
+      <dt>Visits</dt>
+      <dd>11</dd>
+      <dt>Downloads</dt>
+      <dd>0</dd>
+      <dt>Comments</dt>
+      <dd class="numberOfComments">0</dd>
+      <dt>Contributors</dt>
+      <dd>0</dd>
+    </dl>
+  </div>
+
+  <div class="formSection">
+    <a class="expander expanded formHeader" href="#expand">
+      <span class="icon"></span>
+      Meta
+    </a>
+    <dl class="sectionContent">
+      <dt>Category</dt>
+      <dd>311</dd>
+      <dt>Permissions</dt>
+      <dd>Public</dd>
+      <dt>Tags</dt>
+      <dd><span class="wrap">311, service requests</span></dd>
+      <dt>Row Count</dt>
+      <dd><span class="wrap row_count"></span></dd>
+    </dl>
+  </div>
+
+  <div class="formSection">
+    <a class="expander expanded formHeader" href="#expand">
+      <span class="icon"></span>
+
+
+      Links
+    </a>
+    <dl class="sectionContent">
+      <dt>Permalink</dt>
+      <dd><span class="hardWrap"><a href="https://data.kcmo.org/311/311-Data-for-At-Risk-Buildings/p2je-p96s" rel="external">https://data.kcmo.org/311/311-Data-for-At-Risk-Buildings/p2je-p96s</a></span></dd>
+      <dt>Short URL</dt>
+      <dd><span class="hardWrap"><a href="https://data.kcmo.org/d/p2je-p96s?category=311&amp;view_name=311-Data-for-At-Risk-Buildings" rel="external">https://data.kcmo.org/d/p2je-p96s?category=311&amp;view_name=311-Data-for-At-Risk-Buildings</a></span></dd>
+    </dl>
+  </div>
+
+
+  <div class="formSection">
+    <a class="expander expanded formHeader" href="#expand">
+      <span class="icon"></span>
+       Licensing and Attribution
+    </a>
+    <dl class="sectionContent">
+      <dt>Data Provided By</dt>
+      <dd>KCMO Information Technology People Soft CRM cases</dd>
+      <dt>Source Link</dt>
+      <dd><a href="http://www.kcmo.org/CKCMO/Depts/CityManagersOffice/The3-1-1ActionCenter/index.htm" rel="nofollow external">http://www.kcmo.org/CKCMO/Depts/CityManagersOffice/The3-1-1ActionCenter/index.htm</a></dd>
+        <dt>License</dt>
+        <dd>
+            Public Domain
+        </dd>
+    </dl>
+  </div>
+
+
+
+  <div class="formSection">
+    <a class="expander expanded formHeader" href="#expand">
+      <span class="icon"></span>
+      Permanent Links
+    </a>
+    <dl class="sectionContent">
+      <dt>Resource Name</dt>
+      <dd><span class="hardWrap">(none)</span></dd>
+      <dt>Row Identifier</dt>
+      <dd>
+        CASE_ID
+      </dd>
+    </dl>
+  </div>
+
+
+  <div class="formSection">
+    <a href="#expand" class="expander expanded formHeader">
+      <span class="icon"></span>
+      Actions
+    </a>
+    <div class="flash"></div>
+    <dl class="sectionContent contactOwnerLinks">
+      <dt class="widenedItem">
+      <a href="#flag" class="contactButton" data-select="">Flag Dataset</a>
+      </dt>
+      <dd>&nbsp;</dd>
+      <dt class="widenedItem">
+      <a href="#contact" class="contactButton" data-select="other">Contact Dataset Owner</a>
+      </dt>
+      <dd>&nbsp;</dd>
+    </dl>
+  </div>
+
+</div>
+
+        <a href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s?row_index=0" class="rowLink">
+          First row
+        </a>
+    </div>
+    <div class="viewErrorContainer">
+      <div class="viewError">This view cannot be displayed</div>
+    </div>
+
+    <div id="staticRenderType" class="fullHeight renderTypeNode">
+      
+    </div>
+
+    <div id="fatRowRenderType" data-renderType="fatrow"
+      class="fatRowRenderType navRenderType renderTypeNode fullHeight hide">
+      <div class="columnHeaders"></div>
+      <div class="rowList"></div>
+      <ul class="navigation">
+        <li><a href="#start" title="View first page" class="start button">
+          <span class="icon"></span>
+        </a></li>
+        <li><a href="#previous" title="View previous page" class="previous button">
+          <span class="icon"></span>
+        </a></li>
+        <li class="page"><a href="#page">0</a></li>
+        <li><a href="#next" title="View next page" class="next button">
+          <span class="icon"></span>
+        </a></li>
+        <li><a href="#end" title="View last page" class="end button">
+          <span class="icon"></span>
+        </a></li>
+      </ul>
+      <div class="templateRow row clearfix">
+      </div>
+    </div>
+
+    <div id="pageRenderType" data-renderType="page"
+      class="pageRenderType navRenderType renderTypeNode fullHeight hide">
+      <div class="content">
+      </div>
+      <ul class="navigation">
+        <li><a href="#start" title="View first row" class="start button">
+          <span class="icon"></span>
+        </a></li>
+        <li><a href="#previous" title="View previous row" class="previous button">
+          <span class="icon"></span>
+        </a></li>
+        <li class="info">
+        Viewing row <span class="curPage"></span> of <span
+          class="totalPages"></span>
+        </li>
+        <li><a href="#next" title="View next row" class="next button">
+          <span class="icon"></span>
+        </a></li>
+        <li><a href="#end" title="View last row" class="end button">
+          <span class="icon"></span>
+        </a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div id="gridSidebar">
+    <a class="close" href="#close"><span class="icon">Close</span></a>
+  </div>
+</div>
+
+
+
+<script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;support&quot;:{&quot;array&quot;:{&quot;two_words_connector&quot;:&quot; and &quot;,&quot;last_word_connector&quot;:&quot;, and &quot;},&quot;array_or&quot;:{&quot;two_words_connector&quot;:&quot; or &quot;,&quot;last_word_connector&quot;:&quot;, or &quot;}}}"));
+        });
+</script>
+<script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;controls&quot;:{&quot;grid&quot;:{&quot;sort_ascending&quot;:&quot;Sort Ascending&quot;,&quot;sort_descending&quot;:&quot;Sort Descending&quot;,&quot;clear_sort&quot;:&quot;Clear Sort&quot;,&quot;hide_column&quot;:&quot;Hide Column&quot;,&quot;delete_column&quot;:&quot;Delete Column&quot;,&quot;edit_column_properties&quot;:&quot;Edit Column Properties&quot;,&quot;filter_this_column&quot;:&quot;Filter This Column&quot;,&quot;clear_column_filter&quot;:&quot;Clear Column Filter&quot;,&quot;previous&quot;:&quot;Previous&quot;,&quot;delete_warning_single_column&quot;:&quot;Do you want to delete the selected column? All data in this column will be removed!&quot;,&quot;delete_warning_multi_column&quot;:&quot;Do you want to delete the selected columns? All data in these columns will be removed!&quot;,&quot;view_single_row&quot;:&quot;View Single Row Data&quot;,&quot;delete_row&quot;:&quot;Delete Row&quot;,&quot;click_for_menu&quot;:&quot;Click for Menu&quot;,&quot;must_enter_name&quot;:&quot;You must enter a name for this column&quot;,&quot;no_rows&quot;:&quot;No rows to display&quot;,&quot;new_row&quot;:&quot;New&quot;}}}"));
+        });
+</script>
+<script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;controls&quot;:{&quot;embed&quot;:{&quot;form_plain&quot;:&quot;Embed this Form as Plain HTML&quot;,&quot;form_frame&quot;:&quot;Embed this Form in a Frame&quot;,&quot;form_or&quot;:&quot;or&quot;,&quot;embed&quot;:&quot;Embed this Dataset&quot;,&quot;private_warning&quot;:&quot;This view is currently private. You can preview it, but you will need to make it public before people will be able to see it.&quot;,&quot;size&quot;:&quot;Size&quot;,&quot;custom_size&quot;:&quot;Custom Size&quot;,&quot;minimum_size&quot;:&quot;425x425 is the minimum size&quot;,&quot;width&quot;:&quot;Width&quot;,&quot;height&quot;:&quot;Height&quot;,&quot;sdp_template&quot;:&quot;Social Data Player Template&quot;,&quot;template&quot;:&quot;Template&quot;,&quot;create_template_button&quot;:&quot;Create a New Template&quot;}}}"));
+        });
+</script>
+<script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;screens&quot;:{&quot;ds&quot;:{&quot;bar&quot;:{&quot;save_button&quot;:&quot;Save&quot;,&quot;save_prompt&quot;:&quot;Save current view&quot;,&quot;save_progress&quot;:&quot;Saving...&quot;,&quot;save_as_button&quot;:&quot;Save As...&quot;,&quot;save_as_prompt&quot;:&quot;Save View As...&quot;,&quot;revert_button&quot;:&quot;Revert&quot;,&quot;revert_prompt&quot;:&quot;Revert to saved view&quot;,&quot;unsaved_title&quot;:&quot;Unsaved View&quot;,&quot;unpublished_unsavable&quot;:&quot;Changes to the data below are saved automatically. Filters and searches cannot be saved to a working copy of a dataset. Please create a view on a published dataset.&quot;,&quot;snapshot_unsavable&quot;:&quot;Snapshotted datasets and views cannot be created or modified&quot;,&quot;api_unsavable&quot;:&quot;API views cannot be modified&quot;,&quot;working_copy_notice&quot;:&quot;This is a copy of the dataset that allows you to make changes to it. It is not visible to others until you publish it.&quot;,&quot;working_copy_title&quot;:&quot;[Working Copy]&quot;,&quot;snapshot_notice&quot;:&quot;This is a previously published version of the dataset. It is archived and cannot be modified.&quot;,&quot;snapshot_title_html&quot;:&quot;Snapshotted %{date}&quot;,&quot;publish_prompt&quot;:&quot;This dataset is a working copy and is not publicly available.  Once you have made the desired changes, this dataset should be published to make it publicly available.&quot;,&quot;publish_rights&quot;:&quot;Only an owner or publisher can publish this dataset&quot;,&quot;publish_button&quot;:&quot;Publish Dataset&quot;,&quot;based_on_parent_html&quot;:&quot;Based on &lt;a class=\\&quot;parentName\\&quot;&gt;&lt;/a&gt;&quot;,&quot;based_on_working_copy_html&quot;:&quot;Based on the working copy of &lt;a class=\\&quot;revertLink currentViewName\\&quot; href=\\&quot;#revert\\&quot;&gt;%{name}&lt;/a&gt;&quot;,&quot;based_on_html&quot;:&quot;Based on &lt;a class=\\&quot;revertLink currentViewName\\&quot; href=\\&quot;#revert\\&quot;&gt;%{name}&lt;/a&gt;&quot;,&quot;view_published_html&quot;:&quot;View the published &lt;span class=\\&quot;publishedName\\&quot;&gt;dataset&lt;/span&gt;&quot;,&quot;subscribe_prompt&quot;:&quot;Subscribe via Email or RSS&quot;,&quot;subscribe&quot;:&quot;Subscribe to Changes&quot;,&quot;share_facebook&quot;:&quot;Share on Facebook&quot;,&quot;share_twitter&quot;:&quot;Share on Twitter&quot;,&quot;share_email&quot;:&quot;Share via Email&quot;,&quot;view_type&quot;:&quot;View as a %{type}&quot;,&quot;view_types&quot;:{&quot;table&quot;:&quot;table&quot;,&quot;map&quot;:&quot;map&quot;,&quot;chart&quot;:&quot;chart&quot;,&quot;calendar&quot;:&quot;calendar&quot;,&quot;page&quot;:&quot;single row&quot;,&quot;fatrow&quot;:&quot;rich list&quot;},&quot;find_prompt&quot;:&quot;Find in this Dataset&quot;,&quot;full_screen&quot;:&quot;Toggle full screen&quot;,&quot;format&quot;:{&quot;undo&quot;:&quot;Undo&quot;,&quot;redo&quot;:&quot;Redo&quot;,&quot;bold&quot;:&quot;Bold&quot;,&quot;underline&quot;:&quot;Underline&quot;,&quot;italic&quot;:&quot;Italic&quot;,&quot;strike&quot;:&quot;Strikethrough&quot;,&quot;bullet&quot;:&quot;Bulleted List&quot;,&quot;number&quot;:&quot;Numbered List&quot;,&quot;link&quot;:&quot;Link&quot;,&quot;color&quot;:&quot;Font Color&quot;}},&quot;subscribe&quot;:{&quot;title_html&quot;:&quot;Subscribe to the \\&quot;&lt;span class=\\&quot;datasetName\\&quot;&gt;%{name}&lt;/span&gt;\\&quot; &lt;span class=\\&quot;datasetTypeNameUpcase\\&quot;&gt;Dataset&lt;/span&gt;&quot;,&quot;intro_html&quot;:&quot;&lt;strong&gt;To subscribe to the &lt;span class=\\&quot;datasetName\\&quot;&gt;%{name}&lt;/span&gt; dataset via an RSS reader&lt;/strong&gt;, use one of the following links:&quot;,&quot;rss&quot;:&quot;Download as RSS&quot;,&quot;google_reader&quot;:&quot;Add to Google Reader&quot;,&quot;rss_program&quot;:&quot;Open in External Program&quot;,&quot;subscribe_html&quot;:&quot;&lt;strong&gt;To receive email notifications&lt;/strong&gt; when new data is published, check the Subscribe box below.&quot;,&quot;subscribed_html&quot;:&quot;&lt;strong&gt;You are currently subscribed to this &lt;span class=\\&quot;datasetTypeName\\&quot;&gt;dataset&lt;/span&gt; via email&lt;/strong&gt;, and will receive notifications when new data is published.&quot;,&quot;unsubscribe&quot;:&quot;If you no longer wish to receive notifications, uncheck the Subscribe box below.&quot;,&quot;subscribe_button&quot;:&quot;Subscribe via Email&quot;},&quot;blob&quot;:{&quot;download&quot;:&quot;Download&quot;,&quot;data_extraction&quot;:&quot;This data extraction tool or application is available via the link to the right&quot;,&quot;limited_download&quot;:&quot;This dataset is not tabular data, and may have limited interactivity, but it is available for download&quot;,&quot;external_link&quot;:&quot;External Link&quot;,&quot;js_required&quot;:&quot;Javascript is required to run the document viewer inside your browser.&quot;,&quot;js_required_download&quot;:{&quot;prompt_html&quot;:&quot;To download this file instead, %{click_here}.&quot;,&quot;click_here&quot;:&quot;click here&quot;}},&quot;save_dialog&quot;:{&quot;titles&quot;:{&quot;normal&quot;:&quot;Save view&quot;,&quot;prompt&quot;:&quot;Do you want to save your view?&quot;},&quot;descriptions&quot;:{&quot;leaving&quot;:&quot;You have unsaved data that will be lost if you leave this page. Please choose whether or not you wish to save this view before you leave; or choose Cancel to return to the page.&quot;,&quot;reload_save&quot;:&quot;This change requires a reload. You may Save your changes to view them, or Cancel to stay on this page.&quot;,&quot;reload_update&quot;:&quot;This change requires a reload. You may Update this view or Save a new view to see your changes, or Cancel to stay on this page.&quot;},&quot;form&quot;:{&quot;new_name&quot;:&quot;Enter a name for your new view:&quot;},&quot;validation&quot;:{&quot;auth_required&quot;:&quot;You must be logged in to save a view&quot;,&quot;view_name_required&quot;:&quot;A view name is required&quot;}},&quot;email&quot;:{&quot;title_html&quot;:&quot;Share &amp;quot;&lt;span class=\\&quot;datasetName\\&quot;&gt;%{name}&lt;/span&gt;&amp;quot;&quot;,&quot;prompt_html&quot;:&quot;Share &lt;span class=\\&quot;datasetName\\&quot;&gt;%{name}&lt;/span&gt; with the following email addresses:&quot;,&quot;success&quot;:&quot;Your email has been successfully sent.&quot;,&quot;add_email&quot;:&quot;Add More&quot;,&quot;remove_email&quot;:&quot;Remove&quot;,&quot;message_prompt&quot;:&quot;Enter an optional message&quot;,&quot;email_button&quot;:&quot;Email&quot;},&quot;dataset_contact&quot;:{&quot;subject&quot;:&quot;Your dataset \\&quot;%{dataset_name}\\&quot; has been flagged %{reason}&quot;,&quot;reasons&quot;:{&quot;copyright_violation&quot;:&quot;for copyright violation&quot;,&quot;offensive_content&quot;:&quot;for offensive content&quot;,&quot;spam&quot;:&quot;as potential spam&quot;,&quot;personal_information&quot;:&quot;for containing personal information&quot;},&quot;other_subject&quot;:&quot;A visitor has sent you a message about your &#x27;%{dataset_name}&#x27; &#x27;%{site}&#x27; dataset&quot;,&quot;form&quot;:{&quot;purpose&quot;:&quot;Purpose&quot;,&quot;purposes&quot;:{&quot;prompt&quot;:&quot;-- Select Purpose --&quot;,&quot;copyright_violation&quot;:&quot;Copyright Violation&quot;,&quot;offensive_content&quot;:&quot;Offensive Content&quot;,&quot;spam&quot;:&quot;Spam or Junk&quot;,&quot;personal_information&quot;:&quot;Personal Information&quot;,&quot;other&quot;:&quot;Other&quot;},&quot;subject&quot;:&quot;Subject&quot;,&quot;message&quot;:&quot;Short Message&quot;,&quot;email&quot;:&quot;Your Email&quot;,&quot;email_prompt&quot;:&quot;Your email address will be shared with the owner of this dataset so they can reply.&quot;,&quot;send_button&quot;:&quot;Send&quot;},&quot;validation&quot;:{&quot;no_purpose&quot;:&quot;You must select a purpose for this message.&quot;,&quot;no_subject&quot;:&quot;You must choose a subject for this message.&quot;,&quot;no_body&quot;:&quot;The message must have a body.&quot;,&quot;no_email&quot;:&quot;Your email address is required.&quot;},&quot;error_message&quot;:&quot;There was an error sending feedback for this dataset. Please retry later.&quot;,&quot;success_message&quot;:&quot;The dataset owner has been notified.&quot;,&quot;captcha_failed&quot;:&quot;Incorrect answer, please try again.&quot;},&quot;dataset_status&quot;:{&quot;needs_copy&quot;:&quot;This dataset is published and cannot be edited directly. A working copy %{status} that allows you to make all your desired changes before making them publicly available.&quot;,&quot;needs_copy_status&quot;:{&quot;available&quot;:&quot;is available&quot;,&quot;can_be_made&quot;:&quot;can be made&quot;},&quot;copy_in_progress&quot;:&quot;Please wait while a working copy is made. %{additional}&quot;,&quot;copy_in_progress_additional&quot;:{&quot;queued&quot;:&quot;It is in line waiting to be processed (queued %{time}; %{totalQueued} total in line)&quot;,&quot;processing&quot;:&quot;It is currently being processed (started %{time})&quot;},&quot;copy_available&quot;:&quot;The working copy is now available. The Edit Dataset button will give you access when you are ready to edit.&quot;,&quot;edit_dataset_button&quot;:&quot;Edit Dataset&quot;,&quot;error_publishing_html&quot;:&quot;There was an error making a working copy of your dataset. Please &lt;a href=\\&quot;http://support.socrata.com\\&quot; rel=\\&quot;external\\&quot;&gt;contact Socrata support&lt;/a&gt;.&quot;},&quot;column_tip&quot;:{&quot;aggregate&quot;:&quot;(%{aggregate} on %{data_type})&quot;,&quot;original_name&quot;:&quot;Original Name&quot;},&quot;grid_sidebar&quot;:{&quot;tabs&quot;:{&quot;edit&quot;:&quot;Edit&quot;,&quot;manage&quot;:&quot;Manage&quot;,&quot;more_views&quot;:&quot;More Views&quot;,&quot;filter&quot;:&quot;Filter&quot;,&quot;visualize&quot;:&quot;Visualize&quot;,&quot;export&quot;:&quot;Export&quot;,&quot;discuss&quot;:&quot;Discuss&quot;,&quot;embed&quot;:&quot;Embed&quot;,&quot;about&quot;:&quot;About&quot;},&quot;base&quot;:{&quot;validation&quot;:{&quot;invalid_view&quot;:&quot;This view must be valid&quot;,&quot;different_value&quot;:&quot;A different value is required.&quot;,&quot;invalid_value&quot;:&quot;This value is invalid&quot;,&quot;invalid_values&quot;:&quot;There were problems with the specified values. Please check the errors above.&quot;,&quot;uid_required&quot;:&quot;This requires a 4x4 view UID&quot;,&quot;identifier_format&quot;:&quot;Valid API identifier characters are lower case letters, digits and underscore.  It must start with a letter and cannot have consecutive underscores.&quot;,&quot;file_format&quot;:&quot;%{format} file is required&quot;,&quot;verifying_url&quot;:&quot;Verifying URL&quot;,&quot;invalid_url&quot;:&quot;This URL is not valid&quot;,&quot;at_least&quot;:&quot;Value must be at least %{value}&quot;,&quot;no_greater&quot;:&quot;Value must be no greater than %{value}&quot;,&quot;numeric&quot;:&quot;Value must be a number&quot;},&quot;buttons&quot;:{&quot;create&quot;:&quot;Create&quot;,&quot;update&quot;:&quot;Update&quot;,&quot;apply&quot;:&quot;Apply&quot;,&quot;done&quot;:&quot;Done&quot;,&quot;cancel&quot;:&quot;Cancel&quot;},&quot;column_select&quot;:{&quot;prompt&quot;:&quot;Select a column&quot;,&quot;unselect&quot;:&quot;Deselect column&quot;,&quot;from_grid&quot;:&quot;Select a column from the grid&quot;},&quot;color_select&quot;:{&quot;prompt&quot;:&quot;Choose color&quot;},&quot;generic_select&quot;:{&quot;prompt&quot;:&quot;Select a value&quot;}},&quot;append_replace&quot;:{&quot;title&quot;:{&quot;immutable&quot;:&quot;Replace&quot;,&quot;mutable&quot;:&quot;Append and Replace&quot;},&quot;subtitle&quot;:{&quot;immutable&quot;:&quot;Upload a new data file whose contents will replace your current data.&quot;,&quot;mutable&quot;:&quot;Upload a new data file whose contents will be added to or replace your current data.&quot;},&quot;wizard_button&quot;:{&quot;immutable&quot;:&quot;Launch the Replace wizard&quot;,&quot;mutable&quot;:&quot;Launch the Append and Replace wizard&quot;}},&quot;column_common&quot;:{&quot;basic&quot;:{&quot;title&quot;:&quot;Basic Information&quot;,&quot;name&quot;:&quot;Name&quot;,&quot;name_prompt&quot;:&quot;Enter a Name&quot;,&quot;description&quot;:&quot;Description&quot;,&quot;description_prompt&quot;:&quot;Enter a Description&quot;},&quot;type&quot;:{&quot;title&quot;:&quot;Column Type&quot;,&quot;type&quot;:&quot;Data Type&quot;,&quot;type_prompt&quot;:&quot;Select a data type&quot;,&quot;key&quot;:&quot;Key&quot;,&quot;source&quot;:&quot;Source&quot;},&quot;linked_dataset&quot;:{&quot;title&quot;:&quot;Linked Dataset&quot;,&quot;dataset&quot;:&quot;Dataset&quot;,&quot;dataset_prompt&quot;:&quot;Dataset URL or 4x4 UID&quot;,&quot;key&quot;:&quot;Key Column&quot;,&quot;label&quot;:&quot;Label Column&quot;}},&quot;add_column&quot;:{&quot;title&quot;:&quot;Add Column&quot;,&quot;subtitle&quot;:&quot;Add a new column to your dataset&quot;,&quot;success&quot;:&quot;Your column has been added&quot;,&quot;validation&quot;:{&quot;view_column&quot;:&quot;You cannot add a column to a view&quot;},&quot;multiple_choice&quot;:{&quot;title&quot;:&quot;Multiple Choice Options&quot;,&quot;add_option_button&quot;:&quot;Add Option&quot;,&quot;option&quot;:&quot;Option&quot;},&quot;convert_latlong&quot;:{&quot;title&quot;:&quot;Use Existing Latitude &amp; Longitude&quot;,&quot;latitude&quot;:&quot;Latitude&quot;,&quot;longitude&quot;:&quot;Longitude&quot;},&quot;convert_address&quot;:{&quot;title&quot;:&quot;Use Existing Address Columns&quot;,&quot;street&quot;:&quot;Street&quot;,&quot;city&quot;:&quot;City&quot;,&quot;city_prompt&quot;:&quot;Enter a City&quot;,&quot;state&quot;:&quot;State&quot;,&quot;state_prompt&quot;:&quot;Enter a State&quot;,&quot;zip_code&quot;:&quot;Zip Code&quot;,&quot;zip_code_prompt&quot;:&quot;Enter a Zip Code&quot;},&quot;nested_table&quot;:{&quot;default_column_name&quot;:&quot;Untitled&quot;}},&quot;column_properties&quot;:{&quot;title&quot;:&quot;Column Properties&quot;,&quot;subtitle&quot;:&quot;Update various properties on this column&quot;,&quot;validation&quot;:{&quot;unsaved&quot;:&quot;You cannot edit column properties for an unsaved view&quot;,&quot;published&quot;:&quot;Please make a working copy or view of this dataset to change column properties&quot;},&quot;link&quot;:{&quot;title&quot;:&quot;Link&quot;,&quot;key&quot;:&quot;Key&quot;,&quot;source&quot;:&quot;Source&quot;},&quot;formatting&quot;:{&quot;title&quot;:&quot;Formatting&quot;,&quot;alignment&quot;:&quot;Alignment&quot;,&quot;view_style&quot;:&quot;View Style&quot;},&quot;number&quot;:{&quot;title&quot;:&quot;Number Formatting&quot;,&quot;precision&quot;:&quot;Precision&quot;,&quot;no_precision&quot;:&quot;None&quot;,&quot;display&quot;:&quot;Display&quot;,&quot;no_commas&quot;:&quot;No Commas&quot;},&quot;number_advanced&quot;:{&quot;title&quot;:&quot;Advanced Formatting&quot;,&quot;format_mask&quot;:&quot;Format Mask&quot;,&quot;format_mask_prompt&quot;:&quot;Use #s to indicate numeric digits, and other characters where you want them to go; for example a social security number would be ###-##-####&quot;,&quot;format_mask_warning&quot;:&quot;This may override some of your settings above.&quot;},&quot;money&quot;:{&quot;title&quot;:&quot;Money Formatting&quot;,&quot;precision&quot;:&quot;Precision&quot;,&quot;no_precision&quot;:&quot;None&quot;,&quot;currency&quot;:&quot;Currency&quot;,&quot;abbreviated&quot;:&quot;Abbreviated&quot;},&quot;localization&quot;:{&quot;title&quot;:&quot;Localization&quot;,&quot;decimal&quot;:&quot;Decimal&quot;,&quot;thousands&quot;:&quot;Thousands&quot;},&quot;photo&quot;:{&quot;title&quot;:&quot;Photo Options&quot;,&quot;size&quot;:&quot;Size&quot;,&quot;size_prompt&quot;:&quot;Choose a size&quot;,&quot;sizes&quot;:{&quot;tiny&quot;:&quot;Tiny (24x24)&quot;,&quot;thumb&quot;:&quot;Thumbnail (80x80)&quot;,&quot;medium&quot;:&quot;Medium (150x150)&quot;,&quot;featured&quot;:&quot;Featured (150x80)&quot;,&quot;large&quot;:&quot;Large (220x220)&quot;,&quot;original&quot;:&quot;Original&quot;}},&quot;url&quot;:{&quot;title&quot;:&quot;URL Options&quot;,&quot;base_url&quot;:&quot;Base URL&quot;,&quot;base_url_prompt&quot;:&quot;Enter the common URL prefix&quot;},&quot;display_order&quot;:{&quot;title&quot;:&quot;Display Order (for DataSlate)&quot;,&quot;new_item_button&quot;:&quot;Add Item&quot;,&quot;option&quot;:&quot;Option&quot;},&quot;multiple_choice&quot;:{&quot;title&quot;:&quot;Multiple Choice Options&quot;,&quot;new_option_button&quot;:&quot;Add Option&quot;,&quot;option&quot;:&quot;Option&quot;},&quot;column_totals&quot;:{&quot;title&quot;:&quot;Column Totals&quot;,&quot;total&quot;:&quot;Total&quot;,&quot;total_prompt&quot;:&quot;Select a column total&quot;},&quot;advanced&quot;:{&quot;title&quot;:&quot;Advanced&quot;,&quot;api_identifier&quot;:&quot;API Identifier&quot;,&quot;new_rdf_button&quot;:&quot;Add RDF Properties&quot;,&quot;semantics&quot;:&quot;Semantics&quot;,&quot;url&quot;:&quot;Enter custom URL&quot;},&quot;success&quot;:&quot;Your column has been updated&quot;},&quot;ownership&quot;:{&quot;title&quot;:&quot;Ownership&quot;,&quot;subtitle&quot;:&quot;To transfer to another user, enter the email address or account name of the Socrata ID, then select the desired account from the dropdown list. You may also enter the user&#x27;s profile URL if you know it. Only users with existing accounts may take ownership of datasets.&quot;,&quot;validation&quot;:{&quot;valid_saved&quot;:&quot;This view must be valid and saved&quot;,&quot;no_user&quot;:&quot;Please select a user.&quot;,&quot;invalid_user&quot;:&quot;User not recognized. Please try searching for a user by name, email, or profile URL.&quot;},&quot;transfer_to&quot;:&quot;Transfer ownership to&quot;,&quot;me&quot;:&quot;Me&quot;,&quot;success&quot;:{&quot;me&quot;:&quot;You are now the owner&quot;,&quot;user&quot;:&quot;Ownership successfully transferred to %{owner}&quot;,&quot;other&quot;:&quot;Ownership successfully transferred&quot;},&quot;error&quot;:&quot;There was a problem changing the ownership. Please try again later.&quot;},&quot;delete&quot;:{&quot;title&quot;:&quot;Delete&quot;,&quot;subtitle&quot;:&quot;Delete this %{view_type}&quot;,&quot;warning&quot;:{&quot;published&quot;:&quot;Deleting this dataset will also delete any views associated with it.&quot;,&quot;working_copy&quot;:&quot;You can delete this working copy and make a new one in order to revert any changes you&#x27;ve made.&quot;,&quot;api&quot;:&quot;Deleting this API will break any applications that use this API.&quot;,&quot;view&quot;:&quot;Deleting this view will only affect other views that are based upon it.&quot;},&quot;delete_button&quot;:&quot;Delete this %{view_type}&quot;,&quot;confirm&quot;:&quot;This will delete the %{view_type} permanently. There is no undo! Are you sure you wish to proceed?&quot;},&quot;share&quot;:{&quot;title&quot;:&quot;Sharing&quot;,&quot;subtitle&quot;:&quot;Share this %{view_type}&quot;,&quot;validation&quot;:{&quot;valid_saved&quot;:&quot;This view must be valid and saved&quot;},&quot;prompt_html&quot;:&quot;This &lt;span class=\\&quot;datasetTypeName\\&quot;&gt;dataset&lt;/span&gt; is &lt;span class=\\&quot;publicOrPrivate\\&quot;&gt;%{visibility} &lt;/span&gt; &lt;span class=\\&quot;andSharedHint %{hide}\\&quot;&gt;and shared with:&lt;/span&gt;&quot;,&quot;loading_shares&quot;:&quot;Loading Shares...&quot;,&quot;no_shares_html&quot;:&quot;You are not currently sharing this &lt;span class=\\&quot;datasetTypeName\\&quot;&gt;dataset&lt;/span&gt; with anyone&quot;,&quot;share_button_html&quot;:&quot;Share this &lt;span class=\\&quot;datasetTypeNameUpcase\\&quot;&gt;Dataset&lt;/span&gt;&quot;,&quot;error&quot;:&quot;There was an error modifying your shares. Please try again later&quot;,&quot;success&quot;:&quot;Your permissions have been updated&quot;,&quot;notify_button&quot;:&quot;Notify All of Changes&quot;,&quot;notify_success&quot;:&quot;Notification sent&quot;},&quot;apis&quot;:{&quot;title&quot;:&quot;APIs&quot;,&quot;subtitle&quot;:&quot;Create and Customize an API&quot;,&quot;prompt_new_html&quot;:&quot;&lt;strong&gt;API Foundry&lt;/strong&gt; allows you to create and configure one or more open, standards-based Application Programming Interfaces (API) for this dataset.&quot;,&quot;create_button&quot;:&quot;Create an API&quot;,&quot;create_button_prompt&quot;:&quot;Create an Application Programming Interface (API) to grant programmatic access to this data.&quot;,&quot;prompt_existing_html&quot;:&quot;&lt;strong&gt;Existing APIs&lt;/strong&gt; can be customized. You can control permissions, set request limits, view usage metrics, and edit the documentation.&quot;,&quot;manage_button&quot;:&quot;Manage&quot;,&quot;manage_button_prompt&quot;:&quot;Manage the selected API&quot;},&quot;permissions&quot;:{&quot;title&quot;:&quot;Permissions&quot;,&quot;subtitle&quot;:&quot;Manage the permissions of this %{view_type}&quot;,&quot;validation&quot;:{&quot;valid_saved&quot;:&quot;This view must be valid and saved&quot;},&quot;status_html&quot;:&quot;This &lt;span class=\\&quot;datasetTypeName\\&quot;&gt;dataset&lt;/span&gt; is currently &lt;span class=\\&quot;datasetPublicText\\&quot;&gt;%{visibility}&lt;/span&gt;&quot;,&quot;features_html&quot;:&quot;Additional &lt;span class=\\&quot;datasetTypeName\\&quot;&gt;dataset&lt;/span&gt; features&quot;,&quot;success&quot;:&quot;Your permissions have been saved&quot;,&quot;error&quot;:&quot;There was an error modifying your dataset permissions. Please try again later&quot;},&quot;showhide_columns&quot;:{&quot;title&quot;:&quot;Show &amp;amp; Hide Columns&quot;,&quot;subtitle&quot;:&quot;Adjust which columns are visible in this view&quot;,&quot;columns&quot;:{&quot;title&quot;:&quot;Columns&quot;}},&quot;column_order&quot;:{&quot;title&quot;:&quot;Column Order&quot;,&quot;subtitle&quot;:&quot;Change the order of your columns&quot;,&quot;prompt_html&quot;:&quot;Drag the columns into the order you would like, and then press &lt;strong&gt;apply&lt;/strong&gt; to apply the new order.&quot;,&quot;validation&quot;:{&quot;valid_columns&quot;:&quot;This view must be valid and must have visible columns.&quot;},&quot;columns&quot;:{&quot;title&quot;:&quot;Columns&quot;}},&quot;view_list&quot;:{&quot;pagination&quot;:{&quot;last&quot;:&quot;See last view&quot;,&quot;next&quot;:&quot;See next %{count} views&quot;},&quot;sort_title&quot;:&quot;Sort by&quot;,&quot;sort&quot;:{&quot;popularity&quot;:&quot;Popularity&quot;,&quot;dateDescending&quot;:&quot;Most Recent&quot;,&quot;dateAscending&quot;:&quot;Oldest to Newest&quot;,&quot;alphaAscending&quot;:&quot;A-Z&quot;},&quot;filter_title&quot;:&quot;Show only&quot;,&quot;filter&quot;:{&quot;all&quot;:&quot;All Views&quot;},&quot;delete_confirm&quot;:&quot;Are you sure you want to delete %{name}?&quot;,&quot;delete_snapshot_confirm&quot;:&quot;Are you sure you want to delete %{name} (snapshotted %{date})?&quot;,&quot;search&quot;:&quot;Search views&quot;,&quot;no_results&quot;:&quot;There are no results&quot;,&quot;item&quot;:{&quot;author_html&quot;:&quot;&lt;span class=\\&quot;date\\&quot;&gt;&lt;/span&gt; by &lt;span class=\\&quot;author\\&quot;&gt;&lt;/span&gt;&quot;,&quot;delete&quot;:&quot;Delete this view&quot;,&quot;expand&quot;:&quot;Click to expand&quot;},&quot;views&quot;:{&quot;title&quot;:&quot;Views&quot;,&quot;subtitle&quot;:&quot;See existing filters, maps, charts and other views on this dataset&quot;},&quot;snapshots&quot;:{&quot;title&quot;:&quot;Dataset Snapshots&quot;,&quot;subtitle&quot;:&quot;View previously published versions of this data&quot;}},&quot;sort_rollup&quot;:{&quot;title&quot;:&quot;Sort &amp;amp; Roll-Up&quot;,&quot;subtitle&quot;:&quot;You can group rows together and summarize data with a roll-up; and sort one or more columns&quot;,&quot;validation&quot;:{&quot;no_eligible_columns&quot;:&quot;This view has no columns to roll-up or sort&quot;,&quot;no_group_bys&quot;:&quot;You must group by at least one column to roll-up a column&quot;,&quot;no_function&quot;:&quot;Each roll-up column must have a function&quot;},&quot;rollup&quot;:{&quot;title&quot;:&quot;Roll-Ups &amp;amp; Drill-Downs&quot;,&quot;add_group_button&quot;:&quot;Add Grouping Column&quot;,&quot;group_by&quot;:&quot;Group By&quot;,&quot;add_rollup_button&quot;:&quot;Add Roll-Up Column&quot;,&quot;roll_up&quot;:&quot;Roll-Up&quot;,&quot;function&quot;:&quot;Function&quot;,&quot;roll_up_function&quot;:&quot;Select a function&quot;},&quot;sort&quot;:{&quot;title&quot;:&quot;Sort&quot;,&quot;add_column_button&quot;:&quot;Add Column&quot;,&quot;column&quot;:&quot;Column&quot;,&quot;direction&quot;:&quot;Direction&quot;,&quot;directions&quot;:{&quot;ascending&quot;:&quot;Ascending&quot;,&quot;descending&quot;:&quot;Descending&quot;}}},&quot;conditional_formatting&quot;:{&quot;title&quot;:&quot;Conditional Formatting&quot;,&quot;subtitle&quot;:&quot;Conditional Formatting allows you to change the background color of rows based on custom criteria. Each row will be assigned the color of the first matching condition.&quot;,&quot;validation&quot;:{&quot;no_columns&quot;:&quot;This view has no columns to filter&quot;,&quot;no_icons&quot;:&quot;Icons are only relevant for map view&quot;},&quot;format_html&quot;:&quot;Use&lt;br /&gt;this color&lt;br /&gt;or this icon&quot;,&quot;change_icon&quot;:&quot;change&quot;,&quot;conditions&quot;:{&quot;title&quot;:&quot;Conditions&quot;,&quot;new_rule_button&quot;:&quot;Add New Rule&quot;,&quot;description&quot;:&quot;Description&quot;,&quot;description_prompt&quot;:&quot;Describe this match&quot;,&quot;when_title&quot;:&quot;When&quot;,&quot;when&quot;:{&quot;all&quot;:&quot;All Conditions&quot;,&quot;any&quot;:&quot;Any Condition&quot;,&quot;always&quot;:&quot;Always&quot;},&quot;new_condition_button&quot;:&quot;Add Condition&quot;,&quot;item&quot;:{&quot;title&quot;:&quot;Condition:&quot;,&quot;subcolumn&quot;:&quot;Select a sub-column&quot;,&quot;operator&quot;:&quot;Select a comparison&quot;}}},&quot;calendar&quot;:{&quot;title&quot;:&quot;Calendar&quot;,&quot;subtitle&quot;:&quot;Views with dates can be displayed in a monthly calendar format&quot;,&quot;validation&quot;:{&quot;viz_limit&quot;:&quot;A view may only have one visualization on it&quot;,&quot;invalid_columns&quot;:&quot;This view must have a date column and a text column&quot;},&quot;dates&quot;:{&quot;title&quot;:&quot;Dates&quot;,&quot;start&quot;:&quot;Starting Date&quot;,&quot;end&quot;:&quot;Ending Date&quot;},&quot;information&quot;:{&quot;title&quot;:&quot;Event Information&quot;,&quot;event_title&quot;:&quot;Event Title&quot;,&quot;details&quot;:&quot;Details&quot;,&quot;new_details_button&quot;:&quot;Add Details&quot;}},&quot;map&quot;:{&quot;title&quot;:&quot;Map&quot;,&quot;subtitle&quot;:&quot;Views with locations can be displayed as points on a map&quot;,&quot;validation&quot;:{&quot;viz_limit&quot;:&quot;A view may only have one visualization on it&quot;,&quot;location_column&quot;:&quot;A location column is required to create a map.&quot;,&quot;hidden_location_html&quot;:&quot;You can &lt;a href=\\&quot;#showLoc\\&quot; title=\\&quot;Show a location column\\&quot;&gt;show a hidden location column&lt;/a&gt;.&quot;},&quot;layers&quot;:{&quot;title&quot;:&quot;Dataset Summary&quot;,&quot;config&quot;:&quot;Config for %{name}&quot;,&quot;dataset&quot;:&quot;Dataset&quot;,&quot;advanced&quot;:&quot;Advanced Config for %{name}&quot;,&quot;custom&quot;:&quot;Custom Layer&quot;,&quot;edit&quot;:&quot;edit&quot;,&quot;new_data_button&quot;:&quot;Add Data&quot;},&quot;data_layer&quot;:{&quot;alias&quot;:&quot;Alias&quot;,&quot;alias_prompt&quot;:&quot;Describe the dataset&quot;,&quot;plot_style&quot;:&quot;Plot Style&quot;,&quot;plot_style_prompt&quot;:&quot;Select a plot style&quot;,&quot;location&quot;:&quot;Location&quot;,&quot;region&quot;:&quot;Region&quot;,&quot;region_level_prompt&quot;:&quot;Select a region level&quot;,&quot;region_prompt&quot;:&quot;Select a region&quot;,&quot;base_color&quot;:&quot;Base Color&quot;,&quot;highlight_color&quot;:&quot;Hover Color&quot;,&quot;point&quot;:&quot;Point Customization&quot;,&quot;point_size&quot;:&quot;Point Size&quot;,&quot;point_color&quot;:&quot;Point Color&quot;,&quot;icon&quot;:&quot;Icon&quot;,&quot;color_low&quot;:&quot;Color (Low)&quot;,&quot;color_high&quot;:&quot;Color (High)&quot;,&quot;quantity&quot;:&quot;Quantity&quot;,&quot;opacity&quot;:&quot;Opacity&quot;,&quot;mondara_note&quot;:&quot;Mondara layers are currently not customizable further.&quot;,&quot;flyout&quot;:{&quot;title&quot;:&quot;Flyout Configuration&quot;,&quot;title_column&quot;:&quot;Title&quot;,&quot;details&quot;:&quot;Flyout Details&quot;,&quot;new_details_button&quot;:&quot;Add Flyout Details&quot;,&quot;labels&quot;:&quot;w/o Labels?&quot;,&quot;opacity&quot;:&quot;Opacity&quot;}},&quot;base_layers&quot;:{&quot;title&quot;:&quot;Base Maps&quot;,&quot;subtitle&quot;:&quot;Select from a list of map services and configure how it will appear.&quot;,&quot;new_base_map_button&quot;:&quot;Add Base Map&quot;,&quot;layer&quot;:&quot;Layer&quot;,&quot;layer_prompt&quot;:&quot;Select a layer&quot;,&quot;layer_url&quot;:&quot;Layer URL&quot;,&quot;alias&quot;:&quot;Alias&quot;,&quot;opacity&quot;:&quot;Opacity&quot;},&quot;regions&quot;:{&quot;countries&quot;:&quot;Countries&quot;,&quot;state&quot;:&quot;US States&quot;,&quot;canada_provinces&quot;:&quot;Canada Provinces&quot;,&quot;counties&quot;:&quot;US Counties in&quot;},&quot;plots&quot;:{&quot;point&quot;:&quot;Point Map&quot;,&quot;heatmap&quot;:&quot;Boundary Map&quot;,&quot;rastermap&quot;:&quot;Heat Map&quot;},&quot;advanced&quot;:{&quot;title&quot;:&quot;Advanced Configuration&quot;,&quot;subtitle&quot;:&quot;Select &#x27;Exclusive&#x27; if only one base map should display at a time.&quot;,&quot;exclusive&quot;:&quot;Exclusive&quot;,&quot;use_legend&quot;:&quot;Use Legend&quot;,&quot;hide_geolocator&quot;:&quot;No Geolocator&quot;},&quot;legend&quot;:{&quot;title&quot;:&quot;Legend Configuration&quot;,&quot;position&quot;:&quot;Legend&quot;,&quot;position_prompt&quot;:&quot;Choose a position&quot;,&quot;positions&quot;:{&quot;top_right&quot;:&quot;Top Right&quot;,&quot;bottom_left&quot;:&quot;Bottom Left&quot;,&quot;none&quot;:&quot;None&quot;},&quot;conditional_formats&quot;:&quot;Describe Conditional Formats&quot;,&quot;custom_entry&quot;:&quot;Add Custom Legend Entry&quot;,&quot;entry_label&quot;:&quot;Label&quot;}},&quot;chart&quot;:{&quot;title&quot;:&quot;Chart&quot;,&quot;subtitle&quot;:&quot;View data can be displayed with a variety of charts&quot;,&quot;validation&quot;:{&quot;viz_limit&quot;:&quot;A view may only have one visualization on it&quot;,&quot;required_columns&quot;:&quot;%{chart_type} requires %{column_types} columns&quot;},&quot;setup&quot;:{&quot;title&quot;:&quot;Chart Setup&quot;,&quot;type&quot;:&quot;Chart Type&quot;,&quot;type_prompt&quot;:&quot;Select a chart type&quot;},&quot;axes&quot;:{&quot;x_axis_title&quot;:&quot;X-Axis Title&quot;,&quot;x_axis_title_prompt&quot;:&quot;Enter a title for the x-axis&quot;,&quot;y_axis_title&quot;:&quot;Y-Axis Title&quot;,&quot;y_axis_title_prompt&quot;:&quot;Enter a title for the y-axis&quot;},&quot;legend&quot;:{&quot;title&quot;:&quot;Legend Configuration&quot;,&quot;display&quot;:&quot;Display&quot;,&quot;position&quot;:&quot;Legend&quot;,&quot;position_prompt&quot;:&quot;Choose a position&quot;,&quot;positions&quot;:{&quot;bottom&quot;:&quot;Bottom&quot;,&quot;top&quot;:&quot;Top&quot;,&quot;right&quot;:&quot;Right&quot;,&quot;left&quot;:&quot;Left&quot;,&quot;none&quot;:&quot;None&quot;},&quot;series&quot;:&quot;Describe Series&quot;,&quot;conditional_formats&quot;:&quot;Describe Conditional Formats&quot;,&quot;value_markers&quot;:&quot;Describe Value Markers&quot;,&quot;new_custom_entry_button&quot;:&quot;Add Custom Legend Entry&quot;,&quot;custom_entry&quot;:&quot;Custom Label&quot;},&quot;point_size&quot;:&quot;Point Size&quot;,&quot;point_color&quot;:&quot;Point Color&quot;,&quot;base_color&quot;:&quot;Base Color&quot;,&quot;draw_line&quot;:&quot;Draw a Line&quot;,&quot;data_labels&quot;:&quot;Data Labels&quot;,&quot;color_override_html&quot;:&quot;Colors may be overridden using &lt;a href=\\&quot;#Conditional Formatting\\&quot; class=\\&quot;showConditionalFormatting\\&quot;&gt;Conditional Formatting&lt;/a&gt;. Click &lt;a href=\\&quot;#Clear Conditional Formatting\\&quot; class=\\&quot;clearConditionalFormatting\\&quot;&gt;here&lt;/a&gt; to clear any current conditional formatting rules.&quot;,&quot;treemap_color_html&quot;:&quot;These colors are applied to the treemap randomly only for creating visual distinctions. They do not have a specific meaning by themselves.&quot;,&quot;group_extra&quot;:&quot;Group Extra Values&quot;,&quot;show_lines&quot;:&quot;Show Lines&quot;,&quot;show_points&quot;:&quot;Show Points&quot;,&quot;min_angle&quot;:&quot;Min. Angle&quot;,&quot;flyout&quot;:{&quot;title&quot;:&quot;Flyout Details&quot;,&quot;new_details_button&quot;:&quot;Add Flyout Details&quot;},&quot;y_axis_formatting&quot;:{&quot;title&quot;:&quot;Y-Axis Formatting&quot;,&quot;axis_min&quot;:&quot;Axis Min.&quot;,&quot;axis_max&quot;:&quot;Axis Max.&quot;,&quot;axis_prompt&quot;:&quot;Enter a number&quot;,&quot;precision&quot;:&quot;Precision&quot;,&quot;abbreviate&quot;:&quot;Abbreviate&quot;,&quot;no_decimals&quot;:&quot;No Decimals&quot;,&quot;auto&quot;:&quot;Auto&quot;},&quot;marker&quot;:{&quot;title&quot;:&quot;%{axis} Marker&quot;,&quot;new_marker_button&quot;:&quot;Add Marker&quot;,&quot;value&quot;:&quot;At Value&quot;,&quot;caption&quot;:&quot;Caption&quot;},&quot;show_percent&quot;:&quot;Show %s&quot;,&quot;show_values&quot;:&quot;Show values&quot;,&quot;error_bars&quot;:{&quot;title&quot;:&quot;Error Bars&quot;,&quot;low&quot;:&quot;Low&quot;,&quot;high&quot;:&quot;High&quot;,&quot;color&quot;:&quot;Color&quot;},&quot;pie_other&quot;:&quot;Warning: %{chart_type} will aggregate distinct values (rows) past the %{row_limit}th into an Other category. Try creating a Roll Up or a filter which limits the number of values and then create a %{chart_type} of that.&quot;,&quot;pie_truncate&quot;:&quot;Warning: %{chart_type} will truncate datasets with more than %{row_limit} distinct values (rows). Try creating a Roll Up or a filter which limits the number of values and then create a %{chart_type} of that.&quot;,&quot;configuration&quot;:&quot;Configuration&quot;,&quot;advanced&quot;:&quot;Advanced Configuration&quot;,&quot;data_columns&quot;:{&quot;title&quot;:&quot;Data Columns&quot;,&quot;new_data_column_button&quot;:&quot;Add Data Column&quot;},&quot;series_group&quot;:{&quot;title&quot;:&quot;Data Series Grouping&quot;,&quot;new_column_button&quot;:&quot;Add Series Column&quot;,&quot;group_by&quot;:&quot;Group by&quot;},&quot;categories&quot;:&quot;Categories&quot;,&quot;names&quot;:&quot;Names&quot;,&quot;label&quot;:&quot;Label&quot;,&quot;date&quot;:&quot;Date&quot;,&quot;value&quot;:&quot;Value&quot;,&quot;values&quot;:&quot;Values&quot;,&quot;groups&quot;:&quot;Groups&quot;,&quot;colors&quot;:&quot;Colors&quot;,&quot;point_title&quot;:&quot;Title&quot;,&quot;annotation&quot;:&quot;Annotation&quot;,&quot;smooth_line&quot;:&quot;Smooth Line&quot;,&quot;details&quot;:&quot;Details&quot;},&quot;api&quot;:{&quot;title&quot;:&quot;API&quot;,&quot;subtitle&quot;:&quot;Access this %{view_type} via SODA&quot;,&quot;intro_html&quot;:&quot;The &lt;strong&gt;Socrata Open Data API&lt;/strong&gt; (SODA) allows software developers to access data hosted in Socrata data sites programmatically. Developers can create applications that use the SODA APIs to visualize and &amp;ldquo;mash-up&amp;rdquo; Socrata datasets in new and exciting ways. Create an iPhone application that visualizes government spending in your area, a web application that allows citizens to look up potential government benefits they&#x27;d overlooked, or a service that automatically emails you when new earmarks are added to bills that you wish to track.&quot;,&quot;reference_html&quot;:&quot;To start accessing this dataset programmatically, use the API endpoint provided below. For more information and examples on how to use the Socrata Open Data API, reference our &lt;a href=\\&quot;http://dev.socrata.com\\&quot; rel=\\&quot;external\\&quot;&gt;Developer Documentation&lt;/a&gt;.&quot;,&quot;endpoint_title&quot;:&quot;API Access Endpoint:&quot;,&quot;column_ids_title&quot;:&quot;Column IDs:&quot;},&quot;print&quot;:{&quot;title&quot;:&quot;Print&quot;,&quot;subtitle&quot;:&quot;Export this dataset to a printable PDF format&quot;,&quot;validation&quot;:{&quot;non_tabular&quot;:&quot;Only tabular data may be printed&quot;},&quot;print_button&quot;:&quot;Print&quot;,&quot;paper_size&quot;:&quot;Paper Size:&quot;,&quot;paper_sizes&quot;:{&quot;letter&quot;:&quot;Letter (8.5 x 11 inches)&quot;,&quot;legal&quot;:&quot;Legal (8.5 x 14 inches)&quot;,&quot;tabloid&quot;:&quot;Tabloid (11 x 17 inches)&quot;,&quot;a4&quot;:&quot;A4 (210 x 297mm)&quot;,&quot;a3&quot;:&quot;A3 (297 x 420mm)&quot;,&quot;a2&quot;:&quot;A2 (420 x 594mm)&quot;,&quot;a1&quot;:&quot;A1 (594 x 841mm)&quot;,&quot;a0&quot;:&quot;A0 (841 x 1189mm)&quot;},&quot;margins_title&quot;:&quot;Margins (inches):&quot;,&quot;margins&quot;:{&quot;top&quot;:&quot;Top:&quot;,&quot;left&quot;:&quot;Left:&quot;,&quot;bottom&quot;:&quot;Bottom:&quot;,&quot;right&quot;:&quot;Right:&quot;},&quot;orientation&quot;:&quot;Orientation:&quot;,&quot;orientations&quot;:{&quot;landscape&quot;:&quot;Landscape&quot;,&quot;portrait&quot;:&quot;Portrait&quot;},&quot;options_title&quot;:&quot;Options:&quot;,&quot;options&quot;:{&quot;fit&quot;:&quot;Shrink to fit dataset on one page&quot;,&quot;headers_every_page&quot;:&quot;Print column titles on each page&quot;,&quot;header_icons&quot;:&quot;Display icons in column header&quot;}},&quot;digital_signing&quot;:{&quot;title&quot;:&quot;Digital Signing&quot;,&quot;subtitle&quot;:&quot;Export a version of this data whose integrity may later be verified.&quot;,&quot;validation&quot;:{&quot;non_tabular&quot;:&quot;Only tabular data may be printed&quot;},&quot;intro_html&quot;:&quot;Using a &lt;strong&gt;digitally signed dataset&lt;/strong&gt;, it is possible to prove using cryptographically secure methods that a particular copy of a Socrata dataset has not been tampered with. This is useful if, for instance, you are looking to publish findings based on this data, and you want to be able to prove its integrity.&quot;,&quot;consumer&quot;:&quot;To obtain a signed version of this dataset, simply click on the link below to generate a key and begin the download. The key and downloaded data are specific to the current version of this dataset; if the owner updates the dataset in the future, you will have to restart the process to get the new data. Publish the downloaded data along with the key that you receive, and using the instructions found within the downloaded package, third parties will be able to confirm that your data is legitimate.&quot;,&quot;publisher&quot;:&quot;To generate a signed version of this dataset, simply click on the link below to generate a key. Note that if you update this dataset in the future, you will have to return and regenerate the key in order for consumers to again have access to it. Also note that this process involves operations on the entirety of the data, so it may take some time if your dataset is very large, or contains large attachments.&quot;,&quot;publisher_generation&quot;:&quot;Only dataset owners may generate signed keys.&quot;,&quot;signature_header&quot;:&quot;Signature&quot;,&quot;generate_button&quot;:&quot;Generate and Download Now&quot;},&quot;download&quot;:{&quot;title&quot;:&quot;Download&quot;,&quot;subtitle&quot;:&quot;Download a copy of this dataset in a static format&quot;,&quot;geo_header&quot;:&quot;Download Geospatial Data&quot;,&quot;layers_header&quot;:&quot;Download Tabular Layers&quot;,&quot;download_as&quot;:&quot;Download As&quot;},&quot;feed&quot;:{&quot;title&quot;:&quot;Discuss&quot;,&quot;subtitle&quot;:&quot;The discussion feed shows you the conversation and activity around a dataset&quot;},&quot;form&quot;:{&quot;title&quot;:&quot;Form&quot;,&quot;subtitle&quot;:&quot;Forms allow you to gather data directly from your website into a dataset&quot;,&quot;validation&quot;:{&quot;no_columns&quot;:&quot;This view must have visible columns to create a form&quot;},&quot;information&quot;:{&quot;title&quot;:&quot;Form Information&quot;,&quot;name&quot;:&quot;Name&quot;,&quot;name_prompt&quot;:&quot;Enter a name&quot;,&quot;success&quot;:&quot;Success URL&quot;,&quot;success_prompt&quot;:&quot;Enter a webpage URL&quot;,&quot;public&quot;:&quot;Public?&quot;}},&quot;sdp&quot;:{&quot;title&quot;:&quot;Social Data Player&quot;,&quot;subtitle&quot;:&quot;The Social Data Player enables you to publish this dataset on the Internet at large&quot;,&quot;validation&quot;:{&quot;valid_saved&quot;:&quot;This view must be valid and saved&quot;,&quot;public&quot;:&quot;This view must be public before it can be published&quot;},&quot;preview&quot;:&quot;Preview&quot;}}}}}"));
+        });
+</script>
+<script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;screens&quot;:{&quot;about&quot;:{&quot;created&quot;:&quot;created&quot;,&quot;snapshotted&quot;:&quot;snapshotted&quot;,&quot;updated&quot;:&quot;updated&quot;,&quot;edit_metadata&quot;:&quot;Edit Metadata&quot;,&quot;view_full_page&quot;:&quot;View Full Page&quot;,&quot;description&quot;:&quot;Description&quot;,&quot;activity&quot;:&quot;Activity&quot;,&quot;community&quot;:&quot;Community Rating&quot;,&quot;your&quot;:&quot;Your Rating&quot;,&quot;raters&quot;:&quot;Raters&quot;,&quot;visits&quot;:&quot;Visits&quot;,&quot;downloads&quot;:&quot;Downloads&quot;,&quot;comments&quot;:&quot;Comments&quot;,&quot;contributors&quot;:&quot;Contributors&quot;,&quot;view_statistics&quot;:&quot;View Statistics&quot;,&quot;meta&quot;:&quot;Meta&quot;,&quot;category&quot;:&quot;Category&quot;,&quot;none&quot;:&quot;(none)&quot;,&quot;permissions&quot;:&quot;Permissions&quot;,&quot;public&quot;:&quot;Public&quot;,&quot;private&quot;:&quot;Private&quot;,&quot;tags&quot;:&quot;Tags&quot;,&quot;row_count&quot;:&quot;Row Count&quot;,&quot;links&quot;:&quot;Links&quot;,&quot;permalink&quot;:&quot;Permalink&quot;,&quot;short_url&quot;:&quot;Short URL&quot;,&quot;attachments&quot;:&quot;Attachments&quot;,&quot;licensing&quot;:&quot;Licensing and Attribution&quot;,&quot;data_provided_by&quot;:&quot;Data Provided By&quot;,&quot;source_link&quot;:&quot;Source Link&quot;,&quot;license&quot;:&quot;License&quot;,&quot;terms_of_use&quot;:&quot;Terms of Use&quot;,&quot;spatial_extent&quot;:&quot;Spatial Extent&quot;,&quot;semantics&quot;:&quot;Semantics and RDF&quot;,&quot;row_class&quot;:&quot;Row Class&quot;,&quot;subject_column&quot;:&quot;Subject Column&quot;,&quot;permanent_links&quot;:&quot;Permanent Links&quot;,&quot;resource_name&quot;:&quot;Resource Name&quot;,&quot;row_identifier&quot;:&quot;Row Identifier&quot;,&quot;actions&quot;:&quot;Actions&quot;,&quot;flag_dataset&quot;:&quot;Flag Dataset&quot;,&quot;contact_dataset_owner&quot;:&quot;Contact Dataset Owner&quot;}}}"));
+        });
+</script>
+
+
+    </div>
+  </div>
+
+  <div id="siteFooter">
+    <a name="footerLinks" tabindex="-1"></a>
+    
+  </div>
+
+  <div class="socrataModal"><div class="socrataModalWrapper"></div></div>
+
+
+  <div id="templates" style="display:none">
+    <div class="menu">
+  <a class="menuButton" href="#"><span class="icon"></span></a>
+  <div class="menuDropdown">
+    <ul class="menuColumns">
+      <li class="menuColumn">
+        <ul class="menuEntries">
+          <li class="menuEntry">
+            <a href="#" class="clearfix">
+              <span class="icon"></span>
+              <span class="contents"></span>
+              <div class="subtext"></div>
+            </a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+  </div>
+</div>
+
+    <div class="outerPane">
+  <div class="paneOverlay hide"></div>
+
+  <div class="mainTitleBlock">
+    <h3 class="title"></h3>
+  </div>
+
+  <div class="panes">
+  </div>
+</div>
+
+<div class="sidebarPane">
+  <div class="subtitleBlock">
+    <p class="subtitle"></p>
+  </div>
+
+  <div class="readOnlyBlock">
+    <p class="readOnlyMessage"></p>
+  </div>
+
+  <div class="paneContent">
+    <div class="formSection">
+      <input type="checkbox" class="sectionSelect" />
+      <label class="formHeader"></label>
+      <div class="sectionDisabledMessage"></div>
+      <div class="sectionWarningMessage"></div>
+      <div class="sectionContent"></div>
+    </div>
+
+    <div class="mainError"></div>
+
+    <div class="required hide">Required Field</div>
+    <ul class="finishButtons actionButtons clearfix">
+      <li></li>
+    </ul>
+  </div>
+</div>
+
+<div class="itemsListBlock">
+  <div class="itemsContent">
+    <div class="controlsBar clearfix">
+      <div class="sortMenu menu"></div>
+      <div class="showMenu menu"></div>
+      <div class="searchWrapper">
+        <input type="text" title="Search views" class="viewSearch textPrompt" />
+        <a class="clearViewSearch remove"
+          href="#clear"><span class="icon"></span></a>
+      </div>
+    </div>
+    <ul class="itemsList"></ul>
+    <a href="#More" class="moreLink fullButton"></a>
+  </div>
+  <div class="emptyResult">
+    There are no results
+  </div>
+</div>
+
+<ul class="viewItemContainer">
+<li class="viewItem">
+  <span class="viewIcon"><span class="icon"></span></span>
+  <a class="nameLink"><span class="pubDate"></span><span class="name"></span></a>
+  <span class="authorLine">
+    <span class="date"></span> by <span class="author"></span>
+  </span>
+  <span class="description collapsed"></span>
+  <a href="#delete" title="Delete this view" class="remove deleteViewLink">
+    <span class="icon"></span>
+  </a>
+  <a href="#expand" title="Click to expand" class="expand downArrow">
+    <span class="icon"></span>
+  </a>
+</li>
+</ul>
+
+<div class="showHideBlock">
+  <ul class="sectionContent">
+    <li class="columnItem">
+      <input type="checkbox" />
+      <label>
+        <span class="icon"></span>
+        <span class="name"></span>
+      </label>
+    </li>
+  </ul>
+</div>
+
+<div class="columnOrderBlock">
+  <ul class="sectionContent columnsList">
+    <li class="columnItem">
+      <span class="grabHandle"></span>
+      <span class="icon"></span>
+      <span class="name"></span>
+    </li>
+  </ul>
+  <p>Drag the columns into the order you would like, and then press <strong>apply</strong> to apply the new order.</p>
+</div>
+
+<div class="embedForm">
+  <div class="embedForm commonForm">
+
+  <label for="embed_code" class="formHeader">Embed this Dataset</label>
+  <div class="embedCodeWrapper">
+    <textarea id="embed_code" name="embed_code" class="htmlCode"><div><iframe width="_width_px" title="311 Data for At Risk Buildings" height="_height_px" src="https://data.kcmo.org/w/p2je-p96s/4u6v-6hc7?cur=N_M1GWEEnam&amp;from=root" frameborder="0" scrolling="no"><a href="https://data.kcmo.org/311/311-Data-for-At-Risk-Buildings/p2je-p96s" title="311 Data for At Risk Buildings" target="_blank">311 Data for At Risk Buildings</a></iframe><p><a href="http://www.socrata.com/" target="_blank">Powered by Socrata</a></p></div></textarea>
+  </div>
+
+  <div class="privateDatasetMessage flash error hide">This view is currently private. You can preview it, but you will need to make it public before people will be able to see it.</div>
+
+  <div class="clearfix">
+    <div class="left">
+      <label class="formHeader">Size</label>
+      <ul class="sectionContent sizes clearfix">
+        <li data-width="500" data-height="425" class="selected">
+          <p>500x425</p>
+          <div class="sizePreview small"></div>
+        </li>
+        <li data-width="760" data-height="646">
+          <p>760x646</p>
+          <div class="sizePreview medium"></div>
+        </li>
+        <li data-width="950" data-height="808">
+          <p>950x808</p>
+          <div class="sizePreview large"></div>
+        </li>
+      </ul>
+    </div>
+    <div class="right">
+      <label class="formHeader">Custom Size</label>
+      <p class="information sizeInformation">425x425 is the minimum size</p>
+      <div class="sectionContent dimensions">
+        <div class="line clearfix">
+          <label for="embed_width">Width</label>
+          <div class="inputWrapper textWrapper">
+            <input type="text" id="embed_width" name="embed_width" value="500"/>
+          </div>
+        </div>
+        <div class="line clearfix">
+          <label for="embed_height">Height</label>
+          <div class="inputWrapper textWrapper">
+            <input type="text" id="embed_height" name="embed_height" value="425"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+
+</div>
+<div class="printForm">
+    <input type="hidden" id="print" name="print" value="true" />
+  <div class="formSection">
+    <div class="line clearfix">
+      <label for="page_size" class="formHeader pageSizeHeader">Paper Size:</label>
+      <div class="inputWrapper">
+        <select id="page_size" name="page_size">
+          <option value="letter">Letter (8.5 x 11 inches)</option>
+          <option value="legal">Legal (8.5 x 14 inches)</option>
+          <option value="tabloid">Tabloid (11 x 17 inches)</option>
+          <option value="a4">A4 (210 x 297mm)</option>
+          <option value="a3">A3 (297 x 420mm)</option>
+          <option value="a2">A2 (420 x 594mm)</option>
+          <option value="a1">A1 (594 x 841mm)</option>
+          <option value="a0">A0 (841 x 1189mm)</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
+  <div class="formSection margins">
+    <label class="formHeader">Margins (inches):</label>
+    <div class="sectionContent">
+      <div class="line clearfix">
+        <label for="margin_top">Top:</label>
+        <div class="inputWrapper textWrapper">
+          <input type="text" id="margin_top" name="margin_top" value="1.0" />
+        </div>
+      </div>
+      <div class="line clearfix">
+        <label for="margin_left">Left:</label>
+        <div class="inputWrapper textWrapper">
+          <input type="text" id="margin_left" name="margin_left" value="1.0" />
+        </div>
+      </div>
+      <div class="line clearfix">
+        <label for="margin_bottom">Bottom:</label>
+        <div class="inputWrapper textWrapper">
+          <input type="text" id="margin_bottom" name="margin_bottom" value="1.0" />
+        </div>
+      </div>
+      <div class="line clearfix">
+        <label for="margin_right">Right:</label>
+        <div class="inputWrapper textWrapper">
+          <input type="text" id="margin_right" name="margin_right" value="1.0" />
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="formSection">
+    <label class="formHeader">Orientation:</label>
+    <div class="sectionContent optionsBlock">
+      <fieldset>
+        <div class="line inputFirst">
+          <div class="inputWrapper">
+            <input type="radio" id="landscape" name="portrait" value="false" checked="checked" />
+          </div>
+          <label for="landscape">Landscape</label>
+        </div>
+        <div class="line inputFirst">
+          <div class="inputWrapper">
+            <input type="radio" id="portrait" name="portrait" value="true" />
+          </div>
+          <label for="portrait">Portrait</label>
+        </div>
+      </fieldset>
+    </div>
+  </div>
+
+  <div class="formSection">
+    <label class="formHeader"><span class="translation_missing" title="translation missing: en.screens.ds.grid_sidebar.print.orientations.options_title">Options Title</span></label>
+    <div class="sectionContent optionsBlock">
+      <div class="line inputFirst">
+        <div class="inputWrapper">
+          <input type="checkbox" id="fit" name="fit" value="true" />
+        </div>
+        <label for="fit"><span class="translation_missing" title="translation missing: en.screens.ds.grid_sidebar.print.orientations.options.fit">Fit</span></label>
+      </div>
+      <div class="line inputFirst">
+        <div class="inputWrapper">
+          <input type="checkbox" id="headers_on_every_page" name="headers_on_every_page" value="true" checked="checked" />
+        </div>
+        <label for="headers_on_every_page"><span class="translation_missing" title="translation missing: en.screens.ds.grid_sidebar.print.orientations.options.headers_every_page">Headers Every Page</span></label>
+      </div>
+      <div class="line inputFirst">
+        <div class="inputWrapper">
+          <input type="checkbox" id="header_icons" name="header_icons" value="true" />
+        </div>
+        <label for="header_icons"><span class="translation_missing" title="translation missing: en.screens.ds.grid_sidebar.print.orientations.options.header_icons">Header Icons</span></label>
+      </div>
+    </div>
+  </div>
+
+  <div class="submitLine clearfix">
+    <ul class="submitActions">
+      <li>
+        <a href="#submit" class="button submit">
+          <span class="left"></span>
+          <span class="icon"></span>
+          Print
+        </a>
+      </li>
+      <li class="cancelButton">
+        <a href="#close_print" class="jqmClose button close">
+          <span class="icon"></span>Cancel
+        </a>
+      </li>
+    </ul>
+  </div>
+
+</div>
+<div class="downloadsSectionContent">
+  <div class="downloadsTable">
+    <div class="gridListWrapper">
+      <table class="gridList downloadsList" cellspacing="0">
+  <colgroup>
+    <col class="type" />
+  </colgroup>
+  <thead>
+    <tr>
+      <th class="type" scope="col"><div>Download As</div><span class="icon"></span></th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="item">
+      <td class="type" scope="row"><div class="cellInner"><a rel="external" class="noInterstitial"></a></div></td>
+    </tr>
+  </tbody>
+</table>
+
+    </div>
+  </div>
+</div>
+
+<div class="cellFeedTitle">
+  <h3>Comments for row <span class="rowName"></span>, column <span class="columnName"></span></h3>
+</div>
+
+<div class="feedList">
+  <div class="feed">
+    <div class="feedFilterLine">
+      <span class="text">Show</span>
+      <select class="feedFilter"></select>
+    </div>
+      <a href="#post" class="button feedNewCommentButton">Add Comment</a>
+    <div class="moderationNotice">Your comment is submitted and is pending moderation</div>
+    <ul class="feedList"></ul>
+    <a href="#showMore" class="feedMoreItemsLink fullButton"></a>
+    <span class="noResults hide">There are no items to display</span>
+  </div>
+</div>
+<ul class="feedItem">
+  <li class="feedItem">
+    <div class="feedCommon">
+      <span class="icon"></span>
+      <a href="#" class="feedActor"></a>
+      <span class="feedBody"></span>
+    </div>
+    <div class="feedCustom"></div>
+    <p class="feedTimestamp"></p>
+    <ul class="feedChildren"></ul>
+    <a href="#allReplies" class="replyViewAllLink">View all replies</a>
+  </li>
+</ul>
+<div class="feedItem_comment">
+  <ul class="commentActions clearfix">
+    <li class="actionReply"><a class="commentReplyLink" href="#reply">Reply</a></li>
+    <li class="actionInappropriate"><a class="commentInappropriateLink" href="#inappropriate">Inappropriate</a></li>
+    <li class="actionDelete"><a class="commentDeleteLink" href="#delete">Delete</a></li>
+    <li class="rateDown"><a class="icon commentRateDownLink" href="#rateDown" title="Rate this comment down"></a></li>
+    <li class="rateUp"><a class="icon commentRateUpLink" href="#rateUp" title="Rate this comment up"></a></li>
+    <li class="downRatings"></li>
+    <li class="upRatings"></li>
+  </ul>
+</div>
+<div class="feedItem_reply">
+  <ul class="commentActions clearfix">
+    <li class="actionInappropriate"><a class="commentInappropriateLink" href="#inappropriate">Inappropriate</a></li>
+    <li class="actionDelete"><a class="commentDeleteLink" href="#delete">Delete</a></li>
+    <li class="rateDown"><a class="icon commentRateDownLink" href="#rateDown" title="%= t 'controls.feed.comment_actions.rate_down' %>"></a></li>
+    <li class="rateUp"><a class="icon commentRateUpLink" href="#rateUp" title="Rate this comment up"></a></li>
+    <li class="downRatings"></li>
+    <li class="upRatings"></li>
+  </ul>
+</div>
+<div class="feedItem_view">
+  <div class="viewDetails">
+    <span class="icon"></span>
+    <a class="viewName" href="#"></a>
+    <div class="viewDescription"></div>
+  </div>
+</div>
+<div class="feedItem_newComment">
+  <div class="newCommentForm">
+    <label for="newCommentBody">New Comment:</label>
+    <textarea name="newCommentBody" id="newCommentBody"></textarea>
+    <div class="error"></div>
+    <a class="button postNewCommentButton" href="#post">Post</a>
+    <a class="button cancelNewCommentButton" href="#cancel">Cancel</a>
+  </div>
+</div>
+
+<script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;controls&quot;:{&quot;feed&quot;:{&quot;header&quot;:{&quot;cell_comment_header_html&quot;:&quot;Comments for row &lt;span class=\\&quot;rowName\\&quot;&gt;&lt;/span&gt;, column &lt;span class=\\&quot;columnName\\&quot;&gt;&lt;/span&gt;&quot;,&quot;feed_filter_label&quot;:&quot;Show&quot;,&quot;add_comment&quot;:&quot;Add Comment&quot;,&quot;pending_moderation&quot;:&quot;Your comment is submitted and is pending moderation&quot;},&quot;types&quot;:{&quot;all items&quot;:&quot;all items&quot;,&quot;views&quot;:&quot;views&quot;,&quot;comments&quot;:&quot;comments&quot;},&quot;listing&quot;:{&quot;no_results&quot;:&quot;There are no items to display&quot;,&quot;all_replies&quot;:&quot;View all replies&quot;,&quot;all_replies_with_count&quot;:&quot;View all %{count} replies&quot;,&quot;next_item_page&quot;:&quot;View next %{count} items&quot;,&quot;last_item&quot;:&quot;View last item&quot;,&quot;user_create_action&quot;:&quot;created a %{thing}:&quot;},&quot;comment_actions&quot;:{&quot;reply&quot;:&quot;Reply&quot;,&quot;inappropriate&quot;:&quot;Inappropriate&quot;,&quot;already_marked_inappropriate&quot;:&quot;Flagged&quot;,&quot;marked_inappropriate&quot;:&quot;Flagged!&quot;,&quot;delete&quot;:&quot;Delete&quot;,&quot;delete_confirm&quot;:&quot;Are you sure? Your comment will be lost.&quot;,&quot;rate_down&quot;:&quot;Rate this comment down&quot;,&quot;rate_up&quot;:&quot;Rate this comment up&quot;},&quot;comment_form&quot;:{&quot;header&quot;:&quot;New Comment&quot;,&quot;post_button&quot;:&quot;Post&quot;,&quot;cancel_button&quot;:&quot;Cancel&quot;,&quot;empty_body_error&quot;:&quot;The comment body cannot be empty.&quot;},&quot;authed_actions&quot;:{&quot;flag_comment&quot;:&quot;flag a comment&quot;,&quot;delete_comment&quot;:&quot;delete a comment&quot;,&quot;rate_comment&quot;:&quot;rate a comment&quot;,&quot;post_comment&quot;:&quot;post a comment&quot;}},&quot;common&quot;:{&quot;share&quot;:{&quot;button_prompt&quot;:&quot;Socialize&quot;,&quot;button_tooltip&quot;:&quot;Share this Dataset&quot;,&quot;share_text&quot;:&quot;Check out the %{name}, dataset on %{site}: &quot;,&quot;networks&quot;:{&quot;facebook&quot;:&quot;Facebook&quot;,&quot;twitter&quot;:&quot;Twitter&quot;,&quot;email&quot;:&quot;Email&quot;}},&quot;auth_required&quot;:&quot;You must be logged in to %{action_phrase}&quot;,&quot;rate&quot;:{&quot;auth_action_phrase&quot;:&quot;rate this dataset&quot;},&quot;stars&quot;:{&quot;tooltip&quot;:&quot;%{number} stars&quot;},&quot;sidebar&quot;:{&quot;tabs&quot;:{&quot;edit&quot;:&quot;Edit&quot;,&quot;manage&quot;:&quot;Manage&quot;,&quot;moreViews&quot;:&quot;More Views&quot;,&quot;filter&quot;:&quot;Filter&quot;,&quot;visualize&quot;:&quot;Visualize&quot;,&quot;export&quot;:&quot;Export&quot;,&quot;discuss&quot;:&quot;Discuss&quot;,&quot;embed&quot;:&quot;Embed&quot;,&quot;about&quot;:&quot;About This Dataset&quot;}},&quot;image_upload&quot;:{&quot;button&quot;:&quot;Upload Image&quot;}}},&quot;core&quot;:{&quot;and&quot;:&quot;and&quot;,&quot;or&quot;:&quot;or&quot;,&quot;validation&quot;:{&quot;required&quot;:&quot;This field is required.&quot;,&quot;remote&quot;:&quot;Please fix this field.&quot;,&quot;email&quot;:&quot;Please enter a valid email address.&quot;,&quot;url&quot;:&quot;Please enter a valid URL.&quot;,&quot;date&quot;:&quot;Please enter a valid date.&quot;,&quot;dateISO&quot;:&quot;Please enter a valid date (ISO).&quot;,&quot;number&quot;:&quot;Please enter a valid number.&quot;,&quot;digits&quot;:&quot;Please enter only digits.&quot;,&quot;equalTo&quot;:&quot;Please enter the same value again.&quot;,&quot;accept&quot;:&quot;Please enter a value with a valid extension.&quot;,&quot;maxlength&quot;:&quot;Please enter no more than {0} characters.&quot;,&quot;minlength&quot;:&quot;Please enter at least {0} characters.&quot;,&quot;rangelength&quot;:&quot;Please enter a value between {0} and {1} characters long.&quot;,&quot;range&quot;:&quot;Please enter a value between {0} and {1}.&quot;,&quot;max&quot;:&quot;Please enter a value less than or equal to {0}.&quot;,&quot;min&quot;:&quot;Please enter a value greater than or equal to {0}.&quot;},&quot;view_types&quot;:{&quot;api&quot;:&quot;API view&quot;,&quot;blob&quot;:&quot;non-tabular file or document&quot;,&quot;calendar&quot;:&quot;calendar&quot;,&quot;chart&quot;:&quot;chart&quot;,&quot;dataset&quot;:&quot;dataset&quot;,&quot;filter&quot;:&quot;filtered view&quot;,&quot;form&quot;:&quot;form&quot;,&quot;group&quot;:&quot;grouped view&quot;,&quot;grouped&quot;:&quot;grouped view&quot;,&quot;href&quot;:&quot;external dataset&quot;,&quot;map&quot;:&quot;map&quot;,&quot;table&quot;:&quot;table&quot;,&quot;working_copy&quot;:&quot;working copy&quot;},&quot;view_types_plural&quot;:{&quot;api&quot;:&quot;APIs&quot;,&quot;chart&quot;:&quot;Charts&quot;,&quot;map&quot;:&quot;Maps&quot;,&quot;calendar&quot;:&quot;Calendars&quot;,&quot;filter&quot;:&quot;Filtered Views&quot;,&quot;form&quot;:&quot;Forms&quot;,&quot;grouped&quot;:&quot;Grouped Views&quot;},&quot;data_types&quot;:{&quot;text&quot;:&quot;Plain Text&quot;,&quot;html&quot;:&quot;Formatted Text&quot;,&quot;number&quot;:&quot;Number&quot;,&quot;money&quot;:&quot;Money&quot;,&quot;percent&quot;:&quot;Percent&quot;,&quot;date&quot;:&quot;Date &amp; Time (with timezone)&quot;,&quot;calendar_date&quot;:&quot;Date &amp; Time&quot;,&quot;email&quot;:&quot;Email&quot;,&quot;phone&quot;:&quot;Phone&quot;,&quot;url&quot;:&quot;Website URL&quot;,&quot;checkbox&quot;:&quot;Checkbox&quot;,&quot;flag&quot;:&quot;Flag&quot;,&quot;stars&quot;:&quot;Star&quot;,&quot;location&quot;:&quot;Location&quot;,&quot;geospatial&quot;:&quot;Geospatial&quot;,&quot;document&quot;:&quot;Document&quot;,&quot;photo&quot;:&quot;Photo (Image)&quot;,&quot;drop_down_list&quot;:&quot;Multiple Choice&quot;,&quot;dataset_link&quot;:&quot;Dataset Link&quot;,&quot;link&quot;:&quot;Link Column&quot;,&quot;object&quot;:&quot;Object&quot;,&quot;list&quot;:&quot;List&quot;,&quot;nested_table&quot;:&quot;Nested Table&quot;},&quot;alignment&quot;:{&quot;left&quot;:&quot;Left&quot;,&quot;center&quot;:&quot;Center&quot;,&quot;right&quot;:&quot;Right&quot;},&quot;precision_style&quot;:{&quot;standard&quot;:&quot;Standard (1020.4)&quot;,&quot;scientific&quot;:&quot;Scientific (1.0204e+3)&quot;},&quot;aggregates&quot;:{&quot;average&quot;:&quot;Average&quot;,&quot;count&quot;:&quot;Count&quot;,&quot;sum&quot;:&quot;Sum&quot;,&quot;minimum&quot;:&quot;Minimum&quot;,&quot;maximum&quot;:&quot;Maximum&quot;},&quot;chart_types&quot;:{&quot;area&quot;:&quot;Area Chart&quot;,&quot;bar&quot;:&quot;Bar Chart&quot;,&quot;bubble&quot;:&quot;Bubble Chart&quot;,&quot;column&quot;:&quot;Column Chart&quot;,&quot;donut&quot;:&quot;Donut Chart&quot;,&quot;line&quot;:&quot;Line Chart&quot;,&quot;pie&quot;:&quot;Pie Chart&quot;,&quot;timeline&quot;:&quot;Time Line&quot;,&quot;treemap&quot;:&quot;Tree Map&quot;,&quot;stackedcolumn&quot;:&quot;Stacked Column Chart&quot;,&quot;stackedbar&quot;:&quot;Stacked Bar Chart&quot;},&quot;map_layers&quot;:{&quot;roadmap&quot;:&quot;Roadmap&quot;,&quot;satellite&quot;:&quot;Satellite&quot;,&quot;terrain&quot;:&quot;Terrain&quot;,&quot;aerial&quot;:&quot;Aerial&quot;,&quot;esri_world_street_map&quot;:&quot;World Street Map (ESRI)&quot;,&quot;esri_world_street_map_alias&quot;:&quot;World Street Map&quot;,&quot;esri_satellite&quot;:&quot;Satellite Imagery (ESRI)&quot;,&quot;esri_us_topo&quot;:&quot;Detailed USA Topographic Map (ESRI)&quot;,&quot;esri_us_topo_alias&quot;:&quot;USA Topographic Map&quot;,&quot;esri_world_topo&quot;:&quot;Annotated World Topographic Map (ESRI)&quot;,&quot;esri_world_topo_alias&quot;:&quot;World Topographic Map&quot;,&quot;esri_natural_earth&quot;:&quot;Natural Earth Map (ESRI)&quot;,&quot;esri_natural_earth_alias&quot;:&quot;Natural Earth Map&quot;,&quot;google_roadmap&quot;:&quot;Google Roadmap&quot;,&quot;google_roadmap_alias&quot;:&quot;Google&quot;,&quot;google_satellite&quot;:&quot;Google Satellite&quot;,&quot;google_terrain&quot;:&quot;Google Terrain&quot;,&quot;bing_roadmap&quot;:&quot;Bing Roadmap&quot;,&quot;bing_roadmap_alias&quot;:&quot;Bing&quot;,&quot;bing_aerial&quot;:&quot;Bing Aerial&quot;},&quot;filters&quot;:{&quot;formal&quot;:{&quot;equals&quot;:&quot;equals&quot;,&quot;not_equals&quot;:&quot;does not equal&quot;,&quot;starts_with&quot;:&quot;starts with&quot;,&quot;contains&quot;:&quot;contains&quot;,&quot;not_contains&quot;:&quot;does not contain&quot;,&quot;less_than&quot;:&quot;less than&quot;,&quot;less_than_or_equals&quot;:&quot;less than or equal to&quot;,&quot;greater_than&quot;:&quot;greater than&quot;,&quot;greater_than_or_equals&quot;:&quot;greater than or equal to&quot;,&quot;between&quot;:&quot;between&quot;,&quot;is_blank&quot;:&quot;is blank&quot;,&quot;is_not_blank&quot;:&quot;is not blank&quot;},&quot;informal&quot;:{&quot;equals&quot;:&quot;is&quot;,&quot;not_equals&quot;:&quot;is not&quot;,&quot;starts_with&quot;:&quot;starts with&quot;,&quot;contains&quot;:&quot;contains&quot;,&quot;not_contains&quot;:&quot;does not contain&quot;,&quot;less_than&quot;:&quot;is less than&quot;,&quot;less_than_or_equals&quot;:&quot;is at most&quot;,&quot;greater_than&quot;:&quot;is greater than&quot;,&quot;greater_than_or_equals&quot;:&quot;is at least&quot;,&quot;between&quot;:&quot;is between&quot;,&quot;is_blank&quot;:&quot;is blank&quot;,&quot;is_not_blank&quot;:&quot;is not blank&quot;}},&quot;visibility&quot;:{&quot;public&quot;:&quot;public&quot;,&quot;private&quot;:&quot;private&quot;},&quot;analytics&quot;:{&quot;visit&quot;:&quot;view&quot;,&quot;visits&quot;:&quot;views&quot;},&quot;dialogs&quot;:{&quot;apply&quot;:&quot;Apply&quot;,&quot;cancel&quot;:&quot;Cancel&quot;,&quot;close&quot;:&quot;Close&quot;,&quot;continue&quot;:&quot;Continue&quot;,&quot;create&quot;:&quot;Create&quot;,&quot;delete&quot;:&quot;Delete&quot;,&quot;done&quot;:&quot;Done&quot;,&quot;dont_save&quot;:&quot;Don&#x27;t Save&quot;,&quot;save&quot;:&quot;Save&quot;,&quot;update&quot;:&quot;Update&quot;},&quot;pagination&quot;:{&quot;first_page&quot;:&quot;First Page&quot;,&quot;previous_page&quot;:&quot;Previous Page&quot;,&quot;next_page&quot;:&quot;Next Page&quot;,&quot;last_page&quot;:&quot;Last Page&quot;},&quot;interstitial&quot;:{&quot;leaving_notice_html&quot;:&quot;You are leaving &lt;span class=\\&quot;serverName\\&quot;&gt;%{site_name}&lt;/span&gt;&quot;,&quot;leaving_explanation_html&quot;:&quot;This &lt;span class=\\&quot;datasetType\\&quot;&gt;dataset&lt;/span&gt; is hosted by &lt;a href=\\&quot;\\\\#\\&quot; rel=\\&quot;external\\&quot; class=\\&quot;externalDomain\\&quot;&gt;another domain&lt;/a&gt;.&quot;},&quot;forms&quot;:{&quot;none&quot;:&quot;None&quot;,&quot;required_field&quot;:&quot;Required Field&quot;},&quot;share_types&quot;:{&quot;view&quot;:&quot;Viewer&quot;,&quot;viewer&quot;:&quot;Viewer&quot;,&quot;contributor&quot;:&quot;Contributor&quot;,&quot;owner&quot;:&quot;Owner&quot;},&quot;features&quot;:{&quot;allow_comments&quot;:&quot;Commenting&quot;,&quot;cell_comments&quot;:&quot;Cell Commenting&quot;},&quot;expando&quot;:{&quot;prompt&quot;:&quot;Click to expand&quot;,&quot;expand&quot;:&quot;Expand&quot;}},&quot;account&quot;:{&quot;common&quot;:{&quot;inline_auth&quot;:{&quot;sign_in_headline&quot;:&quot;Sign in using your Socrata ID&quot;,&quot;sign_up_headline&quot;:&quot;We&#x27;re glad you want to join %{site}!&quot;},&quot;form&quot;:{&quot;email&quot;:&quot;Email Address&quot;,&quot;display_name&quot;:&quot;Display Name&quot;,&quot;password&quot;:&quot;Password&quot;,&quot;password_requirements&quot;:&quot;Required. Your password must be between 8 and 40 characters and satisfy three of the following four criteria: contain a digit; contain a lowercase letter; contain an uppercase letter; contain a non-alphanumeric symbol.&quot;,&quot;password_requirements_html&quot;:&quot;&lt;p&gt;Your password must be &lt;b&gt;between 8 and 40 characters&lt;/b&gt; and satisfy &lt;b&gt;three of the following four criteria&lt;/b&gt;:&lt;/p&gt;&lt;p&gt;&lt;/p&gt;&lt;ul&gt;&lt;li&gt;&amp;bull; contain a digit&lt;/li&gt;&lt;li&gt;&amp;bull; contain a lowercase letter&lt;/li&gt;&lt;li&gt;&amp;bull; contain an uppercase letter&lt;/li&gt;&lt;li&gt;&amp;bull; contain a non-alphanumeric symbol&lt;/li&gt;&lt;/ul&gt;&quot;,&quot;password_restrictions&quot;:&quot;Restrictions apply&quot;,&quot;confirm_password&quot;:&quot;Confirm Password&quot;,&quot;no_account&quot;:&quot;Don&#x27;t have an account?&quot;,&quot;sign_up_prompt&quot;:&quot;Sign up now&quot;,&quot;forgot_password&quot;:&quot;Forgot Password?&quot;,&quot;remember_me&quot;:&quot;Remember me&quot;,&quot;lockout_warning&quot;:&quot;For security, three failed login attempts in 15 minutes will result in this account being locked out for 30 minutes.&quot;},&quot;rpx&quot;:{&quot;prompt&quot;:{&quot;sign_in&quot;:&quot;Or\\u2026 Use one of these accounts to sign in.&quot;,&quot;sign_up&quot;:&quot;Or\\u2026 Use one of these accounts to join.&quot;},&quot;description&quot;:&quot;Take advantage of additional features these accounts provide and sign in with one click.&quot;,&quot;providers&quot;:{&quot;facebook&quot;:{&quot;sign_in_html&quot;:&quot;&lt;strong&gt;Connect&lt;/strong&gt; with Facebook&quot;,&quot;sign_up_html&quot;:&quot;&lt;strong&gt;Connect&lt;/strong&gt; with Facebook&quot;},&quot;twitter&quot;:{&quot;sign_in_html&quot;:&quot;&lt;strong&gt;Connect&lt;/strong&gt; with Twitter&quot;,&quot;sign_up_html&quot;:&quot;&lt;strong&gt;Connect&lt;/strong&gt; with Twitter&quot;},&quot;google&quot;:{&quot;sign_in_html&quot;:&quot;&lt;strong&gt;Sign in&lt;/strong&gt; with Google&quot;,&quot;sign_up_html&quot;:&quot;&lt;strong&gt;Join&lt;/strong&gt; with Google&quot;},&quot;openid&quot;:{&quot;sign_in_html&quot;:&quot;&lt;strong&gt;Sign in&lt;/strong&gt; with OpenID&quot;,&quot;sign_up_html&quot;:&quot;&lt;strong&gt;Join&lt;/strong&gt; with OpenID&quot;}}}}}}"));
+        });
+</script>
+
+<div class="aboutDataset_contact">
+  <div class="contactOwnerFormWrapper">
+    <form accept-charset="UTF-8" action="/datasets/p2je-p96s/math_validate" class="contactOwnerForm" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Agp/izwJaVxg2g82cMUs6iiF2wqOxvMgObaoCXbrd+U=" /></div>
+      <input id="method" name="method" type="hidden" value="flag" />
+      <div class="lined">
+        <div><label for="contactPurpose" class="required">Purpose</label></div>
+        <select id="contactPurpose" name="type">
+          <option value="" selected="selected">-- Select Purpose --</option>
+<option value="copyright_violation">Copyright Violation</option>
+<option value="offensive_content">Offensive Content</option>
+<option value="spam">Spam or Junk</option>
+<option value="personal_information">Personal Information</option>
+<option value="other">Other</option>        </select>
+      </div>
+
+      <div class="lined">
+        <label for="contactSubject">Subject</label>
+        <textarea id="contactSubject" name="subject"></textarea>
+      </div>
+
+      <div class="lined">
+        <div><label for="contactBody" class="required">Short Message</label></div>
+        <textarea id="contactBody" name="message"></textarea>
+      </div>
+
+      <div class="lined">
+        <div><label for="from_address" class="required">Your Email</label></div>
+        <p>Your email address will be shared with the owner of this dataset so they can reply.</p>
+        <input id="fromAddress" name="from_address" type="text" value=""/>
+      </div>
+
+      <div class="lined">
+        <div><label for="noSpam" class="required">What is zero minus zero as a word?</label></div>
+        <input class="noSpamAnswer" type="text" name="user_answer" />
+      </div>
+
+      <input type="text" class="encrypted" name="equation_token" style="display:none;" value="ICB6ZXJvIG1pbnVzIHplcm8gICA=
+"/>
+      <div class="math_message flash"></div>
+
+        <a href="#submit" class="button sendContactButton">Send</a>
+      <a href="#cancel"
+        class="button cancelContactButton contactButton">Cancel</a>
+</form>  </div>
+</div>
+
+<div class="sharingForm commonForm">
+  <div class="formSection">
+    <p class="formHeader">
+      This <span class="datasetTypeName">dataset</span> is <span class="publicOrPrivate">public </span> <span class="andSharedHint hide">and shared with:</span>
+    </p>
+    <div class="sectionContent">
+      <ul class="itemsList">
+        <li class="loadingShares">Loading Shares...
+          <span class="loadingSharesIndicator"></span>
+        </li>
+      </ul>
+      <div class="noShares">
+        <p>You are not currently sharing this <span class="datasetTypeName">dataset</span> with anyone</p>
+      </div>
+    </div>
+      <p class="shareNotifyArea">
+        <a class="button shareNotifyLink" href="#notify">
+          Notify All of Changes
+        </a>
+        <span class="flash notice shareNoticeSent">
+          Notification sent
+        </span>
+      </p>
+  </div>
+  <div class="flash sharingFlash"></div>
+</div>
+
+<ul class="sharesList">
+  <li class="line clearfix noGrant">
+    <a href="#removeShare" class="removeShareLink remove" title="Remove">
+      <span class="icon"></span>
+    </a>
+    <span class="profileImage"></span>
+    <div class="nameWrapper"><span class="name"></span></div>
+    <span class="type readOnlyType"></span>
+  </li>
+</ul>
+
+<div class="datasetPermissions commonForm">
+  <div class="formSection">
+    <p class="formHeader">
+      This <span class="datasetTypeName">dataset</span> is currently <span class="datasetPublicText">Public</span>
+    </p>
+    <div class="sectionContent togglePermissionsForm">
+      <div class="line inputFirst">
+        <div class="inputWrapper">
+          <input type="radio" id="public" name="dataset-public"
+                checked="checked"
+                 class="toggleDatasetPermissions" value="makePublic"/>
+        </div>
+        <label for="public">Public</label>
+      </div>
+      <div class="line inputFirst">
+        <div class="inputWrapper">
+          <input type="radio" id="private" name="dataset-public"
+                 
+                 class="toggleDatasetPermissions" value="makePrivate" />
+        </div>
+        <label for="private">Private</label>
+      </div>
+    </div>
+  </div>
+    <div class="formSection disabledFeatureFlags">
+      <p class="formHeader">Additional <span class="datasetTypeName">dataset</span> features</p>
+      <div class="sectionContent">
+          <div class="line clearfix">
+            <label for="allow_comments">
+              Commenting</label>
+            <span class="inputWrapper">
+              <span>
+                <input type="checkbox"
+                  checked="checked"
+                  name="allow_comments"
+                  id="allow_comments"
+                  value="allow_comments">
+              </span>
+            </span>
+          </div>
+      </div>
+    </div>
+  <div class="flash sharingFlash"></div>
+</div>
+
+<div class="apiContentWrapper">
+  <p>The <strong>Socrata Open Data API</strong> (SODA) allows software developers to access data hosted in Socrata data sites programmatically. Developers can create applications that use the SODA APIs to visualize and &ldquo;mash-up&rdquo; Socrata datasets in new and exciting ways. Create an iPhone application that visualizes government spending in your area, a web application that allows citizens to look up potential government benefits they'd overlooked, or a service that automatically emails you when new earmarks are added to bills that you wish to track.</p>
+  <p>To start accessing this dataset programmatically, use the API endpoint provided below. For more information and examples on how to use the Socrata Open Data API, reference our <a href="http://dev.socrata.com" rel="external">Developer Documentation</a>.</p>
+  <h3>API Access Endpoint:</h3>
+  <div class="apiEndpointWrapper">
+    <pre>http://data.kcmo.org/resource/p2je-p96s.json</pre>
+  </div>
+
+    <h3>Column IDs:</h3>
+    <dl class="sectionContent">
+        <dt>CASE_ID</dt>
+        <dd>case_id</dd>
+        <dt>NAME</dt>
+        <dd>name</dd>
+        <dt>CASE_SUMMARY</dt>
+        <dd>case_summary</dd>
+        <dt>CREATION_DATE</dt>
+        <dd>creation_date</dd>
+        <dt>CLOSED_DATE</dt>
+        <dd>closed_date</dd>
+        <dt>RC_STATUS</dt>
+        <dd>rc_status</dd>
+        <dt>ADDRESS</dt>
+        <dd>location_1</dd>
+        <dt>POSTAL</dt>
+        <dd>postal</dd>
+        <dt>PIN</dt>
+        <dd>pin</dd>
+        <dt>XCOORDINATE</dt>
+        <dd>xcoordinate</dd>
+        <dt>YCOORDINATE</dt>
+        <dd>ycoordinate</dd>
+    </dl>
+</div>
+
+<div class="apiFoundryPaneWrapper">
+  <div>
+    <p><strong>API Foundry</strong> allows you to create and configure one or more open, standards-based Application Programming Interfaces (API) for this dataset.</p>
+    <a href="/api_foundry/forge/p2je-p96s"
+      class="createapi toolbarButton button"
+      title="Create an Application Programming Interface (API) to grant programmatic access to this data.">Create an API</a>
+  </div>
+  <div id="existingAPIs" style="display:none">
+    <p><strong>Existing APIs</strong> can be customized. You can control permissions, set request limits, view usage metrics, and edit the documentation.</p>
+    <select id="selectAPI"></select>
+    <a href="#manage" class="manageAPI toolbarButton button"
+      title="Manage the selected API">Manage</a>
+  </div>
+</div>
+
+<div class="signedDataset">
+  <p class="sectionContent">Using a <strong>digitally signed dataset</strong>, it is possible to prove using cryptographically secure methods that a particular copy of a Socrata dataset has not been tampered with. This is useful if, for instance, you are looking to publish findings based on this data, and you want to be able to prove its integrity.</p>
+  <p class="sectionContent consumerText">To obtain a signed version of this dataset, simply click on the link below to generate a key and begin the download. The key and downloaded data are specific to the current version of this dataset; if the owner updates the dataset in the future, you will have to restart the process to get the new data. Publish the downloaded data along with the key that you receive, and using the instructions found within the downloaded package, third parties will be able to confirm that your data is legitimate.</p>
+  <p class="sectionContent publisherText">To generate a signed version of this dataset, simply click on the link below to generate a key. Note that if you update this dataset in the future, you will have to return and regenerate the key in order for consumers to again have access to it. Also note that this process involves operations on the entirety of the data, so it may take some time if your dataset is very large, or contains large attachments.</p>
+  <p class="sectionContent publisherText">Only dataset owners may generate signed keys.</p>
+
+  <div class="formSection">
+    <a class="formHeader" href="#expand">Signature</a>
+
+    <ul class="sectionContent">
+      <li style="display:none;">
+        <textarea class="datasetSignature" readonly="readonly"></textarea>
+      </li>
+      <li class="onlyChild">
+        <a href="#download" class="signedDatasetLink">Generate and Download Now</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="fatRowColumn">
+  <div class="column downArrowNoHover">
+    <div class="info">
+      <span class="dataTypeIcon"></span>
+      <span class="name"></span>
+    </div>
+    <span class="icon"></span>
+  </div>
+</div>
+
+<div class="editAlertTemplate">
+  <div class="editAlert">
+    <p class="editMessage">This dataset is published and cannot be edited directly. A working copy %{status} that allows you to make all your desired changes before making them publicly available.</p>
+    <p class="copyingMessage">Please wait while a working copy is made. %{additional}</p>
+    <p class="doneCopyingMessage hide">The working copy is now available. The Edit Dataset button will give you access when you are ready to edit.</p>
+    <a href="#Unpublished" class="button editPublished">Edit Dataset</a>
+    <p class="errorMessage hide">There was an error making a working copy of your dataset. Please <a href="http://support.socrata.com" rel="external">contact Socrata support</a>.</p>
+  </div>
+</div>
+<div class="filterPane">
+  <div class="initialFilterMode">
+    <p>Never created a filter before? Watch a short tutorial video <a href="/videos/popup#basic-filtering" rel="video" class="noRedirPrompt">here</a>.</p>
+    <p class="orText">or</p>
+    <a href="#newCondition" class="addFilterConditionButton">
+      Click here to add your first filter condition
+    </a>
+  </div>
+  <div class="normalFilterMode">
+    <div class="menu advanced filterOptionsMenu mainFilterOptionsMenu"></div>
+
+    <div class="advancedStateLine notAdvancedLine">
+      <span class="advancedStateText">You are in simplified mode.</span>
+      <a class="advancedStateLink advancedOnLink" href="#advanced">
+        Go advanced now?
+      </a>
+    </div>
+    <div class="advancedStateLine editModeAdvancedOffLine">
+      <span class="advancedStateText">Users will start in simplified mode.</span>
+      This means that they will be unable to add new conditions, change the columns or operators of filters, or access the advanced menus on filters.
+      <a class="advancedStateLink advancedOnLink" href="#advanced">
+        Change the default back to advanced.
+      </a>
+    </div>
+    <div class="advancedStateLine editModeAdvancedOnLine">
+      <span class="advancedStateText">Users will start in advanced mode.</span>
+      This means that they will have full access to the options available on the filter. For a more curated experience, you can try the simplified mode.
+      <a class="advancedStateLink advancedOffLink" href="#notAdvanced">
+        Change the default to simplified.
+      </a>
+    </div>
+
+    <div class="filterConditions">
+      <div class="noFilterConditionsText">No conditions defined yet.</div>
+    </div>
+
+    <a class="button add advanced addFilterConditionButton">
+      <span class="icon"></span>
+      Add a New Filter Condition
+    </a>
+  </div>
+
+</div>
+<div class="filterCondition">
+  <div class="filterCondition sectionContent">
+    <a class="filterRemoveButton advanced remove" href="#close"><span class="icon">Remove filter</span></a>
+    <div class="filterHeadline">
+      <a class="filterExpander downArrow"><span class="icon"></span></a>
+      <a class="filterLink columnName" href="#change"></a>
+      <span class="columnInfo ss-icon hide">information</span>
+      <a class="filterLink subcolumnName" href="#change"></a>
+      <a class="filterLink operator" href="#change"></a>
+      <a class="filterLink value" href="#change"></a>
+    </div>
+    <div class="filterValues">
+      <a href="#clearAll" class="clearValues hide"><span class="ss-icon">delete</span><span class="text">Clear selections</span></a>
+      <div class="autogenerated">
+        <div class="autogeneratedPropertiesOverlay"></div>
+        <div class="autogeneratedProperties">
+          <div class="countLine">Show up to <select class="autogeneratedCount"></select> suggested values</div>
+        </div>
+      </div>
+      <a href="#showMoreLess" class="showMoreLess rightArrow hide"><span class="icon"></span>Show <span class="moreLess">More</span></a>
+    </div>
+    <div class="menu advanced filterOptionsMenu"></div>
+  </div>
+</div>
+
+<script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;controls&quot;:{&quot;filter&quot;:{&quot;main&quot;:{&quot;tutorial_html&quot;:&quot;Never created a filter before? Watch a short tutorial video &lt;a href=\\&quot;/videos/popup#basic-filtering\\&quot; rel=\\&quot;video\\&quot; class=\\&quot;noRedirPrompt\\&quot;&gt;here&lt;/a&gt;.&quot;,&quot;or&quot;:&quot;or&quot;,&quot;simplified_message&quot;:&quot;You are in simplified mode.&quot;,&quot;simplified_toggle&quot;:&quot;Go advanced now?&quot;,&quot;no_conditions&quot;:&quot;No conditions defined yet.&quot;,&quot;no_suggestions&quot;:&quot;There are no suggested values for this column and operator.&quot;,&quot;filter&quot;:&quot;Filter&quot;,&quot;filter_based_on_contents&quot;:&quot;Filter this dataset based on contents.&quot;,&quot;view_must_be_valid&quot;:&quot;This view must be valid&quot;,&quot;view_has_no_columns&quot;:&quot;This view has no columns to filter&quot;},&quot;actions&quot;:{&quot;first_condition&quot;:&quot;Click here to add your first filter condition&quot;,&quot;new_condition_button&quot;:&quot;Add a New Filter Condition&quot;,&quot;remove_filter&quot;:&quot;Remove filter&quot;,&quot;confirm_modify&quot;:&quot;Doing this will remove all values from your filter! Are you sure you wish to do this?&quot;,&quot;select_column&quot;:&quot;Select a column to filter by:&quot;,&quot;select_operation&quot;:&quot;Select an operation to filter by:&quot;,&quot;select_subcolumn&quot;:&quot;Select the part of %{name} to filter by:&quot;,&quot;disable_filter&quot;:&quot;Do not filter&quot;},&quot;menu&quot;:{&quot;show_suggested&quot;:&quot;Show suggested values&quot;,&quot;select_one&quot;:&quot;Select one&quot;,&quot;select_many&quot;:&quot;Select many&quot;,&quot;match_any&quot;:&quot;Match any condition&quot;,&quot;match_all&quot;:&quot;Match all conditions&quot;},&quot;edit_default&quot;:{&quot;mode_message&quot;:&quot;As a publisher of this view, you may define the default set of filters visitors will be presented with:&quot;,&quot;mode_button&quot;:&quot;Edit Default Filter&quot;,&quot;save_confirm&quot;:&quot;You will lose any unsaved changes if you choose to continue. Please save any changes you wish to keep before proceeding.&quot;,&quot;instructions&quot;:&quot;Use the tools above to create filters, adjust presented values, select the number of automatically suggested values the filter will attempt to present, and so on. When you are satisfied with the options being presented, click on Done below to save it:&quot;,&quot;done_button&quot;:&quot;Done&quot;,&quot;cancel_button&quot;:&quot;Cancel&quot;,&quot;simplified_header&quot;:&quot;Users will start in simplified mode.&quot;,&quot;simplified_body&quot;:&quot;This means that they will be unable to add new conditions, change the columns or operators of filters, or access the advanced menus on filters.&quot;,&quot;simplified_toggle&quot;:&quot;Change the default back to advanced.&quot;,&quot;advanced_header&quot;:&quot;Users will start in advanced mode.&quot;,&quot;advanced_body&quot;:&quot;This means that they will have full access to the options available on the filter. For a more curated experience, you can try the simplified mode.&quot;,&quot;advanced_toggle&quot;:&quot;Change the default to simplified.&quot;,&quot;manual_suggested_html&quot;:&quot;Show up to &lt;select class=\\&quot;autogeneratedCount\\&quot;&gt;&lt;/select&gt; suggested values&quot;,&quot;auto_suggested&quot;:&quot;Suggested values are determined automatically for this operator type.&quot;}}}}"));
+        });
+</script>
+
+<div class="appendReplace">
+  <a href="/311/311-Data-for-At-Risk-Buildings/p2je-p96s/edit" class="button appendReplaceButton rightArrow">
+    <span class="icon"></span>
+    Launch the Append and Replace wizard
+  </a>
+</div>
+
+
+  </div>
+  
+    <script type="text/javascript">        if (typeof blistTranslations == 'undefined') blistTranslations = [];
+        blistTranslations.push(function()
+        {
+            return JSON.parse($.unescapeQuotes("{&quot;screens&quot;:{&quot;ds&quot;:{&quot;save_dialog&quot;:{&quot;titles&quot;:{&quot;normal&quot;:&quot;Save view&quot;,&quot;prompt&quot;:&quot;Do you want to save your view?&quot;},&quot;descriptions&quot;:{&quot;leaving&quot;:&quot;You have unsaved data that will be lost if you leave this page. Please choose whether or not you wish to save this view before you leave; or choose Cancel to return to the page.&quot;,&quot;reload_save&quot;:&quot;This change requires a reload. You may Save your changes to view them, or Cancel to stay on this page.&quot;,&quot;reload_update&quot;:&quot;This change requires a reload. You may Update this view or Save a new view to see your changes, or Cancel to stay on this page.&quot;},&quot;form&quot;:{&quot;new_name&quot;:&quot;Enter a name for your new view:&quot;},&quot;validation&quot;:{&quot;auth_required&quot;:&quot;You must be logged in to save a view&quot;,&quot;view_name_required&quot;:&quot;A view name is required&quot;}}}}}"));
+        });
+</script>
+
+
+  <!--[if IE]>
+  <script src="/packages/excanvas.js?1369081667" type="text/javascript"></script>
+  <![endif]-->
+  <!--[if lt IE 7]>
+  <script src="/packages/bgiframe.js?1369947607" type="text/javascript"></script>
+  <script src="/packages/oldie.js?1369947607" type="text/javascript"></script>
+  <![endif]-->
+
+  <script src="/packages/base.js?1369947607" type="text/javascript"></script>
+
+  <script type="text/javascript">blist.viewCache = {};
+blist.viewCache['p2je-p96s'] = JSON.parse($.unescapeQuotes("{&quot;id&quot;:&quot;p2je-p96s&quot;,&quot;name&quot;:&quot;311 Data for At Risk Buildings&quot;,&quot;attribution&quot;:&quot;KCMO Information Technology People Soft CRM cases&quot;,&quot;attributionLink&quot;:&quot;http://www.kcmo.org/CKCMO/Depts/CityManagersOffice/The3-1-1ActionCenter/index.htm&quot;,&quot;averageRating&quot;:0.0,&quot;category&quot;:&quot;311&quot;,&quot;createdAt&quot;:1370120718,&quot;description&quot;:&quot;311 Data Updated daily&quot;,&quot;displayType&quot;:&quot;table&quot;,&quot;downloadCount&quot;:0,&quot;licenseId&quot;:&quot;PUBLIC_DOMAIN&quot;,&quot;numberOfComments&quot;:0,&quot;oid&quot;:3854738,&quot;publicationAppendEnabled&quot;:false,&quot;publicationDate&quot;:1369322547,&quot;publicationGroup&quot;:832712,&quot;publicationStage&quot;:&quot;published&quot;,&quot;rowClass&quot;:&quot;&quot;,&quot;rowIdentifierColumnId&quot;:70502020,&quot;rowsUpdatedAt&quot;:1370160045,&quot;rowsUpdatedBy&quot;:&quot;u3k9-5q27&quot;,&quot;signed&quot;:false,&quot;state&quot;:&quot;normal&quot;,&quot;tableId&quot;:832712,&quot;totalTimesRated&quot;:0,&quot;viewCount&quot;:11,&quot;viewLastModified&quot;:1370121257,&quot;viewType&quot;:&quot;tabular&quot;,&quot;columns&quot;:[{&quot;id&quot;:70502020,&quot;name&quot;:&quot;CASE_ID&quot;,&quot;fieldName&quot;:&quot;case_id&quot;,&quot;position&quot;:1,&quot;width&quot;:117,&quot;dataTypeName&quot;:&quot;number&quot;,&quot;renderTypeName&quot;:&quot;number&quot;,&quot;tableColumnId&quot;:10059267,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;2010011948&quot;,&quot;sum&quot;:&quot;6951593015319&quot;,&quot;null&quot;:0,&quot;average&quot;:&quot;2012038499.368741&quot;,&quot;largest&quot;:&quot;2013073852&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;2013072567&quot;},{&quot;count&quot;:19,&quot;item&quot;:&quot;2013072419&quot;},{&quot;count&quot;:18,&quot;item&quot;:&quot;2013072424&quot;},{&quot;count&quot;:17,&quot;item&quot;:&quot;2013072474&quot;},{&quot;count&quot;:16,&quot;item&quot;:&quot;2013072937&quot;},{&quot;count&quot;:15,&quot;item&quot;:&quot;2013073010&quot;},{&quot;count&quot;:14,&quot;item&quot;:&quot;2013072679&quot;},{&quot;count&quot;:13,&quot;item&quot;:&quot;2013073309&quot;},{&quot;count&quot;:12,&quot;item&quot;:&quot;2013073411&quot;},{&quot;count&quot;:11,&quot;item&quot;:&quot;2013073852&quot;},{&quot;count&quot;:10,&quot;item&quot;:&quot;2013073630&quot;}]},&quot;format&quot;:{&quot;precisionStyle&quot;:&quot;standard&quot;,&quot;noCommas&quot;:&quot;true&quot;,&quot;align&quot;:&quot;right&quot;},&quot;flags&quot;:null},{&quot;id&quot;:70502021,&quot;name&quot;:&quot;NAME&quot;,&quot;fieldName&quot;:&quot;name&quot;,&quot;position&quot;:2,&quot;width&quot;:148,&quot;dataTypeName&quot;:&quot;text&quot;,&quot;renderTypeName&quot;:&quot;text&quot;,&quot;tableColumnId&quot;:10059268,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;NCS&quot;,&quot;null&quot;:0,&quot;largest&quot;:&quot;NCS&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;NCS&quot;}]},&quot;format&quot;:{},&quot;flags&quot;:null},{&quot;id&quot;:70502022,&quot;name&quot;:&quot;CASE_SUMMARY&quot;,&quot;fieldName&quot;:&quot;case_summary&quot;,&quot;position&quot;:3,&quot;width&quot;:244,&quot;dataTypeName&quot;:&quot;text&quot;,&quot;renderTypeName&quot;:&quot;text&quot;,&quot;tableColumnId&quot;:10059269,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;Dangerous Building&quot;,&quot;null&quot;:0,&quot;largest&quot;:&quot;Vacant Structure Open to Entry&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;Dangerous Building&quot;},{&quot;count&quot;:19,&quot;item&quot;:&quot;Dangerous Building Emergency&quot;},{&quot;count&quot;:18,&quot;item&quot;:&quot;Hazardous Structure&quot;},{&quot;count&quot;:17,&quot;item&quot;:&quot;No Known Property Owner&quot;},{&quot;count&quot;:16,&quot;item&quot;:&quot;Vacant Structure Open to Entry&quot;}]},&quot;format&quot;:{},&quot;flags&quot;:null},{&quot;id&quot;:70502023,&quot;name&quot;:&quot;CREATION_DATE&quot;,&quot;fieldName&quot;:&quot;creation_date&quot;,&quot;position&quot;:4,&quot;width&quot;:160,&quot;dataTypeName&quot;:&quot;calendar_date&quot;,&quot;renderTypeName&quot;:&quot;calendar_date&quot;,&quot;tableColumnId&quot;:10059270,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;2010-01-11T00:00:00&quot;,&quot;null&quot;:0,&quot;largest&quot;:&quot;2013-05-31T00:00:00&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;2012-09-24T00:00:00&quot;},{&quot;count&quot;:19,&quot;item&quot;:&quot;2012-09-20T00:00:00&quot;},{&quot;count&quot;:18,&quot;item&quot;:&quot;2012-09-19T00:00:00&quot;},{&quot;count&quot;:17,&quot;item&quot;:&quot;2012-09-18T00:00:00&quot;},{&quot;count&quot;:16,&quot;item&quot;:&quot;2012-09-17T00:00:00&quot;},{&quot;count&quot;:15,&quot;item&quot;:&quot;2012-09-14T00:00:00&quot;},{&quot;count&quot;:14,&quot;item&quot;:&quot;2012-09-13T00:00:00&quot;},{&quot;count&quot;:13,&quot;item&quot;:&quot;2011-08-24T00:00:00&quot;},{&quot;count&quot;:12,&quot;item&quot;:&quot;2011-08-19T00:00:00&quot;},{&quot;count&quot;:11,&quot;item&quot;:&quot;2011-08-18T00:00:00&quot;},{&quot;count&quot;:10,&quot;item&quot;:&quot;2012-08-17T00:00:00&quot;},{&quot;count&quot;:9,&quot;item&quot;:&quot;2011-08-17T00:00:00&quot;},{&quot;count&quot;:8,&quot;item&quot;:&quot;2012-08-16T00:00:00&quot;},{&quot;count&quot;:7,&quot;item&quot;:&quot;2012-08-15T00:00:00&quot;},{&quot;count&quot;:6,&quot;item&quot;:&quot;2012-08-14T00:00:00&quot;},{&quot;count&quot;:5,&quot;item&quot;:&quot;2012-08-13T00:00:00&quot;},{&quot;count&quot;:4,&quot;item&quot;:&quot;2012-08-10T00:00:00&quot;},{&quot;count&quot;:3,&quot;item&quot;:&quot;2012-05-10T00:00:00&quot;},{&quot;count&quot;:2,&quot;item&quot;:&quot;2012-03-07T00:00:00&quot;},{&quot;count&quot;:1,&quot;item&quot;:&quot;2012-02-21T00:00:00&quot;}]},&quot;format&quot;:{&quot;align&quot;:&quot;left&quot;,&quot;view&quot;:&quot;date&quot;},&quot;flags&quot;:null},{&quot;id&quot;:70502024,&quot;name&quot;:&quot;CLOSED_DATE&quot;,&quot;fieldName&quot;:&quot;closed_date&quot;,&quot;position&quot;:5,&quot;width&quot;:145,&quot;dataTypeName&quot;:&quot;calendar_date&quot;,&quot;renderTypeName&quot;:&quot;calendar_date&quot;,&quot;tableColumnId&quot;:10059271,&quot;cachedContents&quot;:{&quot;non_null&quot;:0,&quot;null&quot;:3455},&quot;format&quot;:{&quot;align&quot;:&quot;left&quot;,&quot;view&quot;:&quot;date&quot;},&quot;flags&quot;:null},{&quot;id&quot;:70502025,&quot;name&quot;:&quot;RC_STATUS&quot;,&quot;fieldName&quot;:&quot;rc_status&quot;,&quot;position&quot;:6,&quot;width&quot;:126,&quot;dataTypeName&quot;:&quot;text&quot;,&quot;renderTypeName&quot;:&quot;text&quot;,&quot;tableColumnId&quot;:10059272,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;OPEN&quot;,&quot;null&quot;:0,&quot;largest&quot;:&quot;OPEN&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;OPEN&quot;}]},&quot;format&quot;:{},&quot;flags&quot;:null},{&quot;id&quot;:70502026,&quot;name&quot;:&quot;ADDRESS&quot;,&quot;fieldName&quot;:&quot;location_1&quot;,&quot;position&quot;:7,&quot;width&quot;:344,&quot;dataTypeName&quot;:&quot;location&quot;,&quot;renderTypeName&quot;:&quot;location&quot;,&quot;tableColumnId&quot;:10059277,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:{&quot;longitude&quot;:&quot;-94.5871991412609&quot;,&quot;latitude&quot;:&quot;39.06384452452318&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;100 ARMOUR BLVD\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64111\\&quot;}&quot;},&quot;null&quot;:0,&quot;largest&quot;:{&quot;longitude&quot;:&quot;-94.52295947735797&quot;,&quot;latitude&quot;:&quot;38.92909175533062&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;9912 HILLCREST RD\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64137\\&quot;}&quot;},&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.52307748057183&quot;,&quot;latitude&quot;:&quot;39.1025693311048&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;5010 8TH ST\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64124\\&quot;}&quot;}},{&quot;count&quot;:19,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.57019296168687&quot;,&quot;latitude&quot;:&quot;39.04539043648191&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;4450 TRACY AVE\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64110\\&quot;}&quot;}},{&quot;count&quot;:18,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.56439233459787&quot;,&quot;latitude&quot;:&quot;39.00198016212761&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;1826 69TH ST\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64132\\&quot;}&quot;}},{&quot;count&quot;:17,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.62622971733254&quot;,&quot;latitude&quot;:&quot;39.230371984688645&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;4012 75TH ST\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64151\\&quot;}&quot;}},{&quot;count&quot;:16,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.55296195160548&quot;,&quot;latitude&quot;:&quot;39.04594801614013&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;4408 MONTGALL AVE\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64130\\&quot;}&quot;}},{&quot;count&quot;:15,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.56409555832818&quot;,&quot;latitude&quot;:&quot;39.05379010423559&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;4005 HIGHLAND AVE\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64110\\&quot;}&quot;}},{&quot;count&quot;:14,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.52129682295384&quot;,&quot;latitude&quot;:&quot;39.17930847986497&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;4705 BRIGHTON AVE\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64117\\&quot;}&quot;}},{&quot;count&quot;:13,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.55472597374757&quot;,&quot;latitude&quot;:&quot;39.05308460851658&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;4031 WABASH AVE\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64130\\&quot;}&quot;}},{&quot;count&quot;:12,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.5176995348366&quot;,&quot;latitude&quot;:&quot;39.075229941414136&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;5605 27TH TER\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64128\\&quot;}&quot;}},{&quot;count&quot;:11,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.52596430428588&quot;,&quot;latitude&quot;:&quot;39.10687708362519&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;511 VAN BRUNT BLVD\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64124\\&quot;}&quot;}},{&quot;count&quot;:10,&quot;item&quot;:{&quot;longitude&quot;:&quot;-94.54289853809763&quot;,&quot;latitude&quot;:&quot;39.06309808723887&quot;,&quot;human_address&quot;:&quot;{\\&quot;address\\&quot;:\\&quot;3426 BALES AVE\\&quot;,\\&quot;city\\&quot;:\\&quot;Kansas City\\&quot;,\\&quot;state\\&quot;:\\&quot;Missouri\\&quot;,\\&quot;zip\\&quot;:\\&quot;64128\\&quot;}&quot;}}]},&quot;format&quot;:{&quot;align&quot;:&quot;left&quot;,&quot;view&quot;:&quot;address_coords&quot;},&quot;flags&quot;:null},{&quot;id&quot;:70502027,&quot;name&quot;:&quot;POSTAL&quot;,&quot;fieldName&quot;:&quot;postal&quot;,&quot;position&quot;:8,&quot;width&quot;:111,&quot;dataTypeName&quot;:&quot;number&quot;,&quot;renderTypeName&quot;:&quot;number&quot;,&quot;tableColumnId&quot;:10059273,&quot;cachedContents&quot;:{&quot;non_null&quot;:3454,&quot;smallest&quot;:&quot;64101&quot;,&quot;sum&quot;:&quot;221489575&quot;,&quot;null&quot;:1,&quot;average&quot;:&quot;64125.52837290098&quot;,&quot;largest&quot;:&quot;64166&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;64126&quot;},{&quot;count&quot;:19,&quot;item&quot;:&quot;64110&quot;},{&quot;count&quot;:18,&quot;item&quot;:&quot;64131&quot;},{&quot;count&quot;:17,&quot;item&quot;:&quot;64111&quot;},{&quot;count&quot;:16,&quot;item&quot;:&quot;64124&quot;},{&quot;count&quot;:15,&quot;item&quot;:&quot;64128&quot;},{&quot;count&quot;:14,&quot;item&quot;:&quot;64109&quot;},{&quot;count&quot;:13,&quot;item&quot;:&quot;64127&quot;},{&quot;count&quot;:12,&quot;item&quot;:&quot;64129&quot;},{&quot;count&quot;:11,&quot;item&quot;:&quot;64132&quot;},{&quot;count&quot;:10,&quot;item&quot;:&quot;64145&quot;},{&quot;count&quot;:9,&quot;item&quot;:&quot;64117&quot;},{&quot;count&quot;:8,&quot;item&quot;:&quot;64130&quot;},{&quot;count&quot;:7,&quot;item&quot;:&quot;64123&quot;},{&quot;count&quot;:6,&quot;item&quot;:&quot;64116&quot;},{&quot;count&quot;:5,&quot;item&quot;:&quot;64134&quot;},{&quot;count&quot;:4,&quot;item&quot;:&quot;64119&quot;},{&quot;count&quot;:3,&quot;item&quot;:&quot;64102&quot;},{&quot;count&quot;:2,&quot;item&quot;:&quot;64114&quot;},{&quot;count&quot;:1,&quot;item&quot;:&quot;64118&quot;}]},&quot;format&quot;:{&quot;precisionStyle&quot;:&quot;standard&quot;,&quot;noCommas&quot;:&quot;true&quot;,&quot;align&quot;:&quot;right&quot;},&quot;flags&quot;:null},{&quot;id&quot;:70502028,&quot;name&quot;:&quot;PIN&quot;,&quot;fieldName&quot;:&quot;pin&quot;,&quot;position&quot;:9,&quot;width&quot;:98,&quot;dataTypeName&quot;:&quot;number&quot;,&quot;renderTypeName&quot;:&quot;number&quot;,&quot;tableColumnId&quot;:10059274,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;0&quot;,&quot;sum&quot;:&quot;204074886&quot;,&quot;null&quot;:0,&quot;average&quot;:&quot;59066.53719247467&quot;,&quot;largest&quot;:&quot;256152&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;0&quot;},{&quot;count&quot;:19,&quot;item&quot;:&quot;113956&quot;},{&quot;count&quot;:18,&quot;item&quot;:&quot;162427&quot;},{&quot;count&quot;:17,&quot;item&quot;:&quot;34616&quot;},{&quot;count&quot;:16,&quot;item&quot;:&quot;135426&quot;},{&quot;count&quot;:15,&quot;item&quot;:&quot;75390&quot;},{&quot;count&quot;:14,&quot;item&quot;:&quot;136528&quot;},{&quot;count&quot;:13,&quot;item&quot;:&quot;21516&quot;},{&quot;count&quot;:12,&quot;item&quot;:&quot;44643&quot;},{&quot;count&quot;:11,&quot;item&quot;:&quot;26186&quot;}]},&quot;format&quot;:{&quot;precisionStyle&quot;:&quot;standard&quot;,&quot;noCommas&quot;:&quot;true&quot;,&quot;align&quot;:&quot;right&quot;},&quot;flags&quot;:null},{&quot;id&quot;:70502029,&quot;name&quot;:&quot;XCOORDINATE&quot;,&quot;fieldName&quot;:&quot;xcoordinate&quot;,&quot;position&quot;:10,&quot;width&quot;:135,&quot;dataTypeName&quot;:&quot;number&quot;,&quot;renderTypeName&quot;:&quot;number&quot;,&quot;tableColumnId&quot;:10059275,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;0&quot;,&quot;sum&quot;:&quot;9529327596.49&quot;,&quot;null&quot;:0,&quot;average&quot;:&quot;2758126.656002894&quot;,&quot;largest&quot;:&quot;2819223.17&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;0&quot;},{&quot;count&quot;:19,&quot;item&quot;:&quot;2770402.41&quot;},{&quot;count&quot;:18,&quot;item&quot;:&quot;2752931.14&quot;},{&quot;count&quot;:17,&quot;item&quot;:&quot;2773583.11&quot;},{&quot;count&quot;:16,&quot;item&quot;:&quot;2770589.12&quot;},{&quot;count&quot;:15,&quot;item&quot;:&quot;2782838.69&quot;},{&quot;count&quot;:14,&quot;item&quot;:&quot;2773218.69&quot;},{&quot;count&quot;:13,&quot;item&quot;:&quot;2783678.65&quot;},{&quot;count&quot;:12,&quot;item&quot;:&quot;2781445.72&quot;},{&quot;count&quot;:11,&quot;item&quot;:&quot;2776451.65&quot;}]},&quot;format&quot;:{&quot;precisionStyle&quot;:&quot;standard&quot;,&quot;noCommas&quot;:&quot;true&quot;,&quot;align&quot;:&quot;right&quot;},&quot;flags&quot;:null},{&quot;id&quot;:70502030,&quot;name&quot;:&quot;YCOORDINATE&quot;,&quot;fieldName&quot;:&quot;ycoordinate&quot;,&quot;position&quot;:11,&quot;width&quot;:145,&quot;dataTypeName&quot;:&quot;number&quot;,&quot;renderTypeName&quot;:&quot;number&quot;,&quot;tableColumnId&quot;:10059276,&quot;cachedContents&quot;:{&quot;non_null&quot;:3455,&quot;smallest&quot;:&quot;0&quot;,&quot;sum&quot;:&quot;3614764811.61&quot;,&quot;null&quot;:0,&quot;average&quot;:&quot;1046241.624199711&quot;,&quot;largest&quot;:&quot;1146345.26&quot;,&quot;top&quot;:[{&quot;count&quot;:20,&quot;item&quot;:&quot;0&quot;},{&quot;count&quot;:19,&quot;item&quot;:&quot;1032488.72&quot;},{&quot;count&quot;:18,&quot;item&quot;:&quot;1115672.7&quot;},{&quot;count&quot;:17,&quot;item&quot;:&quot;1048399.92&quot;},{&quot;count&quot;:16,&quot;item&quot;:&quot;1051248.99&quot;},{&quot;count&quot;:15,&quot;item&quot;:&quot;1096960.06&quot;},{&quot;count&quot;:14,&quot;item&quot;:&quot;1050808.28&quot;},{&quot;count&quot;:13,&quot;item&quot;:&quot;1058989.56&quot;},{&quot;count&quot;:12,&quot;item&quot;:&quot;1070588.14&quot;},{&quot;count&quot;:11,&quot;item&quot;:&quot;1054646.8&quot;}]},&quot;format&quot;:{&quot;precisionStyle&quot;:&quot;standard&quot;,&quot;noCommas&quot;:&quot;true&quot;,&quot;align&quot;:&quot;right&quot;},&quot;flags&quot;:null}],&quot;grants&quot;:[{&quot;inherited&quot;:true,&quot;type&quot;:&quot;viewer&quot;,&quot;flags&quot;:[&quot;public&quot;]}],&quot;license&quot;:{&quot;name&quot;:&quot;Public Domain&quot;},&quot;metadata&quot;:{&quot;renderTypeConfig&quot;:{&quot;visible&quot;:{&quot;table&quot;:true}},&quot;availableDisplayTypes&quot;:[&quot;table&quot;,&quot;fatrow&quot;,&quot;page&quot;],&quot;rdfSubject&quot;:&quot;0&quot;,&quot;rowIdentifier&quot;:70502020,&quot;rdfClass&quot;:&quot;&quot;},&quot;owner&quot;:{&quot;id&quot;:&quot;4g9w-r9ez&quot;,&quot;displayName&quot;:&quot;Davisons&quot;,&quot;emailUnsubscribed&quot;:false,&quot;privacyControl&quot;:&quot;login&quot;,&quot;profileLastModified&quot;:1370120718,&quot;screenName&quot;:&quot;Davisons&quot;},&quot;query&quot;:{&quot;filterCondition&quot;:{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;AND&quot;,&quot;children&quot;:[{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;OR&quot;,&quot;children&quot;:[{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502021,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;NCS&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}}],&quot;metadata&quot;:{&quot;customValues&quot;:[[&quot;Law&quot;]],&quot;tableColumnId&quot;:{&quot;832712&quot;:10059268},&quot;operator&quot;:&quot;EQUALS&quot;}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;OR&quot;,&quot;children&quot;:[{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Dangerous Building&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Dangerous Building and Emergency Board Up&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Dangerous Building Emergency&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Hazardous Structure&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;No Known Property Owner&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Vacant Structure Open to Entry&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}}],&quot;metadata&quot;:{&quot;tableColumnId&quot;:{&quot;832712&quot;:10059269},&quot;operator&quot;:&quot;EQUALS&quot;}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502025,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;OPEN&quot;}]}],&quot;metadata&quot;:{&quot;unifiedVersion&quot;:2}},&quot;orderBys&quot;:[{&quot;ascending&quot;:true,&quot;expression&quot;:{&quot;columnId&quot;:70502024,&quot;type&quot;:&quot;column&quot;}}]},&quot;rights&quot;:[&quot;read&quot;],&quot;sortBys&quot;:[{&quot;id&quot;:0,&quot;viewColumnId&quot;:70502024,&quot;flags&quot;:[&quot;asc&quot;]}],&quot;tableAuthor&quot;:{&quot;id&quot;:&quot;u3k9-5q27&quot;,&quot;displayName&quot;:&quot;John Wood&quot;,&quot;emailUnsubscribed&quot;:false,&quot;privacyControl&quot;:&quot;login&quot;,&quot;profileLastModified&quot;:1365782007,&quot;roleName&quot;:&quot;administrator&quot;,&quot;screenName&quot;:&quot;John Wood&quot;,&quot;rights&quot;:[&quot;create_datasets&quot;,&quot;edit_others_datasets&quot;,&quot;edit_sdp&quot;,&quot;edit_site_theme&quot;,&quot;moderate_comments&quot;,&quot;manage_users&quot;,&quot;chown_datasets&quot;,&quot;edit_nominations&quot;,&quot;approve_nominations&quot;,&quot;feature_items&quot;,&quot;federations&quot;,&quot;manage_stories&quot;,&quot;manage_approval&quot;,&quot;change_configurations&quot;,&quot;view_domain&quot;,&quot;view_others_datasets&quot;,&quot;edit_pages&quot;,&quot;create_pages&quot;]},&quot;tags&quot;:[&quot;311&quot;,&quot;service requests&quot;],&quot;viewFilters&quot;:{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;AND&quot;,&quot;children&quot;:[{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;OR&quot;,&quot;children&quot;:[{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502021,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;NCS&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}}],&quot;metadata&quot;:{&quot;customValues&quot;:[[&quot;Law&quot;]],&quot;tableColumnId&quot;:{&quot;832712&quot;:10059268},&quot;operator&quot;:&quot;EQUALS&quot;}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;OR&quot;,&quot;children&quot;:[{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Dangerous Building&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Dangerous Building and Emergency Board Up&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Dangerous Building Emergency&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Hazardous Structure&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;No Known Property Owner&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502022,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;Vacant Structure Open to Entry&quot;}],&quot;metadata&quot;:{&quot;freeform&quot;:true}}],&quot;metadata&quot;:{&quot;tableColumnId&quot;:{&quot;832712&quot;:10059269},&quot;operator&quot;:&quot;EQUALS&quot;}},{&quot;type&quot;:&quot;operator&quot;,&quot;value&quot;:&quot;EQUALS&quot;,&quot;children&quot;:[{&quot;columnId&quot;:70502025,&quot;type&quot;:&quot;column&quot;},{&quot;type&quot;:&quot;literal&quot;,&quot;value&quot;:&quot;OPEN&quot;}]}],&quot;metadata&quot;:{&quot;unifiedVersion&quot;:2}},&quot;flags&quot;:[]}"));</script>
+
+    <script type="text/javascript">
+      $.debug = function() {};
+    </script>
+
+  <script type="text/javascript">
+    blist.namespace.fetch('blist.configuration');
+    blist.configuration.strings = JSON.parse($.unescapeQuotes("{&quot;search_prompt&quot;:&quot;Search&quot;,&quot;company&quot;:&quot;City of Kansas City, Mo.&quot;,&quot;sign_out&quot;:&quot;Sign out&quot;,&quot;site_title&quot;:&quot;Open Data | data.kcmo.org&quot;,&quot;copyright_string&quot;:&quot;&amp;copy; 2012 City of Kansas City, Mo.&quot;,&quot;sign_up&quot;:&quot;Sign Up&quot;,&quot;sign_in&quot;:&quot;Sign In&quot;}"));
+
+
+    blist.configuration.canvasAvailable = false;
+
+    try {
+      if ((self !== top) && (self.location.hostname !== top.location.hostname))
+        top.location = self.document.location;
+    } catch(ex) {
+      top.location = self.document.location;
+    }
+
+  </script>
+
+  <div id="modals">
+      <div class="modalDialog newTemplateModal" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+  <h2>Create a new Template</h2>
+
+  <form accept-charset="UTF-8" action="/admin/sdp_templates" class="newTemplateForm commonForm" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Agp/izwJaVxg2g82cMUs6iiF2wqOxvMgObaoCXbrd+U=" /></div>
+    <div class="line clearfix">
+      <label for="newTemplateName">New Template Name</label>
+      <input type="text" id="newTemplateName" name="new_template_name" class="required"/>
+    </div>
+    <ul class="submitActions clearfix">
+      <li><a href="#cancel" class="jqmClose button">Cancel</a></li>
+      <li><a href="#submit" class="submitButton default button">Submit</a></li>
+    </ul>
+
+      <input type="hidden" name="view_id" value="p2je-p96s"/>
+</form></div>
+
+  <div class="modalDialog subscribeToDataset loading" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+  <h2>Subscribe to the "<span class="datasetName">311 Data for At Risk Buildings</span>" <span class="datasetTypeNameUpcase">Dataset</span></h2>
+
+  <div class="loadingOverlay">
+    <div class="loadingSpinner"></div>
+  </div>
+  <div class="rssSection">
+    <p><strong>To subscribe to the <span class="datasetName">311 Data for At Risk Buildings</span> dataset via an RSS reader</strong>, use one of the following links:</p>
+    <p>
+      <a class="subscribe rss" rel="external" href="api/views/p2je-p96s/rows.rss"><span class="icon"></span>Download as RSS</a>
+      <a rel="external" class="greader" href="http://fusion.google.com/add?feedurl=api/views/p2je-p96s/rows.rss">
+        Add to Google Reader
+      </a>
+      <a class="feed" href="feed:api/views/p2je-p96s/rows.rss">Open in External Program</a>
+    </p>
+  </div>
+  <div class="emailSection">
+    <div class="subscribeText">
+      <p><strong>To receive email notifications</strong> when new data is published, check the Subscribe box below.</p>
+    </div>
+    <div class="unsubscribeText">
+      <p><strong>You are currently subscribed to this <span class="datasetTypeName">dataset</span> via email</strong>, and will receive notifications when new data is published.</p>
+      <p>If you no longer wish to receive notifications, uncheck the Subscribe box below.</p>
+    </div>
+    <div>
+      <input type="checkbox" class="subscribeCheckbox" id="email_publish_subscribe" />
+      <label for="email_publish_subscribe">Subscribe via Email</label>
+    </div>
+  </div>
+  <ul class="actions clearfix">
+    <li><a href="#cancel" class="jqmClose button">Done</a></li>
+  </ul>
+</div>
+
+  <div class="modalDialog emailDatasetDialog" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+  <h2>Share &quot;<span class="datasetName">311 Data for At Risk Buildings</span>&quot;</h2>
+  <div class="emailSuccess">
+    <div class="flash notice">
+      Your email has been successfully sent.
+    </div>
+    <ul class="actions clearfix">
+      <li>
+        <a href="#cancel" class="jqmClose button">Close</a>
+      </li>
+    </ul>
+  </div>
+  <div class="emailDatasetContent">
+    <div class="flash" id="emailDatasetMessage"></div>
+    <p>Share <span class="datasetName">311 Data for At Risk Buildings</span> with the following email addresses:</p>
+    <div class="emailFormContent">
+      <form class="commonForm" id="emailDatasetForm"
+        action="/views/p2je-p96s.json?method=sendAsEmail" method="post">
+        <div class="emailLine">
+          <a href="#remove" title="Remove" class="removeLink delete hiddenLink">
+            <span class="icon"></span>
+          </a>
+          <input type="hidden" class="recipientUid" />
+          <div class="textWrapper">
+            <input type="text" class="emailRecipient email"
+              name="emailRecipient0" />
+          </div>
+        </div>
+        <div class="addMoreLine">
+          <a class="button addMoreRecipientsButton add" href="#add">
+            <span class="icon"></span>Add More
+          </a>
+        </div>
+        <p class="emailMessageHint">Enter an optional message</p>
+        <textarea id="emailMessage"></textarea>
+      </form>
+    </div>
+    <ul class="actions clearfix">
+      <li>
+        <a href="#cancel" class="jqmClose button cancel">
+          <span class="icon"></span>Cancel
+        </a>
+      </li>
+      <li>
+        <a href="#email" class="button" id="emailSubmitButton">
+          <span class="icon"></span><span class="emailDatasetHint">Email</span>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+  <div class="modalDialog saveViewDialog" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+  <h2 class="normalSave">Save view</h2>
+  <h2 class="leavingSave">Do you want to save your view?</h2>
+  <p class="leavingSave info">You have unsaved data that will be lost if you leave this page. Please choose whether or not you wish to save this view before you leave; or choose Cancel to return to the page.</p>
+  <p class="reloadSave info">This change requires a reload. You may Save your changes to view them, or Cancel to stay on this page.</p>
+  <p class="reloadUpdate info">This change requires a reload. You may Update this view or Save a new view to see your changes, or Cancel to stay on this page.</p>
+  <p class="newName">Enter a name for your new view:</p>
+  <form class="commonForm" action="#save">
+    <input type="text" class="viewName" />
+  </form>
+  <div class="mainError"></div>
+  <ul class="actions clearfix">
+    <li>
+      <a class="jqmClose button cancel" href="#cancel">Cancel</a>
+    </li>
+    <li>
+      <a class="button dontSave jqmClose leavingSave"
+        href="#dontSave">Don&#x27;t Save</a>
+    </li>
+    <li>
+      <a class="button save submit" href="#save">Save</a>
+    </li>
+    <li>
+      <a class="button update submit reloadUpdate"
+        href="#update">Update</a>
+    </li>
+  </ul>
+</div>
+
+
+
+  <div class="modalDialog" id="selectDataset" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+  <h2>Choose a Dataset to use</h2>
+  <iframe src="/browse/select_dataset?nofederate=true&suppressed_facets[]=domain" frameBorder="0"></iframe>
+</div>
+
+    <div class="modalDialog" id="login" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+  <h2>Sign in using your Socrata ID</h2>
+
+  <div class="flash "></div>
+
+  <form accept-charset="UTF-8" action="/user_sessions" class="commonForm" id="new_user_session" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Agp/izwJaVxg2g82cMUs6iiF2wqOxvMgObaoCXbrd+U=" /></div>
+    <div class="line clearfix">
+  <label for="user_session_login">Email Address</label>
+  <input id="user_session_login" name="user_session[login]" size="30" type="email" />
+</div>
+
+<div class="line clearfix">
+  <label for="user_session_password">Password</label>
+  <input autocomplete="off" id="user_session_password" name="user_session[password]" size="30" type="password" />
+</div>
+
+
+<input class="fakeSubmit" type="submit" />
+<ul class="finishButtons clearfix">
+  <li><a href="#login" class="button loginButton">Sign In</a></li>
+  <li id="close_login"><a href="#close_login" class="button close">Cancel</a></li>
+</ul>
+
+</form>
+  <ul class="accountMaint">
+    <li><a href="/forgot_password" class="noRedirPrompt">Forgot Password?</a></li>
+    <li><a href="https://data.kcmo.org:443/signup" class="signupLink noRedirPrompt">Don&#x27;t have an account?</a></li>
+  </ul>
+</div>
+<div class="modalDialog" id="signup" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+  <h2>We&#x27;re glad you want to join City of Kansas City, Mo.!</h2>
+
+  <form accept-charset="UTF-8" action="/profile/account" class="commonForm" enctype="multipart/form-data" id="signupForm" method="post"><div style="margin:0;padding:0;display:inline"><input name="utf8" type="hidden" value="&#x2713;" /><input name="authenticity_token" type="hidden" value="Agp/izwJaVxg2g82cMUs6iiF2wqOxvMgObaoCXbrd+U=" /></div>
+   <div class="flash "></div>
+
+<fieldset>
+  <input id="signup_inviteToken" name="signup[inviteToken]" type="hidden" />
+  <input id="signup_openIdIdentifierId" name="signup[openIdIdentifierId]" type="hidden" />
+  <input id="signup_firstName" name="signup[firstName]" type="hidden" />
+  <input id="signup_lastName" name="signup[lastName]" type="hidden" />
+  <input id="signup_accept_terms_true" name="signup[accept_terms][true]" type="hidden" />
+
+  <div class="line clearfix">
+    <label class="required" for="signup_email">Email Address</label>
+    <input id="signup_email" name="signup[email]" size="30" type="text" />
+  </div>
+
+  <div class="line clearfix">
+    <label class="required" for="signup_screenName">Display Name</label>
+    <input id="signup_screenName" maxlength="40" name="signup[screenName]" size="40" type="text" />
+  </div>
+
+    <div class="line clearfix">
+      <label class="required password" for="signup_password">Password</label>
+      <input autocomplete="off" id="signup_password" name="signup[password]" size="30" type="password" />
+    </div>
+    <div class="line clearfix">
+      <label class="required" for="signup_passwordConfirm">Confirm Password</label>
+      <input autocomplete="off" id="signup_passwordConfirm" name="signup[passwordConfirm]" size="30" type="password" />
+    </div>
+</fieldset>
+
+<div class="required">Required Field</div>
+
+<p class="terms">By clicking on "Create My Account" below, you are agreeing to our <a href="http://www.socrata.com/terms-of-service" rel="external">Terms of Service</a> and <a href="http://www.socrata.com/privacy" rel="external">Privacy Policy.</a></p>
+
+<input class="fakeSubmit" type="submit"/>
+<ul class="finishButtons clearfix">
+  <li class="signup_loadingIndicatorContainer" style="display:none">
+    <span class="signup_loadingIndicator"></span>
+  </li>
+  <li>
+  <a id="signup_submit" class="button default" href="#signup">Create My Account</a>
+  </li>
+    <li>
+      <a href="#close" class="button close jqmClose">Cancel</a>
+    </li>
+</ul>
+
+</form></div>
+
+
+    <div class="modalDialog" id="jqmAlert" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+      <h2>Alert</h2>
+      <p class="alertMessage"></p>
+      <ul class="actions clearfix">
+        <li><a href="#close" class="button jqmClose">Close</a></li>
+      </ul>
+</div>    <div class="modalDialog" id="jqmConfirm" style="display:none"><a class="jqmClose modalDialogClose" href="#close">Close</a>
+      <h2>Alert</h2>
+      <p class="confirmMessage"></p>
+      <ul class="actions clearfix">
+        <li><a href="#close" class="button jqmClose default yes">Yes</a></li>
+        <li><a href="#close" class="button jqmClose no">No</a></li>
+      </ul>
+</div>  </div>
+  <div id="newModals">
+  	
+  </div>
+
+    <script type="text/javascript">
+    $(function() { blist.mainSpinner = $('#renderTypeContainer').loadingSpinner({model: blist.dataset}); });
+
+    blist.dataset = new Dataset(blist.viewCache['p2je-p96s']);
+blist.assets = {libraries: {"shared-calendar":"/packages/shared-calendar.js?1370197998","shared-chart":"/packages/shared-chart.js?1370197998","shared-map":"/packages/shared-map.js?1370197998","shared-map-configuration":"/packages/shared-map-configuration.js?1370197998","shared-visualization":"/packages/shared-visualization.js?1370197998","shared-table-render":"/packages/shared-table-render.js?1370197998","shared-richRenderers":"/packages/shared-richRenderers.js?1370197998","shared-blob":"/packages/shared-blob.js?1370197998","content-editable":"/packages/content-editable.js?1370197998","highcharts":"/packages/highcharts.js?1370197998","jit":"/packages/jit.js?1370197998","d3":"/packages/d3.js?1370197998","unified-filter":"/packages/unified-filter.js?1370197998","feed-list":"/packages/feed-list.js?1370197998","inline-login":"/packages/inline-login.js?1370197998","share-dialogs":"/packages/share-dialogs.js?1370197998","download-inline":"/packages/download-inline.js?1370197998","base-control":"/packages/base-control.js?1370197998","shared-editors":"/packages/shared-editors.js?1370197998","configurator":"/packages/configurator.js?1370197998","waypoints":"/packages/waypoints.js?1370197998","image-uploader":"/packages/image-uploader.js?1370197998","awesomecomplete":"/packages/awesomecomplete.js?1370197998","masonry":"/packages/masonry.js?1370197998","columnizer":"/packages/columnizer.js?1370197998","markdown-render":"/packages/markdown-render.js?1370197998","markdown-create":"/packages/markdown-create.js?1370197998","sanitize-html":"/packages/sanitize-html.js?1370197998","autolink-html":"/packages/autolink-html.js?1370197998"}, stylesheets: {"includes":"/styles/merged/includes.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","base":"/styles/merged/base.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","base-sdp":"/styles/merged/base-sdp.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","components":"/styles/merged/components.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","configurator":"/styles/merged/configurator.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","markdown-create":"/styles/merged/markdown-create.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","base-control-third-party":"/styles/merged/base-control-third-party.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","colorpicker":"/styles/merged/colorpicker.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","print":"/styles/merged/print.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","feed":"/styles/merged/feed.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","share":"/styles/merged/share.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","analytics-shared":"/styles/merged/analytics-shared.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","strip-chrome":"/styles/merged/strip-chrome.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-login":"/styles/merged/screen-login.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","api-new":"/styles/merged/api-new.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","api-manage":"/styles/merged/api-manage.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-screen":"/styles/merged/administration-screen.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-browse-widget":"/styles/merged/administration-browse-widget.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-canvas-pages":"/styles/merged/administration-canvas-pages.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-federation":"/styles/merged/administration-federation.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-home":"/styles/merged/administration-home.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-index-screen":"/styles/merged/administration-index-screen.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-analytics-screen":"/styles/merged/administration-analytics-screen.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-metadata":"/styles/merged/administration-metadata.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-moderation":"/styles/merged/administration-moderation.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-routing-approval":"/styles/merged/administration-routing-approval.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-sdp-templates":"/styles/merged/administration-sdp-templates.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-sdp-template":"/styles/merged/administration-sdp-template.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-stories-appearance":"/styles/merged/administration-stories-appearance.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-users":"/styles/merged/administration-users.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-view-moderation":"/styles/merged/administration-view-moderation.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-tos":"/styles/merged/administration-tos.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","base-control":"/styles/merged/base-control.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","browse-select-dataset":"/styles/merged/browse-select-dataset.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","browse-control":"/styles/merged/browse-control.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","rich-render-bundle":"/styles/merged/rich-render-bundle.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","render-images-bundle":"/styles/merged/render-images-bundle.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","display-blob":"/styles/merged/display-blob.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","display-calendar":"/styles/merged/display-calendar.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","display-form":"/styles/merged/display-form.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","display-map":"/styles/merged/display-map.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","display-chart":"/styles/merged/display-chart.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-new":"/styles/merged/dataset-new.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-show":"/styles/merged/dataset-show.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-alt":"/styles/merged/dataset-alt.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-analytics":"/styles/merged/dataset-analytics.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-edit-metadata":"/styles/merged/dataset-edit-metadata.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-edit-rr":"/styles/merged/dataset-edit-rr.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-thumbnail":"/styles/merged/dataset-thumbnail.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-upload":"/styles/merged/dataset-upload.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-bare":"/styles/merged/dataset-bare.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","error-pages":"/styles/merged/error-pages.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","internal":"/styles/merged/internal.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","internal-metrics":"/styles/merged/internal-metrics.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","homepage-show":"/styles/merged/homepage-show.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","oauth-authorize":"/styles/merged/oauth-authorize.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","profile-show":"/styles/merged/profile-show.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","profile-edit":"/styles/merged/profile-edit.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-nominations":"/styles/merged/screen-nominations.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-nomination":"/styles/merged/screen-nomination.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-videos":"/styles/merged/screen-videos.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-videos-popup":"/styles/merged/screen-videos-popup.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","govstat-base":"/styles/merged/govstat-base.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","govstat-layout":"/styles/merged/govstat-layout.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-govstat-goals":"/styles/merged/screen-govstat-goals.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-govstat-manage":"/styles/merged/screen-govstat-manage.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-govstat-homepage":"/styles/merged/screen-govstat-homepage.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","screen-govstat-goal-page":"/styles/merged/screen-govstat-goal-page.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","administration-govstat":"/styles/merged/administration-govstat.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","template-instantiator":"/styles/merged/template-instantiator.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","grid":"/styles/merged/grid.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","embed-form":"/styles/merged/embed-form.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","html-styles":"/styles/merged/html-styles.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","canvas":"/styles/merged/canvas.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","canvas-view-preview":"/styles/merged/canvas-view-preview.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-about-minimal":"/styles/merged/dataset-about-minimal.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474","dataset-about-full":"/styles/merged/dataset-about-full.css?2d673ec8c1ca77d469f3d3ff0fb69a94d9695097.833.1367525474"}};
+$(function()
+{
+    blist.$container = $('#renderTypeContainer');
+});
+blist.namespace.fetch('blist.configuration');
+blist.configuration.development = false;
+window.tinyMCEPreInit = {base: '/javascripts/tiny_mce', suffix: '', query: ''};
+
+
+    blist.sidebarPosition = "right";
+    blist.defaultPane = "";
+
+    blist.configuration.newChartsEnabled = false;
+    blist.configuration.newMapsEnabled = true;
+
+    blist.namespace.fetch('blist.sidebarHidden');
+
+    blist.sidebarHidden.moreViews = blist.sidebarHidden.moreViews || {};
+    blist.sidebarHidden.moreViews.views = false;
+    blist.sidebarHidden.moreViews.snapshots = true;
+
+    blist.sidebarHidden.edit = blist.sidebarHidden.edit || {};
+    blist.sidebarHidden.edit.appendReplace = true;
+    blist.sidebarHidden.edit.addColumn = true;
+    blist.sidebarHidden.edit.redirect = true;
+
+    blist.sidebarHidden.manage = blist.sidebarHidden.manage || {};
+    blist.sidebarHidden.manage.updateColumn = false;
+    blist.sidebarHidden.manage.showHide = false;
+    blist.sidebarHidden.manage.sharing = true;
+    blist.sidebarHidden.manage.permissions = true;
+    blist.sidebarHidden.manage.plagiarize = true;
+    blist.sidebarHidden.manage.deleteDataset = true;
+    blist.sidebarHidden.manage.api_foundry = true;
+
+    blist.sidebarHidden.columnProperties = false;
+
+    blist.sidebarHidden.filter = blist.sidebarHidden.filter || {};
+    blist.sidebarHidden.filter.filterDataset = false;
+
+    blist.sidebarHidden.visualize = blist.sidebarHidden.visualize || {};
+    blist.sidebarHidden.visualize.calendarCreate = false;
+    blist.sidebarHidden.visualize.chartCreate = false;
+    blist.sidebarHidden.visualize.mapCreate = false;
+    blist.sidebarHidden.visualize.conditionalFormatting = false;
+
+    blist.sidebarHidden.embed = blist.sidebarHidden.embed || {};
+    blist.sidebarHidden.embed.formCreate = true;
+    blist.sidebarHidden.embed.sdp = false;
+
+    blist.sidebarHidden.exportSection = blist.sidebarHidden.exportSection || {};
+    blist.sidebarHidden.exportSection.signedDataset = true;
+    blist.sidebarHidden.exportSection.print = false;
+    blist.sidebarHidden.exportSection.download = false;
+    blist.sidebarHidden.exportSection.api = false;
+    blist.sidebarHidden.exportSection.subscribe = false;
+
+    blist.sidebarHidden.feed = blist.sidebarHidden.feed || {};
+    blist.sidebarHidden.feed.discuss = false;
+    blist.sidebarHidden.feed.cellFeed = true;
+
+    blist.sidebarHidden.about = false;
+
+  </script>
+
+  <script src="/packages/shared-editors.js?1369947607" type="text/javascript"></script>
+
+  <script src="/packages/dataset-show.js?1369947607" type="text/javascript"></script>
+
+
+
+    $(document).ready(function() {
+    $('a[href^="http://"]').filter(function() {
+        return this.hostname && this.hostname !== location.hostname;
+    }).attr('target', '_blank');  
+});
+</body>
+</html>
