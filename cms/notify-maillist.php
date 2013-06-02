@@ -2,7 +2,7 @@
 <?php
 error_reporting(E_ALL); 
 ini_set('display_errors', '1');
-require(dirname(__FILE__).'/mandrill/Mandrill.php');
+require(dirname(__FILE__).'/mandrill52wrapper/Mandrill.php');
 require(dirname(__FILE__).'/mandrill/config.php');
 // From http://plugins.svn.wordpress.org/disqus-comment-system/trunk/lib/wp-cli.php
 /**
@@ -206,25 +206,69 @@ EOF;
             $sender = "Teardown Tattler <no-reply@teardowntattler.com>";                              // Your name and email address
             $recipient = $user['email'];
             $recipient_name = $user['name'];// The Recipients name and email address
-            $subject = "New Teardown Tattler Alert";                                            // Subject for the email
-            $request_json = '{"type":"messages",
-                       "call":"send","message":{"html":"'.trim($html).'",
-                       "text": "example text",
-                       "subject": "'.$subject.'",
-                       "from_email": "no-reply@teardowntattler.com",
-                       "from_name":"Teardown Tattler",
-                       "to":[{"email": "'.$recipient.'",
-                                 "name": "'.$recipient_name.'"}],
-                                 "track_opens":true,
-                                 "track_clicks":true,
-                                 "auto_text":true,
-                                 "url_strip_qs":true,
-                                 "tags":["teardown tattler"]
-                            }
+            $subject = "Teardown Tattler Alert(s) for ".date("m.d.y");                                            // Subject for the email
 
-                    }';
-//echo $request_json;
-            $ret = Mandrill::call((array) json_decode($request_json));
+            $uri = 'https://mandrillapp.com/api/1.0/messages/send.json';
+
+            $postString = '{
+            "key": "'.kA0Y2X1N9EOKBKe8FaI04Q.'",
+            "message": {
+                "html": "'.$html.'",
+                "text": "Text version available in 2.0",
+                "subject": "'.$subject.'",
+                "from_email": "no-reply@teardowntattler.com",
+                "from_name": "Teardown Tattler Notifications",
+                "to": [
+                    {
+                        "email": "'.$recipient.'",
+                        "name": "'.$recipient_name.'"
+                    }
+                ],
+                "headers": {
+
+                },
+                "track_opens": true,
+                "track_clicks": true,
+                "auto_text": true,
+                "url_strip_qs": true,
+                "preserve_recipients": true,
+
+                "merge": true,
+                "global_merge_vars": [
+
+                ],
+                "merge_vars": [
+
+                ],
+                "tags": ["teardown tattler"
+
+                ],
+                "google_analytics_domains": [
+
+                ],
+                "google_analytics_campaign": "...",
+                "metadata": [
+
+                ],
+                "recipient_metadata": [
+
+                ],
+                "attachments": [
+
+                ]
+            },
+            "async": false
+            }';
+
+            $ch = curl_init();
+            curl_setopt($ch, CURLOPT_URL, $uri);
+            curl_setopt($ch, CURLOPT_FOLLOWLOCATION, true );
+            curl_setopt($ch, CURLOPT_RETURNTRANSFER, true );
+            curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, false);
+            curl_setopt($ch, CURLOPT_POST, true);
+            curl_setopt($ch, CURLOPT_POSTFIELDS, $postString);
+
+            $result = curl_exec($ch);
         }
 
      }
