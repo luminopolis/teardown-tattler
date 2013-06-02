@@ -2,7 +2,6 @@
 <?php
 error_reporting(E_ALL); 
 ini_set('display_errors', '1');
-require(dirname(__FILE__).'/mandrill52wrapper/Mandrill.php');
 require(dirname(__FILE__).'/mandrill/config.php');
 // From http://plugins.svn.wordpress.org/disqus-comment-system/trunk/lib/wp-cli.php
 /**
