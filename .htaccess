@@ -2,11 +2,11 @@
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /teardown-tattler/cms/
+RewriteBase /teardown-tattler/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /teardown-tattler/cms/index.php [L]
+RewriteRule . /teardown-tattler/index.php [L]
 </IfModule>
 
 # END WordPress
