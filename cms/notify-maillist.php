@@ -2,7 +2,8 @@
 <?php
 error_reporting(E_ALL); 
 ini_set('display_errors', '1');
-
+require('./mandrill/Mandrill.php');
+require('./mandrill/config.php');
 // From http://plugins.svn.wordpress.org/disqus-comment-system/trunk/lib/wp-cli.php
 /**
  * Helper script for setting up the WP command line environment
@@ -139,8 +140,94 @@ class email_notifications {
 
 		print_r($properties);
 		print_r($users);
+        $from = "Teardown Tattler <no-reply@teardowntattler.com>";
+        $subject = "Teardown Tattler Alert!";
 
-	}
+        $html=<<<EOF
+
+                                        <table>
+                                        <TR>
+
+                                            <td>Address</td>
+                                            <td>City</td>
+                                            <td>State</td>
+                                            <td>Zip</td>
+                                            <td>Case ID</td>
+                                            <td>Summary</td>
+                                            <td>Status</td>
+
+                                        </TR>
+EOF;
+        foreach($properties as $property){
+            $property_case_id=$property['311_case_id'];
+            $property_summary=$property['311_case_summary'];
+            $property_status = $property['311_status'];
+            $property_address=$property['address_line_1'];
+            $property_city=$property['city'];
+            $property_state=$property['state'];
+            $property_zip=$property['zip'];
+
+            $html.=<<<EOF
+
+                                        <TR>
+                                            <TD>
+                                            $property_address
+                                            </TD>
+                                            <TD>
+                                            $property_city
+                                            </td>
+                                            <td>
+                                            $property_state
+                                            </td>
+                                            <td>
+                                            $property_zip
+                                            </td>
+                                            <TD>
+                                            $property_case_id
+                                            </TD>
+                                            <TD>
+                                            $property_summary
+                                            </TD>
+                                            <td>
+                                            $property_status
+                                            </td>
+                                      </tr>
+
+EOF;
+        }
+        $html.="</table>";
+
+
+
+
+        $html = str_replace(array("\n", "\t", "\r"), '', $html);
+        //send emails
+        foreach($users as $user){
+            $sender = "Teardown Tattler <no-reply@teardowntattler.com>";                              // Your name and email address
+            $recipient = $user['email'];
+            $recipient_name = $user['name'];// The Recipients name and email address
+            $subject = "New Teardown Tattler Alert";                                            // Subject for the email
+            $request_json = '{"type":"messages",
+                       "call":"send","message":{"html":"'.trim($html).'",
+                       "text": "example text",
+                       "subject": "'.$subject.'",
+                       "from_email": "no-reply@teardowntattler.com",
+                       "from_name":"Teardown Tattler",
+                       "to":[{"email": "'.$recipient.'",
+                                 "name": "'.$recipient_name.'"}],
+                                 "track_opens":true,
+                                 "track_clicks":true,
+                                 "auto_text":true,
+                                 "url_strip_qs":true,
+                                 "tags":["teardown tattler"]
+                            }
+
+                    }';
+//echo $request_json;
+            $ret = Mandrill::call((array) json_decode($request_json));
+        }
+
+     }
 
 
 	function mark_new_311_records_sent() {
