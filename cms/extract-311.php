@@ -144,12 +144,12 @@ class load_311_data {
 		foreach ( $records AS $record ) {
 			if ( $this->case_id_does_not_exist ( $record['311_case_id'] ) ) {
 				if ( $wpdb->insert( 'wp_properties', $record ) ) {
-				print "Case ID " . $record['311_case_id'] . " added\n";
+//				print "Case ID " . $record['311_case_id'] . " added\n";
 				} else {
 					print "ERROR was not able to save Case ID " . $record['311_case_id'] . "\n";
 				}
 			} else {
-				print "ERROR: Case ID " . $record['311_case_id'] . " exists\n";
+//				print "Case ID " . $record['311_case_id'] . " exists\n";
 			}
 		}
 
