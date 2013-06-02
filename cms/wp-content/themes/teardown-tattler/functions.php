@@ -527,3 +527,22 @@ function bootstrapwp_autoset_featured_img() {
 /**
  * This theme was built with PHP, Semantic HTML, CSS, love, and a bootstrap.
  */
+
+
+
+
+
+/*
+	GO TIME MAWFK
+	* 
+*/
+
+
+	function update_validation_msgs( $message, $form ) {
+		if( $message == 'This username is already registered' ) :
+			$message = 'We\'re sorry, that Email Address is already registered. Try using a different Email Address or use the password reset.';
+		endif;
+	
+		return $message;
+	}
+		add_filter( "gform_user_registration_validation_message", "update_validation_msgs", 10, 2 );
