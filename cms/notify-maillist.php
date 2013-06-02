@@ -210,7 +210,7 @@ EOF;
             $uri = 'https://mandrillapp.com/api/1.0/messages/send.json';
 
             $postString = '{
-            "key": "'.kA0Y2X1N9EOKBKe8FaI04Q.'",
+            "key": "kA0Y2X1N9EOKBKe8FaI04Q",
             "message": {
                 "html": "'.$html.'",
                 "text": "Text version available in 2.0",
