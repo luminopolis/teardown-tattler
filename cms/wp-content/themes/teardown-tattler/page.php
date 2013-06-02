@@ -29,7 +29,7 @@ get_header(); ?>
             <?php the_content();?>
 
 				<?php if( isset( $_GET['i'] )) : ?>
-					
+					<?php $display = ""; ?>
 					<?php $property_data = teardown_get_property_by_id( $_GET['i'] );
 						if( $property_data ) :
 							foreach( $property_data as $property ) :
