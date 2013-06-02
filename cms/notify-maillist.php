@@ -2,8 +2,8 @@
 <?php
 error_reporting(E_ALL); 
 ini_set('display_errors', '1');
-require('./mandrill/Mandrill.php');
-require('./mandrill/config.php');
+require(dirname(__FILE__).'/mandrill/Mandrill.php');
+require(dirname(__FILE__).'/mandrill/config.php');
 // From http://plugins.svn.wordpress.org/disqus-comment-system/trunk/lib/wp-cli.php
 /**
  * Helper script for setting up the WP command line environment
