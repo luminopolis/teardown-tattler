@@ -7127,3 +7127,14 @@ img.aligncenter {
 	.gform_wrapper .validation_message { color:#790000 !important; font-weight:bold; font-size:15px !important; }
 
 	ul#endangered-sidebar li { margin-left:8px; font-size:15px; font-weight:bold; }
+	
+	
+	
+	/* property detail */
+	/*#address { font-size:25px; }*/
+	
+	ul#property-details li { line-height: 30px !important; font-size: 25px; list-style-type:none; }
+	
+	
+	
+	

@@ -27,7 +27,7 @@ get_header(); ?>
 <div class="span8">
 
             <?php the_content();?>
-			<ul>
+			<ul id="property-details">
 				<?php if( isset( $_GET['i'] )) : ?>
 					<?php $display = ""; ?>
 					<?php $property_data = teardown_get_property_by_id( $_GET['i'] );
