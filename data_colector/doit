@@ -9,3 +9,17 @@ php extract-311.php \
 	--directory=/Users/paulb/Projects/teardown/sites/dev/teardown-tattler/data_colector/testdata
 
 mysql -u root teardown_wpV9w48 -e 'select count(*) from wp_properties;'
+
+php notify-maillist.php
+php notify-maillist.php
+
+exit
+
+php extract-311.php \
+	--filename=311_Data_for_At_Risk_Buildings-2013-05-31.xls \
+	--directory=/Users/paulb/Projects/teardown/sites/dev/teardown-tattler/data_colector/testdata
+
+mysql -u root teardown_wpV9w48 -e 'select count(*) from wp_properties;'
+
+php notify-maillist.php
+php notify-maillist.php
