@@ -537,15 +537,17 @@ function bootstrapwp_autoset_featured_img() {
 	* 
 */
 
+/*
+ * Modofy validation message
+ *
+ */
 
+function teardown_update_validation_msgs( $message, $form ) {
+	if( $message == 'This username is already registered' ) :
+		$message = 'We\'re sorry, that Email Address is already registered. Try using a different Email Address or use the password reset.';
+	endif;
 
+	return $message;
+}
+	add_filter( "gform_user_registration_validation_message", "teardown_update_validation_msgs", 10, 2 );
 
-
-	function update_validation_msgs( $message, $form ) {
-		if( $message == 'This username is already registered' ) :
-			$message = 'We\'re sorry, that Email Address is already registered. Try using a different Email Address or use the password reset.';
-		endif;
-	
-		return $message;
-	}
-		add_filter( "gform_user_registration_validation_message", "update_validation_msgs", 10, 2 );
