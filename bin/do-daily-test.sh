@@ -22,6 +22,9 @@ cd ../sql
 
 cd $WPDIR
 
+php clear-mailed-flag.php
+
+
 php extract-311.php \
 	-f 311_Data_for_At_Risk_Buildings-2013-05-24.xls \
 	-d $DATADIR
@@ -32,6 +35,10 @@ php notify-maillist.php
 php extract-311.php \
 	-f 311_Data_for_At_Risk_Buildings-2013-05-31.xls \
 	-d $DATADIR
+
+php notify-maillist.php
+
+
 
 php notify-maillist.php
 
