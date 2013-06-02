@@ -27,7 +27,7 @@ get_header(); ?>
 <div class="span8">
 
             <?php the_content();?>
-
+			<ul>
 				<?php if( isset( $_GET['i'] )) : ?>
 					<?php $display = ""; ?>
 					<?php $property_data = teardown_get_property_by_id( $_GET['i'] );
@@ -37,13 +37,11 @@ get_header(); ?>
 								$lat = $property->latitude;
 								$long = $property->longitude;
 								
-								$display .= "<li>" . $property->address_line_1 . "<br>";
+								$display .= "<li id='address'>" . $property->address_line_1 . "<br>";
 								$display .= $property->city . ", " . $property->state . " " . $property->zip . "</li>";
 								$display .= "<li>Lat: " . $lat . "</li>";
 								$display .= "<li>Long: " . $long . "</li>";
-								
-							//	echo "<li>Long: " . $property->longitude . "</li>";
-							//	echo "<li>Long: " . $property->longitude . "</li>";
+
 							endforeach;
 							
 							echo "<img src='http://maps.googleapis.com/maps/api/streetview?size=600x300&location=" . $long . ",%20" . $lat . "&fov=90&heading=235&pitch=10&sensor=false' />";
@@ -52,7 +50,7 @@ get_header(); ?>
 						endif;
 				endif;
 					?>
-
+			</ul>
 
 		<?php endwhile; // end of the loop. ?>
 </div><!-- /.span8 -->
