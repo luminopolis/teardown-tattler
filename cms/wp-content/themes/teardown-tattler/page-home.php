@@ -41,7 +41,7 @@ get_header(); ?>
 				$results = teardown_get_properties( 5 );
 				
 				foreach( $results as $result ) :
-					echo "<li><a href='#'>" . $result->address_line_1 . "</a></li>";
+					echo "<li><a href='" . site_url() . "/property?i=" . $result->id . "'>" . $result->address_line_1 . "</a></li>";
 				endforeach;
 				
 				

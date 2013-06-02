@@ -13,7 +13,7 @@
  */
 
 get_header(); ?>
-<?php while ( have_posts() ) : the_post(); ?>
+<?php while( have_posts() ) : the_post(); ?>
   <div class="row">
   <div class="container">
    <?php if ( function_exists( 'bootstrapwp_breadcrumbs' ) ) bootstrapwp_breadcrumbs(); ?>
@@ -27,10 +27,33 @@ get_header(); ?>
 <div class="span8">
 
             <?php the_content();?>
-<?php endwhile; // end of the loop. ?>
-          </div><!-- /.span8 -->
+			<ul id="property-details">
+				<?php if( isset( $_GET['i'] )) : ?>
+					<?php $display = ""; ?>
+					<?php $property_data = teardown_get_property_by_id( $_GET['i'] );
+						if( $property_data ) :
+							foreach( $property_data as $property ) :
+								
+								$lat = $property->latitude;
+								$long = $property->longitude;
+								
+								$display .= "<li id='address'>" . $property->address_line_1 . "<br>";
+								$display .= $property->city . ", " . $property->state . " " . $property->zip . "</li>";
+								$display .= "<li>Lat: " . $lat . "</li>";
+								$display .= "<li>Long: " . $long . "</li>";
 
-          <?php get_sidebar(); ?>
+							endforeach;
+							
+							echo "<img src='http://maps.googleapis.com/maps/api/streetview?size=600x300&location=" . $long . ",%20" . $lat . "&fov=90&heading=235&pitch=10&sensor=false' />";
+							echo $display;
+							
+						endif;
+				endif;
+					?>
+			</ul>
 
+		<?php endwhile; // end of the loop. ?>
+</div><!-- /.span8 -->
 
+<?php get_sidebar(); ?>
 <?php get_footer(); ?>
