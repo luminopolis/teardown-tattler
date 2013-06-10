@@ -75,11 +75,12 @@ get_header(); ?>
 											<ul>
 												<li>Case created: <?php echo $property['311_creation_date']; ?></li>
 												<li>Case ID: <?php echo $property['311_case_id']; ?></li>
+												<li>Case summary: <?php echo $property['311_case_summary']; ?></li>
 											</ul>
 											
 											<hr>
 											
-
+											<div class="spacer30"></div>
 											
 											<p><a class="btn btn-primary btn-large" id="huge-call-to-action">Take action to save this structure</a></p>
 											
