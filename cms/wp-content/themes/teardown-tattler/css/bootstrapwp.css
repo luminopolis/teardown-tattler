@@ -7133,9 +7133,9 @@ img.aligncenter {
 	/* property detail */
 	/*#address { font-size:25px; }*/
 	
-	#property-details { line-height: 30px !important; font-size: 25px; list-style-type:none; }
+	.property-details { line-height: 30px !important; font-size: 25px; list-style-type:none; }
 	
-	span.single-city-state-zip { font-size:15px; }
+	span.single-city-state-zip { font-size:16px; }
 	
 	#huge-call-to-action { font-size:2em; }
 	

@@ -29,7 +29,7 @@ get_header(); ?>
           	  <?php the_content();?>
 
 					<?php if( isset( $_GET['i'] )) : ?>
-						<?php $display = ""; ?>
+						<?php $address = ""; ?>
 						<?php $property_data = teardown_get_property_by_id( $_GET['i'] );
 							if( $property_data ) :
 								foreach( $property_data as $property ) :
@@ -38,7 +38,7 @@ get_header(); ?>
 									$long = $property['longitude'];
 								
 									$address .= $property['address_line_1'] . "<br>";
-									$address .= "<span class='single-city-state-zip'>" . $property['city'] . ", " . $property['state'] . " " . $property['zip'] . "</span> <span class='label label-info'>" . $lat . " " . $long . "</span>";
+									$address .= "<span class='single-city-state-zip'>" . $property['city'] . ", " . $property['state'] . " " . $property['zip'] . "</span>";
 									
 								endforeach;
 
@@ -63,16 +63,22 @@ get_header(); ?>
 									<div class="tab-content">
 										<div class="tab-pane active" id="1">
 -->										<div class="well">
-								<img src='http://maps.googleapis.com/maps/api/streetview?size=745x400&location=<?php echo $long; ?>,%20<?php echo $lat; ?>&fov=90&heading=235&pitch=10&sensor=false' />
-								
-											<p id="property-details"><?php echo $address; ?></p>
-											<h3>311 Info:</h3>
+											<img src='http://maps.googleapis.com/maps/api/streetview?size=745x400&location=<?php echo $long; ?>,%20<?php echo $lat; ?>&fov=90&heading=235&pitch=10&sensor=false' width="100%" />
+										
+											<div class="spacer20"></div>
+										
+											<p class="property-details"><?php echo $address; ?></p>
+											<p><span class='label'><?php echo $lat . "&nbsp; " . $long; ?></span></p>
+											
+											<hr>
+											<p class="property-details">311 Info:</p>
 											<ul>
 												<li>Case created: <?php echo $property['311_creation_date']; ?></li>
 												<li>Case ID: <?php echo $property['311_case_id']; ?></li>
 											</ul>
 											
-											<div class="spacer50"></div>
+											<hr>
+											
 
 											
 											<p><a class="btn btn-primary btn-large" id="huge-call-to-action">Take action to save this structure</a></p>
