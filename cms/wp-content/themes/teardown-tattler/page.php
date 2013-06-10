@@ -53,7 +53,6 @@ get_header(); ?>
 									<a class="close" data-dismiss="alert">×</a>
 									This structure has been on our radar since <?php echo $property['311_creation_date']; ?>.  Please take action today!
 								</div>
-								<img src='http://maps.googleapis.com/maps/api/streetview?size=745x400&location=<?php echo $long; ?>,%20<?php echo $lat; ?>&fov=90&heading=235&pitch=10&sensor=false' />
 								
 
 							<!--	<div class="tabbable">
@@ -64,6 +63,8 @@ get_header(); ?>
 									<div class="tab-content">
 										<div class="tab-pane active" id="1">
 -->										<div class="well">
+								<img src='http://maps.googleapis.com/maps/api/streetview?size=745x400&location=<?php echo $long; ?>,%20<?php echo $lat; ?>&fov=90&heading=235&pitch=10&sensor=false' />
+								
 											<p id="property-details"><?php echo $address; ?></p>
 											<h3>311 Info:</h3>
 											<ul>
