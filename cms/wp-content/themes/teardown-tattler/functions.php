@@ -570,7 +570,7 @@ function teardown_get_properties( $qty ) {
 		$qty = 5;
 	endif;
 		
-	$result = $wpdb->get_results( "SELECT * FROM $wpdb->properties LIMIT $qty" );
+	$result = $wpdb->get_results( "SELECT * FROM $wpdb->properties ORDER BY rand() LIMIT $qty" );
 	
 	return $result;
 	
@@ -589,7 +589,7 @@ function teardown_get_property_by_id( $i ) {
 		global $table_prefix;
 		$wpdb->properties = $table_prefix . 'properties';
 
-		$result = $wpdb->get_results( "SELECT * FROM $wpdb->properties WHERE id = $i" );
+		$result = $wpdb->get_results( "SELECT * FROM $wpdb->properties WHERE id = $i", ARRAY_A );
 
 		return $result;
 	endif;
