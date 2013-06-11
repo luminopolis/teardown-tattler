@@ -15,11 +15,12 @@ get_header(); ?>
   <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
 	
 
-      <h1><?php the_title();?></h1>
-      <?php the_content();?>
+      <h1><?php the_title(); ?></h1>
+      <?php the_content(); ?>
 	
 <iframe width="640" height="360" src="http://www.youtube.com/embed/Inf6MJvlado?rel=0" frameborder="0" allowfullscreen></iframe>
-<br><small>"They don't make them like they used to" by <a href="https://twitter.com/luminopolis">Jase Wilson</a> <a href="http://citycampkc.org">#CCKC13</a></small>
+
+<br><small>"We don't make 'em like we used to" by <a href="https://twitter.com/luminopolis">Jase Wilson</a> <a href="http://citycampkc.org">#CCKC13</a></small>
     </div>
 </div>
 
