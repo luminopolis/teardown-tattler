@@ -24,6 +24,8 @@ php extract-311.php \
 	-f $FILENAME \
 	-d $DATADIR
 
+echo "did not send data";
+exit;
 
 php notify-maillist.php
 
