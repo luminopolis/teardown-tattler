@@ -147,12 +147,16 @@ class load_311_data {
 		foreach ( $records AS $record ) {
 			if ( $this->case_id_does_not_exist ( $record['311_case_id'] ) ) {
 				if ( $wpdb->insert( 'wp_properties', $record ) ) {
-//				print "Case ID " . $record['311_case_id'] . " added\n";
+					print "Case ID " . $record['311_case_id'] . " added\n";
 				} else {
 					print "ERROR was not able to save Case ID " . $record['311_case_id'] . "\n";
 				}
 			} else {
-//				print "Case ID " . $record['311_case_id'] . " exists\n";
+				if ( $wpdb->update ( 'wp_properties', $record , array ( '311_case_id' => $record['311_case_id'])) ) {
+					print "Case ID " . $record['311_case_id'] . " updated\n";
+				} else {
+					print "ERROR was not able to update Case ID " . $record['311_case_id'] . "\n";
+				}
 			}
 		}
 
@@ -171,6 +175,22 @@ class load_311_data {
 		return ! ( $ret[0]->cnt );
 
 	}
+
+
+	function update_311_record($record) {
+
+		global $wpdb;
+		$wpdb->show_errors();
+
+		$sql = "SELECT id AS cnt FROM wp_properties WHERE `311_case_id` = '$case_id';";
+
+		$ret = $wpdb->get_results( $sql );
+		$id = $ret[0]->cnt ;
+
+		return ! ( $ret[0]->cnt );
+
+	}
+
 
 	function extract_data($ssdata) {
 
