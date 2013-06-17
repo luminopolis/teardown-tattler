@@ -18,7 +18,7 @@ get_header(); ?>
 			<?php the_content(); ?>
 	
 			<iframe width="640" height="360" src="http://www.youtube.com/embed/Inf6MJvlado?rel=0" frameborder="0" allowfullscreen></iframe>
-			<br><small>"We don't make 'em like we used to" by <a href="https://twitter.com/luminopolis">Jase Wilson</a> <a href="http://citycampkc.org">#CCKC13</a></small>
+			<br><small>"We don't make 'em like we used to &amp; once they're gone, they're gone!"<br>by <a href="https://twitter.com/luminopolis">Jase Wilson</a> <a href="http://citycampkc.org">#CCKC13</a></small>
 			<div class="spacer20"></div>
 			<a class="btn btn-large btn-primary" href="signup">Take action now!</a>
 	</div>

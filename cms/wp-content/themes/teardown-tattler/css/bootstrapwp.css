@@ -7127,6 +7127,8 @@ img.aligncenter {
 	.gform_wrapper .validation_message { color:#790000 !important; font-weight:bold; font-size:15px !important; }
 
 	ul#endangered-sidebar li { margin-left:8px; font-size:15px; font-weight:bold; }
+	.icon-building {  background: url('../ico/favicon-building.png'); background-repeat:no-repeat; width:14px; height:14px; }
+
 	
 	
 	
@@ -7138,6 +7140,21 @@ img.aligncenter {
 	span.single-city-state-zip { font-size:16px; }
 	
 	#huge-call-to-action { font-size:2em; }
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	/* vertical spacer helpers 

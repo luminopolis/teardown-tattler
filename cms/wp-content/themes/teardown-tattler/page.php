@@ -51,7 +51,7 @@ get_header(); ?>
 								
 								<div class="alert alert-info">
 									<a class="close" data-dismiss="alert">×</a>
-									This structure has been on our radar since <?php echo $property['311_creation_date']; ?>.  Please take action today!
+									<i class="icon-warning-sign"> </i> This structure has been on our radar since <?php echo $property['311_creation_date']; ?>.  Please take action today!
 								</div>
 								
 
