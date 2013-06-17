@@ -1,0 +1,28 @@
+#!/bin/sh
+
+FILENAME="daily.xls"
+#
+# Find out where we are running from
+#  Go there
+#  Hop over to the WP directory
+#
+DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
+cd $DIR
+cd ../cms
+
+WPDIR=`pwd`
+
+cd ../data
+
+DATADIR=`pwd`
+
+cd $WPDIR
+
+php extract-311.php \
+	-f $FILENAME \
+	-d $DATADIR
+
+echo "\n\ndid not send data";
+exit;
+
+
