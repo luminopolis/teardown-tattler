@@ -21,9 +21,9 @@
 					
 				endforeach;
 			endif;
-	?>
+		?>
 	
-	<?php echo do_shortcode('[pw_map address="' . $address . '" width="100%" height="300px"]'); ?>
+		<?php echo do_shortcode('[pw_map address="' . $address . '" width="100%" height="300px"]'); ?>
 	
 	<?php endif; // if $_GET ?>
 	<div class="spacer25"></div>
@@ -31,7 +31,7 @@
 	<div class="well sidebar-nav">
 		
 		<h3>At risk properties</h3>
-		<ul id="endangered-sidebar" class="nav nav-pills nav-stacked">
+		<ul class="nav nav-pills nav-stacked">
             <?php
 			$results = teardown_get_properties( 5 );
 	
