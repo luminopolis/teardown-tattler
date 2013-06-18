@@ -8,6 +8,7 @@
  */
 ?>
 <div class="span4">
+	<?php if( isset( $_GET['i'] )) : ?>
 	
 		<?php $property_data = teardown_get_property_by_id( $_GET['i'] );
 			if( $property_data ) :
@@ -24,6 +25,7 @@
 	
 	<?php echo do_shortcode('[pw_map address="' . $address . '" width="100%" height="300px"]'); ?>
 	
+	<?php endif; // if $_GET ?>
 	<div class="spacer25"></div>
 	
 	<div class="well sidebar-nav">

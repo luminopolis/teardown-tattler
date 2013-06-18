@@ -34,20 +34,15 @@ get_header(); ?>
 							if( $property_data ) :
 								foreach( $property_data as $property ) :
 						
-									$lat = $property['latitude'];
-									$long = $property['longitude'];
+									//$lat = $property['latitude'];
+									//$long = $property['longitude'];
 								
 									$address .= $property['address_line_1'] . "<br>";
 									$address .= "<span class='single-city-state-zip'>" . $property['city'] . ", " . $property['state'] . " " . $property['zip'] . "</span>";
 									
 								endforeach;
-
 							
-								// output
-								
-								?>
-								
-
+								// output ?>
 								
 								<div class="alert alert-info">
 									<a class="close" data-dismiss="alert">×</a>
