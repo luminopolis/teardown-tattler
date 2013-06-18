@@ -7146,7 +7146,12 @@ img.aligncenter {
 	
 	footer { margin: 75px 0 0 0; }
 	
-	
+	.page-template-default h1,
+	.page-template-default h2,
+	.page-template-default h3,
+	.page-template-default h4,
+	.page-template-default h5,
+	.page-template-default h6 { color:#556270 !important; }
 	
 	
 	
