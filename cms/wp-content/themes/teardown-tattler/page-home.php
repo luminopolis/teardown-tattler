@@ -28,7 +28,7 @@ get_header(); ?>
 <div class="container">
   <div class="marketing">
   <div class="row-fluid">
-    <div class="span3">
+    <div class="span4 offset1">
       <?php if( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-left" ); ?>
 	<a class="btn btn-primary btn-large" href="<?php echo site_url(); ?>/signup">Take Action</a>
     </div>
