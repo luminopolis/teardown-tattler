@@ -28,14 +28,14 @@ get_header(); ?>
 <div class="container">
   <div class="marketing">
   <div class="row-fluid">
-    <div class="span5">
+    <div class="span3">
       <?php if( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-left" ); ?>
 	<a class="btn btn-primary btn-large" href="<?php echo site_url(); ?>/signup">Take Action</a>
     </div>
-    <div class="span2">
-    <!--  <?php if( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-middle" ); ?>-->
+    <div class="span3">
+    <?php if( function_exists( 'dynamic_sidebar' ) ) dynamic_sidebar( "home-middle" ); ?>
     </div>
-    <div class="span4">
+    <div class="span3">
 		<h2>Endangered Buildings</h2>
 		<ul class="nav nav-pills nav-stacked">
 			<?php
