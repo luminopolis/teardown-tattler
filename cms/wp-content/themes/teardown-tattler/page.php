@@ -48,68 +48,62 @@ get_header(); ?>
 									<a class="close" data-dismiss="alert">×</a>
 									<i class="icon-warning-sign"> </i> This structure has been on our radar since <?php echo $property['311_creation_date']; ?>.  Please take action today!
 								</div>
+								<script type="text/javascript">
+									jQuery(function() {
+										jQuery('#tabs a').click(function (e) {
+											e.preventDefault();
+											jQuery(this).tab('show');
+										})
+									});
+								</script>
 								
-
-							<!--	<div class="tabbable">
-									<ul class="nav nav-tabs">
-										<li class="active"><a href="#1" data-toggle="tab">Section 1</a></li>
-										<li><a href="#2" data-toggle="tab">Section 2</a></li>
-									</ul>
-									<div class="tab-content">
-										<div class="tab-pane active" id="1">
--->										<div class="well">
-											<img src='http://maps.googleapis.com/maps/api/streetview?size=745x400&location=<?php echo $long; ?>,%20<?php echo $lat; ?>&fov=90&heading=235&pitch=10&sensor=false' width="100%" />
-										
-											<div class="spacer20"></div>
-										
-											<p class="property-details"><?php echo $address; ?></p>
-											<p><span class='label'><?php echo $lat . "&nbsp; " . $long; ?></span></p>
-											
-											<hr>
-											<p class="property-details">311 Info:</p>
-											<ul>
-												<li>Case created: <?php echo $property['311_creation_date']; ?></li>
-												<li>Case ID: <?php echo $property['311_case_id']; ?></li>
-												<li>Case summary: <?php echo $property['311_case_summary']; ?></li>
-											</ul>
-											
-											<hr>
-											
-											<div class="spacer30"></div>
-											
-											<p><a class="btn btn-primary btn-large" id="huge-call-to-action">Take action to save this structure</a></p>
-											
-											<div class="spacer30"></div>
-												<hr>
-											<div class="spacer30"></div>
-												
-												
-											<div id="disqus_thread"></div>
-										    <script type="text/javascript">
-										        /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-										        var disqus_shortname = 'teardowntattler'; // required: replace example with your forum shortname
-
-										        /* * * DON'T EDIT BELOW THIS LINE * * */
-										        (function() {
-										            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
-										            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
-										            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
-										        })();
-										    </script>
-										    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
-										    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
-										    
-											
-										</div>
-<!--
-										</div>
+														<div class="well">
+															
+															<p class="property-details"><?php echo $address; ?></p>
+															
+															<img src='http://maps.googleapis.com/maps/api/streetview?size=745x400&location=<?php echo $long; ?>,%20<?php echo $lat; ?>&fov=90&heading=235&pitch=10&sensor=false' width="100%" />
+															
+															<div class="spacer20"></div>
+															
+															<p><span class='label'><?php echo $lat . "&nbsp; " . $long; ?></span></p>
+															
+															<hr>
+															
+															<p class="property-details">311 Info:</p>
+															<ul>
+																<li>Case created: <?php echo $property['311_creation_date']; ?></li>
+																<li>Case ID: <?php echo $property['311_case_id']; ?></li>
+																<li>Case summary: <?php echo $property['311_case_summary']; ?></li>
+															</ul>
+															
+															<hr>
+															
+															<div class="spacer30"></div>
+															
+															<p><a class="btn btn-primary btn-large" id="huge-call-to-action">Take action</a></p>
+															
+															<div class="spacer30"></div>
+																<hr>
+															<div class="spacer30"></div>
+																
+																
+															<div id="disqus_thread"></div>
+															<script type="text/javascript">
+																var disqus_shortname = 'teardowntattler'; // required: replace example with your forum shortname
+																
+																(function() {
+																	var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+																	dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+																	(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+																})();
+															</script>
+															<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+															<a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+										    				
 							
-									</div>
-									<div class="tab-pane" id="2">
-										<p>Howdy, I'm in Section 2.</p>
-									</div>
+								
 								</div>
--->			
+								
 								
 								
 								
@@ -117,8 +111,8 @@ get_header(); ?>
 								
 								<?php
 
-							endif;
-					endif;
+							endif; // if property_data
+					endif; // if isset get['i]
 			endwhile; // end of the loop. ?>
 </div><!-- /.span8 -->
 

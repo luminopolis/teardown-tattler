@@ -24,9 +24,9 @@
 		?>
 	
 		<?php echo do_shortcode('[pw_map address="' . $address . '" width="100%" height="300px"]'); ?>
-	
-	<?php endif; // if $_GET ?>
 	<div class="spacer25"></div>
+	<?php endif; // if $_GET ?>
+	
 	
 	<div class="well sidebar-nav">
 		

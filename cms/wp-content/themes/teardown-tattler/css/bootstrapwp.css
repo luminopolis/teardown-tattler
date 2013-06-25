@@ -7142,6 +7142,13 @@ img.aligncenter {
 	
 	
 	
+	/* property list map */
+	.google-infowindow { width:350px; height:200px; }
+	#gsidebar { margin: 55px 0; font-size:4em; line-height:1.1em; font-family: 'Six Caps', sans-serif; }
+	#gsidebar .column { margin-left:15px; }
+	#gsidebar a {  }
+	#gsidebar a:hover { text-decoration:none; }
+	
 	
 	footer { margin: 75px 0 0 0; }
 	
@@ -7152,7 +7159,7 @@ img.aligncenter {
 	.page-template-default h5,
 	.page-template-default h6 { color:#556270 !important; }
 	
-	
+	.jumbotron iframe { margin:0 auto !important; }
 	
 	
 	

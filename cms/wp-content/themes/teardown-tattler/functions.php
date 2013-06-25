@@ -588,15 +588,24 @@ function teardown_get_property_by_id( $i ) {
 		global $wpdb;
 		global $table_prefix;
 		$wpdb->properties = $table_prefix . 'properties';
-
 		$result = $wpdb->get_results( "SELECT * FROM $wpdb->properties WHERE id = $i", ARRAY_A );
-
 		return $result;
 	endif;
 	
 }
 
 
+
+/* 
+ * Geocode address
+ * 
+ */
+function teardown_get_geo_info( $street, $city, $state ) {
+	$url = "http://maps.googleapis.com/maps/api/geocode/json?address={$street}+{$city},+{$state}&sensor=false";
+	$json_returned = @file_get_contents( $url );
+	$data = @json_decode( $json_returned );
+	return $data;
+}
 
 
 
