@@ -7,12 +7,30 @@ The Teardown Tattler started as a National Day of Civic Hacking (NDoCH) initiati
 
 The original NDoCH hacking team consisted of:
   Briston Davidge (Team Leader)
-  Paul Barham
-  Shawn Davisson
-  David Snodgrass
-  Steve Eklund
-  Marlene Jeffers
-  Mary Jo Draper
-  Gatlin Hebert
+  Paul Barham<br>
+  Shawn Davisson<br>
+  David Snodgrass<br>
+  Steve Eklund<br>
+  Marlene Jeffers<br>
+  Mary Jo Draper<br>
+  Gatlin Hebert<br>
 
 For the Hack KC (NDoCH) demolition notification &amp; action toolkit. 
+
+<pre>
+ _                     _                     
+| |                   | |                    
+| |_ ___  __ _ _ __ __| | _____      ___ __  
+| __/ _ \/ _` | '__/ _` |/ _ \ \ /\ / / '_ \ 
+| ||  __/ (_| | | | (_| | (_) \ V  V /| | | |
+ \__\___|\__,_|_|  \__,_|\___/ \_/\_/ |_| |_|
+                                             
+                                             
+ _        _   _   _                          
+| |      | | | | | |                         
+| |_ __ _| |_| |_| | ___ _ __                
+| __/ _` | __| __| |/ _ \ '__|               
+| || (_| | |_| |_| |  __/ |                  
+ \__\__,_|\__|\__|_|\___|_|                  
+                                 
+</pre>
