@@ -22,13 +22,13 @@ if( file_exists( dirname( __FILE__ ) . '/wp-local-config.php' )) :
 	
 else :
 	
-	define('DB_NAME', 'lawrence_w0rdpre55');
+	define('DB_NAME', '*******');
 
 	/** MySQL database username */
-	define('DB_USER', 'lawrence_wpu53r');
+	define('DB_USER', '*******');
 
 	/** MySQL database password */
-	define('DB_PASSWORD', 'ApckNAp}]~Cu');
+	define('DB_PASSWORD', '*******');
 
 	/** MySQL hostname */
 	define('DB_HOST', 'localhost');
